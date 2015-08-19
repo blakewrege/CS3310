@@ -34,3 +34,302 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-08-19 17:43:00.024 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -data C:\Users\brp9209\CS3310 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-08-19 17:43:01.057
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-19 17:43:04.747
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\brp9209'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.259
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\zipfs.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.259
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.260
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.260
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\jce.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.260
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\jaccess.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.261
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\sunpkcs11.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.261
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\jsse.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.262
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\resources.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.262
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\localedata.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.262
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\sunec.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.473
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.475
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\jaccess.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.482
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\jce.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.484
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunpkcs11.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.490
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\zipfs.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.493
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.498
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\localedata.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.510
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\jsse.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.532
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunec.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:13.538
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\resources.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.230
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\jaccess.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.233
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\jsse.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.469
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\zipfs.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.476
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.487
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunpkcs11.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.488
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\localedata.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.495
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\jce.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.508
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\resources.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.513
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunec.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.535
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.796
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\jaccess.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.817
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\jsse.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.832
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\jce.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.905
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.919
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\resources.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.935
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.942
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\zipfs.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.949
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\localedata.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.955
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunpkcs11.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:14.957
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunec.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.076
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\jsse.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.106
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\jaccess.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.109
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.118
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\jce.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.130
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\zipfs.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.142
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\resources.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.143
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.175
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\sunpkcs11.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.196
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\sunec.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:15.199
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\localedata.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:19.152
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=http://repository.ow2.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:19.236
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=http://repository.ow2.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:20.009
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://nexus.codehaus.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:20.014
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://nexus.codehaus.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:20.084
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven.java.net/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:20.100
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven.java.net/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:20.468
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven2.exoplatform.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:20.482
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven2.exoplatform.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:24.394
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven.nuxeo.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:24.430
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven.nuxeo.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:28.160
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven.alfresco.com/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:28.174
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://maven.alfresco.com/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:29.281
+!MESSAGE class org.freejava.tools.handlers.ArtifactorySourceCodeFinder; serviceUrl=https://repository.cloudera.com/artifactory/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:29.319
+!MESSAGE class org.freejava.tools.handlers.ArtifactorySourceCodeFinder; serviceUrl=https://repository.cloudera.com/artifactory/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:29.810
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=http://nexus.xwiki.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:29.810
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=http://nexus.xwiki.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:31.709
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByFTPSearchv3Finder; urlPattern=http://www.search-ftp.com/lsftp.ashx?s={0} C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:31.728
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByFTPSearchv3Finder; urlPattern=http://www.search-ftp.com/lsftp.ashx?s={0} C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:31.729
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByUrlPatternFinder; urlPattern=http://www.mmnt.ru/int/get?st={0} C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:31.729
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByUrlPatternFinder; urlPattern=http://www.filewatcher.com/_/?q={0} C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:31.729
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByGoogleCSESourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:31.730
+!MESSAGE class org.freejava.tools.handlers.SourceAttacherServiceSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:33.394
+!MESSAGE org.freejava.tools.handlers.JreSourceCodeFinder@14c5d27 C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:33.395
+!MESSAGE org.freejava.tools.handlers.GrepCodeSourceCodeFinder@77b450 C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:33.934
+!MESSAGE class org.freejava.tools.handlers.SCArtifactorySourceCodeFinder; serviceUrl=http://scartifactory:8081/artifactory/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:34.463
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByUrlPatternFinder; urlPattern=http://www.mmnt.ru/int/get?st={0} C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:36.557
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\charsets.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:36.731
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\charsets.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:37.152
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\charsets.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:37.360
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByUrlPatternFinder; urlPattern=http://www.filewatcher.com/_/?q={0} C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:37.544
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\charsets.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:37.759
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\charsets.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:37.930
+!MESSAGE class org.freejava.tools.handlers.EclipsePluginSourceByGoogleCSESourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:49.014
+!MESSAGE class org.freejava.tools.handlers.SourceAttacherServiceSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:43:49.148
+!MESSAGE org.freejava.tools.handlers.JreSourceCodeFinder@18458c C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:30.765
+!MESSAGE org.freejava.tools.handlers.JreSourceCodeFinder@18458c FOUND: SourceFileResult[source = C:\Users\brp9209\AppData\Local\Temp\ssourceattacher4191937889768927510.tmp ; suggestedSourceFileName = a942e0b52477.zip ; accuracy = 50 ; binFile = C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar ]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:30.766
+!MESSAGE class org.freejava.tools.handlers.MavenRepoSourceCodeFinder C:\Program Files (x86)\Java\jre7\lib\ext\sunmscapi.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:31.119
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.apache.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunmscapi.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:31.320
+!MESSAGE Trying (using InternalBasedSourceAttacherImpl36):  C:\Users\brp9209\.sourceattacher\a942e0b52477.zip
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:31.335
+!MESSAGE Attached C:\Users\brp9209\.sourceattacher\a942e0b52477.zip
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:31.513
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://repository.jboss.org/nexus/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunmscapi.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:31.839
+!MESSAGE class org.freejava.tools.handlers.NexusSourceCodeFinder; serviceUrl=https://oss.sonatype.org/index.html C:\Program Files (x86)\Java\jre7\lib\ext\sunmscapi.jar
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-19 17:45:32.148
+!MESSAGE class org.freejava.tools.handlers.WebBasedArtifactorySourceCodeFinder; serviceUrl=http://repo.springsource.org/webapp/home.html C:\Program Files (x86)\Java\jre7\lib\ext\sunmscapi.jar
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-08-19 17:57:22.108
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.freejava.tools.handlers.JavaSourceAttacherHandler$1
