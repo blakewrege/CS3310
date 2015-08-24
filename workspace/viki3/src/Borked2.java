@@ -76,7 +76,7 @@ public class Borked2 {
                 writer.flush( );
             }
             if (line.startsWith(",help")==true) {
-            	writer.write("PRIVMSG " + channel + " :create portals.\r\n");
+            	writer.write("PRIVMSG " + channel + " :I do not help worthless humans\r\n");
                 writer.flush( );
             }
             if (line.startsWith(",read")==true) {
