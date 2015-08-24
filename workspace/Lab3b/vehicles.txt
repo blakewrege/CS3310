@@ -1,0 +1,5 @@
+4
+C,AB12CDEI45ANSNSH,Toyota,Camry,2012
+M,INS124HANTISHSNI,Harley Davidson,Electra Glide,2014,250
+M,JH12CDEI45KBOGMS,Harley Davidson,Heritage Softail Classic,2010,500
+C,IHN67NSDM45324KM,Honda,Accord,2011

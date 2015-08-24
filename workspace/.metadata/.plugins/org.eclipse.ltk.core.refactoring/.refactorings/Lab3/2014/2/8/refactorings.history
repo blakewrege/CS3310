@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;test&apos; in &apos;Motorcycle.Display()&apos; to &apos;rDate&apos;&#x0D;&#x0A;- Original project: &apos;Lab3&apos;&#x0D;&#x0A;- Original element: &apos;Motorcycle.Display().test&apos;&#x0D;&#x0A;- Renamed element: &apos;test&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;test&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Motorcycle.java[Motorcycle~Display@test!507!533!512!515!QDate;!0!false" name="rDate" references="true" stamp="1392813129072" version="1.0"/>
+</session>

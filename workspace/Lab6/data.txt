@@ -1,0 +1,8 @@
+[a, a, United States, P, a, a, B, a, a]
+[b, b, Mexico, P, b, b, B, b, b]
+[c, c, United States, UNK, c, c, A, c, c]
+[d, d, United States, UNK, d, d, A, d, d]
+[e, e, United States, P, e, e, A, e, e]
+[e, e, United States, UNK, e, e, A, e, e]
+[f, f, United States, P, f, f, B, f, f]
+[Blake, Wrege, United States, P, 22222, st joe, A, 11111, this work?									th]
