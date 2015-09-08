@@ -1,0 +1,32 @@
+31'31'0
+3'China'5'1
+7'India'35'2
+4'United States'8'11
+12'Brazil'10'-1
+5'Russian Federation'30'8
+6'Nigeria'25'20
+10'Mexico'14'-1
+18'Egypt'2'9
+17'Turkey'11'-1
+-1'France'19'15
+19'Kenya'28'23
+-1'Venezuela'29'13
+25'Australia'7'28
+14'Zimbabwe'16'-1
+24'Yugoslavia'9'-1
+-1'Greece'1'16
+-1'Hungary'15'-1
+-1'Sweden'31'-1
+27'Dominican Republic'24'-1
+26'Jordan'26'30
+21'Palestine'13'22
+-1'Oman'22'-1
+-1'Qatar'21'-1
+-1'Liechtenstein'34'-1
+-1'Wallis and Futuna'17'-1
+-1'Argentina'27'-1
+-1'Jamaica'12'-1
+-1'Cuba'20'-1
+-1'Austria'39'29
+-1'Botswana'41'-1
+-1'Kazakstan'6'-1

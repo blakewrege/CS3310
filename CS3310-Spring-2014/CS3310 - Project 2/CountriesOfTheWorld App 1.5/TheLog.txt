@@ -1,0 +1,416 @@
+FILE STATUS > TheLog FILE opened.
+CODE STATUS > Setup started.
+FILE STATUS > CountryData FILE opened.
+FILE STATUS > RawData FILE opened.
+FILE STATUS > RawData FILE closed.
+CODE STATUS > Snapshot started.
+N: 25
+[ID ] CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+[001] GRC Greece           Europe           131,626    10,545,700 78.4
+[002] EGY Egypt            Africa         1,001,449    68,470,000 63.3
+[003]     EMPTY
+[004]     EMPTY
+[005] CHN China            Asia           9,572,900 1,277,558,000 71.4
+[006]     EMPTY
+[007] AUS Australia        Oceania        7,741,220    18,886,000 79.8
+[008] USA United States    North America  9,363,520   278,357,000 77.1
+[009] YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+[010] BRA Brazil           South America  8,547,403   170,115,000 62.9
+[011] TUR Turkey           Asia             774,815    66,591,000 71.0
+[012]     EMPTY
+[013] PSE Palestine        Asia               6,257     3,101,000 71.4
+[014] MEX Mexico           North America  1,958,201    98,881,000 71.5
+[015] HUN Hungary          Europe            93,030    10,043,200 71.4
+[016] ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+[017] WLF Wallis and Futun Oceania              200        15,000  0.0
+[018]     EMPTY
+[019] FRA France           Europe           551,500    59,225,700 78.8
+[020]     EMPTY
+[021] QAT Qatar            Asia              11,000       599,000 72.4
+[022] OMN Oman             Asia             309,500     2,542,000 71.8
+[023]     EMPTY
+[024] DOM Dominican Republ North America     48,511     8,495,000 73.2
+[025] NGA Nigeria          Africa           923,768   111,506,000 51.6
+[026] JOR Jordan           Asia              88,946     5,083,000 77.4
+[027]     EMPTY
+[028] KEN Kenya            Africa           580,367    30,080,000 48.0
+[029] VEN Venezuela        South America    912,050    24,170,000 73.1
+[030] RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+[031] SWE Sweden           Europe           449,964     8,861,400 79.6
+[032]     EMPTY
+[033]     EMPTY
+[034] LIE Liechtenstein    Europe               160        32,300 78.8
+[035] IND India            Asia           3,287,263 1,013,662,000 62.5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CODE STATUS > Snapshot finished - 25 countries displayed.
+FILE STATUS > CountryData FILE closed.
+CODE STATUS > Setup finished - 25 countries processed.
+FILE STATUS > TheLog FILE closed.
+FILE STATUS > TheLog FILE opened.
+CODE STATUS > UserApp started.
+FILE STATUS > CountryData FILE opened.
+FILE STATUS > TransData FILE opened.
+SA
+   CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+   GRC Greece           Europe           131,626    10,545,700 78.4
+   GRC Greece           Europe           131,626    10,545,700 78.4
+   EGY Egypt            Africa         1,001,449    68,470,000 63.3
+   CHN China            Asia           9,572,900 1,277,558,000 71.4
+   AUS Australia        Oceania        7,741,220    18,886,000 79.8
+   USA United States    North America  9,363,520   278,357,000 77.1
+   YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+   BRA Brazil           South America  8,547,403   170,115,000 62.9
+   TUR Turkey           Asia             774,815    66,591,000 71.0
+   PSE Palestine        Asia               6,257     3,101,000 71.4
+   MEX Mexico           North America  1,958,201    98,881,000 71.5
+   HUN Hungary          Europe            93,030    10,043,200 71.4
+   ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+   WLF Wallis and Futun Oceania              200        15,000  0.0
+   FRA France           Europe           551,500    59,225,700 78.8
+   QAT Qatar            Asia              11,000       599,000 72.4
+   OMN Oman             Asia             309,500     2,542,000 71.8
+   DOM Dominican Republ North America     48,511     8,495,000 73.2
+   NGA Nigeria          Africa           923,768   111,506,000 51.6
+   JOR Jordan           Asia              88,946     5,083,000 77.4
+   KEN Kenya            Africa           580,367    30,080,000 48.0
+   VEN Venezuela        South America    912,050    24,170,000 73.1
+   RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+   SWE Sweden           Europe           449,964     8,861,400 79.6
+   LIE Liechtenstein    Europe               160        32,300 78.8
+   IND India            Asia           3,287,263 1,013,662,000 62.5
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SI 35
+   IND India            Asia           3,287,263 1,013,662,000 62.5
+SI 27
+   SORRY, no country with that id.
+SI 1
+   GRC Greece           Europe           131,626    10,545,700 78.4
+SI ERROR
+   SORRY, invalid id.
+SI 10
+   BRA Brazil           South America  8,547,403   170,115,000 62.9
+SI 33
+   SORRY, no country with that id.
+SI 36
+   SORRY, no country with that id.
+SI 0
+   SORRY, no country with that id.
+SI 1
+   GRC Greece           Europe           131,626    10,545,700 78.4
+SI 99
+   SORRY, no country with that id.
+SI 24
+   DOM Dominican Republ North America     48,511     8,495,000 73.2
+SA
+   CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+   GRC Greece           Europe           131,626    10,545,700 78.4
+   GRC Greece           Europe           131,626    10,545,700 78.4
+   EGY Egypt            Africa         1,001,449    68,470,000 63.3
+   CHN China            Asia           9,572,900 1,277,558,000 71.4
+   AUS Australia        Oceania        7,741,220    18,886,000 79.8
+   USA United States    North America  9,363,520   278,357,000 77.1
+   YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+   BRA Brazil           South America  8,547,403   170,115,000 62.9
+   TUR Turkey           Asia             774,815    66,591,000 71.0
+   PSE Palestine        Asia               6,257     3,101,000 71.4
+   MEX Mexico           North America  1,958,201    98,881,000 71.5
+   HUN Hungary          Europe            93,030    10,043,200 71.4
+   ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+   WLF Wallis and Futun Oceania              200        15,000  0.0
+   FRA France           Europe           551,500    59,225,700 78.8
+   QAT Qatar            Asia              11,000       599,000 72.4
+   OMN Oman             Asia             309,500     2,542,000 71.8
+   DOM Dominican Republ North America     48,511     8,495,000 73.2
+   NGA Nigeria          Africa           923,768   111,506,000 51.6
+   JOR Jordan           Asia              88,946     5,083,000 77.4
+   KEN Kenya            Africa           580,367    30,080,000 48.0
+   VEN Venezuela        South America    912,050    24,170,000 73.1
+   RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+   SWE Sweden           Europe           449,964     8,861,400 79.6
+   LIE Liechtenstein    Europe               160        32,300 78.8
+   IND India            Asia           3,287,263 1,013,662,000 62.5
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+FILE STATUS > TransData FILE closed.
+CODE STATUS > Snapshot started.
+N: 25
+[ID ] CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+[001] GRC Greece           Europe           131,626    10,545,700 78.4
+[002] EGY Egypt            Africa         1,001,449    68,470,000 63.3
+[003]     EMPTY
+[004]     EMPTY
+[005] CHN China            Asia           9,572,900 1,277,558,000 71.4
+[006]     EMPTY
+[007] AUS Australia        Oceania        7,741,220    18,886,000 79.8
+[008] USA United States    North America  9,363,520   278,357,000 77.1
+[009] YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+[010] BRA Brazil           South America  8,547,403   170,115,000 62.9
+[011] TUR Turkey           Asia             774,815    66,591,000 71.0
+[012]     EMPTY
+[013] PSE Palestine        Asia               6,257     3,101,000 71.4
+[014] MEX Mexico           North America  1,958,201    98,881,000 71.5
+[015] HUN Hungary          Europe            93,030    10,043,200 71.4
+[016] ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+[017] WLF Wallis and Futun Oceania              200        15,000  0.0
+[018]     EMPTY
+[019] FRA France           Europe           551,500    59,225,700 78.8
+[020]     EMPTY
+[021] QAT Qatar            Asia              11,000       599,000 72.4
+[022] OMN Oman             Asia             309,500     2,542,000 71.8
+[023]     EMPTY
+[024] DOM Dominican Republ North America     48,511     8,495,000 73.2
+[025] NGA Nigeria          Africa           923,768   111,506,000 51.6
+[026] JOR Jordan           Asia              88,946     5,083,000 77.4
+[027]     EMPTY
+[028] KEN Kenya            Africa           580,367    30,080,000 48.0
+[029] VEN Venezuela        South America    912,050    24,170,000 73.1
+[030] RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+[031] SWE Sweden           Europe           449,964     8,861,400 79.6
+[032]     EMPTY
+[033]     EMPTY
+[034] LIE Liechtenstein    Europe               160        32,300 78.8
+[035] IND India            Asia           3,287,263 1,013,662,000 62.5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CODE STATUS > Snapshot finished - 25 countries displayed.
+FILE STATUS > CountryData FILE closed.
+CODE STATUS > UserApp finished - 13 transactions processed.
+FILE STATUS > TheLog FILE closed.
+FILE STATUS > TheLog FILE opened.
+CODE STATUS > UserApp started.
+FILE STATUS > CountryData FILE opened.
+FILE STATUS > TransData FILE opened.
+FILE STATUS > TransData FILE closed.
+CODE STATUS > Snapshot started.
+N: 25
+[ID ] CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+[001] GRC Greece           Europe           131,626    10,545,700 78.4
+[002] EGY Egypt            Africa         1,001,449    68,470,000 63.3
+[003]     EMPTY
+[004]     EMPTY
+[005] CHN China            Asia           9,572,900 1,277,558,000 71.4
+[006]     EMPTY
+[007] AUS Australia        Oceania        7,741,220    18,886,000 79.8
+[008] USA United States    North America  9,363,520   278,357,000 77.1
+[009] YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+[010] BRA Brazil           South America  8,547,403   170,115,000 62.9
+[011] TUR Turkey           Asia             774,815    66,591,000 71.0
+[012]     EMPTY
+[013] PSE Palestine        Asia               6,257     3,101,000 71.4
+[014] MEX Mexico           North America  1,958,201    98,881,000 71.5
+[015] HUN Hungary          Europe            93,030    10,043,200 71.4
+[016] ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+[017] WLF Wallis and Futun Oceania              200        15,000  0.0
+[018]     EMPTY
+[019] FRA France           Europe           551,500    59,225,700 78.8
+[020]     EMPTY
+[021] QAT Qatar            Asia              11,000       599,000 72.4
+[022] OMN Oman             Asia             309,500     2,542,000 71.8
+[023]     EMPTY
+[024] DOM Dominican Republ North America     48,511     8,495,000 73.2
+[025] NGA Nigeria          Africa           923,768   111,506,000 51.6
+[026] JOR Jordan           Asia              88,946     5,083,000 77.4
+[027]     EMPTY
+[028] KEN Kenya            Africa           580,367    30,080,000 48.0
+[029] VEN Venezuela        South America    912,050    24,170,000 73.1
+[030] RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+[031] SWE Sweden           Europe           449,964     8,861,400 79.6
+[032]     EMPTY
+[033]     EMPTY
+[034] LIE Liechtenstein    Europe               160        32,300 78.8
+[035] IND India            Asia           3,287,263 1,013,662,000 62.5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CODE STATUS > Snapshot finished - 25 countries displayed.
+FILE STATUS > CountryData FILE closed.
+CODE STATUS > UserApp finished - 0 transactions processed.
+FILE STATUS > TheLog FILE closed.
+FILE STATUS > TheLog FILE opened.
+CODE STATUS > UserApp started.
+FILE STATUS > CountryData FILE opened.
+FILE STATUS > TransData FILE opened.
+SA
+   CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+   GRC Greece           Europe           131,626    10,545,700 78.4
+   GRC Greece           Europe           131,626    10,545,700 78.4
+   EGY Egypt            Africa         1,001,449    68,470,000 63.3
+   CHN China            Asia           9,572,900 1,277,558,000 71.4
+   AUS Australia        Oceania        7,741,220    18,886,000 79.8
+   USA United States    North America  9,363,520   278,357,000 77.1
+   YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+   BRA Brazil           South America  8,547,403   170,115,000 62.9
+   TUR Turkey           Asia             774,815    66,591,000 71.0
+   PSE Palestine        Asia               6,257     3,101,000 71.4
+   MEX Mexico           North America  1,958,201    98,881,000 71.5
+   HUN Hungary          Europe            93,030    10,043,200 71.4
+   ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+   WLF Wallis and Futun Oceania              200        15,000  0.0
+   FRA France           Europe           551,500    59,225,700 78.8
+   QAT Qatar            Asia              11,000       599,000 72.4
+   OMN Oman             Asia             309,500     2,542,000 71.8
+   DOM Dominican Republ North America     48,511     8,495,000 73.2
+   NGA Nigeria          Africa           923,768   111,506,000 51.6
+   JOR Jordan           Asia              88,946     5,083,000 77.4
+   KEN Kenya            Africa           580,367    30,080,000 48.0
+   VEN Venezuela        South America    912,050    24,170,000 73.1
+   RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+   SWE Sweden           Europe           449,964     8,861,400 79.6
+   LIE Liechtenstein    Europe               160        32,300 78.8
+   IND India            Asia           3,287,263 1,013,662,000 62.5
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SI 8
+   USA United States    North America  9,363,520   278,357,000 77.1
+SI 23
+   SORRY, no country with that id.
+DI 15
+   OK, country deleted.
+DI 5
+   OK, country deleted.
+DI 14
+   OK, country deleted.
+DI 15
+   SORRY, no country with that id.
+SI 5
+   SORRY, no country with that id.
+SI 14
+   SORRY, no country with that id.
+SI 15
+   SORRY, no country with that id.
+DI 15
+   SORRY, no country with that id.
+DI 4
+   SORRY, no country with that id.
+DI 27
+   SORRY, no country with that id.
+DI 0
+   SORRY, no country with that id.
+DI ERROR
+   SORRY, invalid id.
+IN 4,ARG,Argentina,2780400,37032000,75.1
+   OK, country inserted.
+SI 4
+   ARG Argentina        South America  2,780,400    37,032,000 75.1
+IN 37,JPN,Japan,377829,126714000,80.7
+   OK, country inserted.
+IN 27,JAM,Jamaica,10990,2583000,75.2
+   OK, country inserted.
+IN 15,CUB,Cuba,110861,11201000,76.2
+   OK, country inserted.
+IN 5,AUT,Austria,83859,8091800,77.7
+   OK, country inserted.
+SI 15
+   CUB Cuba             North America    110,861    11,201,000 76.2
+DI 15
+   OK, country deleted.
+DI 27
+   OK, country deleted.
+DI 1
+   OK, country deleted.
+DI 35
+   OK, country deleted.
+IN 15,SGS,South Georgia and the South Sandwich Islands,3903,0,0.0
+   OK, country inserted.
+IN 20,HMD,Heard Island and McDonald Islands,359,0,0.0
+   OK, country inserted.
+IN 40,DEU,Germany,357022,82164700,77.4
+   OK, country inserted.
+SI 15
+   SGS South Georgia an Antarctica         3,903             0  0.0
+SI 35
+   SORRY, no country with that id.
+SI 1
+   SORRY, no country with that id.
+SI 20
+   HMD Heard Island and Antarctica           359             0  0.0
+SI 40
+   DEU Germany          Europe           357,022    82,164,700 77.4
+SI 5
+   AUT Austria          Europe            83,859     8,091,800 77.7
+SI 37
+   JPN Japan            Asia             377,829   126,714,000 80.7
+SI 27
+   SORRY, no country with that id.
+SI 36
+   SORRY, no country with that id.
+SI 99
+   SORRY, no country with that id.
+SI 41
+   SORRY, no country with that id.
+SI 0
+   SORRY, no country with that id.
+SI 30
+   RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+SI 28
+   SORRY, no country with that id.
+SA
+   CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+   ARG Argentina        South America  2,780,400    37,032,000 75.1
+   AUT Austria          Europe            83,859     8,091,800 77.7
+   AUS Australia        Oceania        7,741,220    18,886,000 79.8
+   USA United States    North America  9,363,520   278,357,000 77.1
+   YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+   BRA Brazil           South America  8,547,403   170,115,000 62.9
+   TUR Turkey           Asia             774,815    66,591,000 71.0
+   PSE Palestine        Asia               6,257     3,101,000 71.4
+   SGS South Georgia an Antarctica         3,903             0  0.0
+   WLF Wallis and Futun Oceania              200        15,000  0.0
+   FRA France           Europe           551,500    59,225,700 78.8
+   HMD Heard Island and Antarctica           359             0  0.0
+   QAT Qatar            Asia              11,000       599,000 72.4
+   OMN Oman             Asia             309,500     2,542,000 71.8
+   DOM Dominican Republ North America     48,511     8,495,000 73.2
+   NGA Nigeria          Africa           923,768   111,506,000 51.6
+   JOR Jordan           Asia              88,946     5,083,000 77.4
+   VEN Venezuela        South America    912,050    24,170,000 73.1
+   RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+   SWE Sweden           Europe           449,964     8,861,400 79.6
+   LIE Liechtenstein    Europe               160        32,300 78.8
+   JPN Japan            Asia             377,829   126,714,000 80.7
+   DEU Germany          Europe           357,022    82,164,700 77.4
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+FILE STATUS > TransData FILE closed.
+CODE STATUS > Snapshot started.
+N: 26
+[ID ] CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+[001]     EMPTY
+[002]     EMPTY
+[003]     EMPTY
+[004] ARG Argentina        South America  2,780,400    37,032,000 75.1
+[005] AUT Austria          Europe            83,859     8,091,800 77.7
+[006]     EMPTY
+[007] AUS Australia        Oceania        7,741,220    18,886,000 79.8
+[008] USA United States    North America  9,363,520   278,357,000 77.1
+[009] YUG Yugoslavia       Europe           102,173    10,640,000 72.4
+[010] BRA Brazil           South America  8,547,403   170,115,000 62.9
+[011] TUR Turkey           Asia             774,815    66,591,000 71.0
+[012]     EMPTY
+[013] PSE Palestine        Asia               6,257     3,101,000 71.4
+[014]     EMPTY
+[015] SGS South Georgia an Antarctica         3,903             0  0.0
+[016]     EMPTY
+[017] WLF Wallis and Futun Oceania              200        15,000  0.0
+[018]     EMPTY
+[019] FRA France           Europe           551,500    59,225,700 78.8
+[020] HMD Heard Island and Antarctica           359             0  0.0
+[021] QAT Qatar            Asia              11,000       599,000 72.4
+[022] OMN Oman             Asia             309,500     2,542,000 71.8
+[023]     EMPTY
+[024] DOM Dominican Republ North America     48,511     8,495,000 73.2
+[025] NGA Nigeria          Africa           923,768   111,506,000 51.6
+[026] JOR Jordan           Asia              88,946     5,083,000 77.4
+[027]     EMPTY
+[028]     EMPTY
+[029] VEN Venezuela        South America    912,050    24,170,000 73.1
+[030] RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+[031] SWE Sweden           Europe           449,964     8,861,400 79.6
+[032]     EMPTY
+[033]     EMPTY
+[034] LIE Liechtenstein    Europe               160        32,300 78.8
+[035]     EMPTY
+[036]     EMPTY
+[037] JPN Japan            Asia             377,829   126,714,000 80.7
+[038]     EMPTY
+[039]     EMPTY
+[040] DEU Germany          Europe           357,022    82,164,700 77.4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CODE STATUS > Snapshot finished - 26 countries displayed.
+FILE STATUS > CountryData FILE closed.
+CODE STATUS > UserApp finished - 44 transactions processed.
+FILE STATUS > TheLog FILE closed.

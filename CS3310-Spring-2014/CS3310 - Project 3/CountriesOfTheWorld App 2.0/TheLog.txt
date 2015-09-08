@@ -1,0 +1,284 @@
+FILE STATUS > TheLog FILE opened.
+CODE STATUS > Setup started.
+FILE STATUS > RawData FILE opened.
+FILE STATUS > CountryData FILE opened.
+FILE STATUS > RawData FILE closed.
+CODE STATUS > Snapshot CountryData started.
+N: 26
+[RRN] ID  CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+[001] 030 EGY Egypt            Africa         1,001,449    68,470,000 63.3
+[002] 032 GBR United Kingdom   Europe           242,900    59,623,400 77.7
+[003] 060 LBN Lebanon          Asia              10,400     3,282,000 71.3
+[004] 001 XVI Hex Land         North America          1 1,966,514,816  0.0
+[005] 035 QAT Qatar            Asia              11,000       599,000 72.4
+[006] 006 USA United States    North America  9,363,520   278,357,000 77.1
+[007] 037 WSM Samoa            Oceania            2,831       180,000 69.2
+[008] 120 RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+[009] 039 HTI Haiti            North America     27,750     8,222,000 49.2
+[010] 010 NIC Nicaragua        North America    130,000     5,074,000 68.7
+[011] 069 SOM Somalia          Africa           637,657    10,097,000 46.2
+[012] 012 MEX Mexico           North America  1,958,201    98,881,000 71.5
+[013] 013 JPN Japan            Asia             377,829   126,714,000 80.7
+[014] 043 VEN Venezuela        South America    912,050    24,170,000 73.1
+[015] 072 IND India            Asia           3,287,263 1,013,662,000 62.5
+[016] 042 OMN Oman             Asia             309,500     2,542,000 71.8
+[017] 102 KEN Kenya            Africa           580,367    30,080,000 48.0
+[018] 132 ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+[019] 019 FRA France           Europe           551,500    59,225,700 78.8
+[020] 020 POL Poland           Europe           323,250    38,653,600 73.2
+[021] 059 ATA Antarctica       Antarctica    13,120,000             0  0.0
+[022]     EMPTY
+[023] 023 CHN China            Asia           9,572,900 1,277,558,000 71.4
+[024] 053 DEU Germany          Europe           357,022    82,164,700 77.4
+[025]     EMPTY
+[026]     EMPTY
+[027] 027 BEL Belgium          Europe            30,518    10,239,000 77.8
+[028]     EMPTY
+[029] 029 TCA Turks and Caicos North America        430        17,000 73.3
+[030] 090 YEM Yemen            Asia             527,968    18,112,000 59.8
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CODE STATUS > Snapshot CountryData finished - 26 countries displayed.
+FILE STATUS > CountryData FILE closed.
+CODE STATUS > Snapshot CountryIndex started.
+CODE INDEX > MAX_N_HOME_LOC: 20, nHome: 11, nColl: 15
+
+[SUB] CODE | DRP | LINK |
+[000] JPN  | 013 | 034  |
+[001] EMPTY
+[002] EMPTY
+[003] EMPTY
+[004] MEX  | 012 | 029  |
+[005] EMPTY
+[006] EMPTY
+[007] EMPTY
+[008] LBN  | 003 | -01  |
+[009] SOM  | 011 | -01  |
+[010] KEN  | 017 | 032  |
+[011] EGY  | 001 | -01  |
+[012] CHN  | 023 | 026  |
+[013] EMPTY
+[014] OMN  | 016 | -01  |
+[015] USA  | 006 | -01  |
+[016] EMPTY
+[017] YEM  | 030 | 028  |
+[018] NIC  | 010 | -01  |
+[019] EMPTY
+[020] FRA  | 019 | -01  |
+[021] BEL  | 027 | -01  |
+[022] GBR  | 002 | -01  |
+[023] HTI  | 009 | 021  |
+[024] VEN  | 014 | 022  |
+[025] POL  | 020 | 020  |
+[026] IND  | 015 | 024  |
+[027] DEU  | 024 | 025  |
+[028] WSM  | 007 | -01  |
+[029] XVI  | 004 | 023  |
+[030] QAT  | 005 | 027  |
+[031] ZWE  | 018 | -01  |
+[032] RUS  | 008 | 031  |
+[033] TCA  | 029 | 030  |
+[034] ATA  | 021 | 033  |
+CODE STATUS > Snapshot CountryIndex finished - 26 countries displayed.
+FILE STATUS > IndexBackup File opened.
+FILE STATUS > IndexBackup File backed up and closed.
+CODE STATUS > Setup finished - 26 countries processed.
+FILE STATUS > TheLog FILE closed.
+FILE STATUS > TheLog FILE opened.
+CODE STATUS > UserApp started.
+FILE STATUS > TransData FILE opened.
+FILE STATUS > CountryData FILE opened.
+FILE STATUS > IndexBackup File opened.
+FILE STATUS > IndexBackup File restored and closed.
+SC MEX
+   12 MEX Mexico           North America  1,958,201    98,881,000 71.5
+   1 data records read
+   0 index nodes visited
+SC JPN
+   13 JPN Japan            Asia             377,829   126,714,000 80.7
+   1 data records read
+   0 index nodes visited
+SC YEM
+   90 YEM Yemen            Asia             527,968    18,112,000 59.8
+   1 data records read
+   0 index nodes visited
+SC BEL
+   27 BEL Belgium          Europe            30,518    10,239,000 77.8
+   1 data records read
+   3 index nodes visited
+SI 12
+   12 MEX Mexico           North America  1,958,201    98,881,000 71.5
+   1 data records read
+SI 59
+   59 ATA Antarctica       Antarctica    13,120,000             0  0.0
+   23 data records read
+SI 30
+   30 EGY Egypt            Africa         1,001,449    68,470,000 63.3
+   2 data records read
+SI 90
+   90 YEM Yemen            Asia             527,968    18,112,000 59.8
+   1 data records read
+SI 1
+   1 XVI Hex Land         North America          1 1,966,514,816  0.0
+   4 data records read
+SI 29
+   29 TCA Turks and Caicos North America        430        17,000 73.3
+   1 data records read
+SI 102
+   102 KEN Kenya            Africa           580,367    30,080,000 48.0
+   6 data records read
+SC ATA
+   59 ATA Antarctica       Antarctica    13,120,000             0  0.0
+   1 data records read
+   1 index nodes visited
+SC LBN
+   60 LBN Lebanon          Asia              10,400     3,282,000 71.3
+   1 data records read
+   0 index nodes visited
+SC WSM
+   37 WSM Samoa            Oceania            2,831       180,000 69.2
+   1 data records read
+   1 index nodes visited
+SC NPJ
+   SORRY, no country with that id.
+   6 index nodes visited
+SC NLB
+   SORRY, no country with that id.
+   0 index nodes visited
+SC EMY
+   SORRY, no country with that id.
+   1 index nodes visited
+SC QQQ
+   SORRY, no country with that id.
+   0 index nodes visited
+SC IQQ
+   SORRY, no country with that id.
+   0 index nodes visited
+DI 60
+   SORRY, not yet working
+DI 22
+   SORRY, not yet working
+DC USA
+   SORRY, not yet working.
+DC FRA
+   SORRY, not yet working.
+DC WMU
+   SORRY, not yet working.
+SI 23
+   23 CHN China            Asia           9,572,900 1,277,558,000 71.4
+   1 data records read
+SI 53
+   53 DEU Germany          Europe           357,022    82,164,700 77.4
+   2 data records read
+SI 83
+   SORRY, no country with that id.
+SI 89
+   SORRY, no country with that id.
+SI 52
+   SORRY, no country with that id.
+SI 0
+   SORRY, no country with that id.
+SI 999
+   SORRY, no country with that id.
+SI 131
+   SORRY, no country with that id.
+SI 58
+   SORRY, no country with that id.
+SI 32
+   32 GBR United Kingdom   Europe           242,900    59,623,400 77.7
+   1 data records read
+SI 74
+   SORRY, no country with that id.
+SI 927
+   SORRY, no country with that id.
+SI 925
+   SORRY, no country with that id.
+SC JOR
+   SORRY, no country with that id.
+   3 index nodes visited
+SC GRC
+   SORRY, no country with that id.
+   0 index nodes visited
+SC MYS
+   SORRY, no country with that id.
+   0 index nodes visited
+FILE STATUS > TransData FILE closed.
+CODE STATUS > Snapshot CountryData started.
+N: 26
+[RRN] ID  CDE NAME------------ CONTINENT---- ------AREA ---POPULATION LIFE
+[001] 030 EGY Egypt            Africa         1,001,449    68,470,000 63.3
+[002] 032 GBR United Kingdom   Europe           242,900    59,623,400 77.7
+[003] 060 LBN Lebanon          Asia              10,400     3,282,000 71.3
+[004] 001 XVI Hex Land         North America          1 1,966,514,816  0.0
+[005] 035 QAT Qatar            Asia              11,000       599,000 72.4
+[006] 006 USA United States    North America  9,363,520   278,357,000 77.1
+[007] 037 WSM Samoa            Oceania            2,831       180,000 69.2
+[008] 120 RUS Russian Federati Europe        17,075,400   146,934,000 67.2
+[009] 039 HTI Haiti            North America     27,750     8,222,000 49.2
+[010] 010 NIC Nicaragua        North America    130,000     5,074,000 68.7
+[011] 069 SOM Somalia          Africa           637,657    10,097,000 46.2
+[012] 012 MEX Mexico           North America  1,958,201    98,881,000 71.5
+[013] 013 JPN Japan            Asia             377,829   126,714,000 80.7
+[014] 043 VEN Venezuela        South America    912,050    24,170,000 73.1
+[015] 072 IND India            Asia           3,287,263 1,013,662,000 62.5
+[016] 042 OMN Oman             Asia             309,500     2,542,000 71.8
+[017] 102 KEN Kenya            Africa           580,367    30,080,000 48.0
+[018] 132 ZWE Zimbabwe         Africa           390,757    11,669,000 37.8
+[019] 019 FRA France           Europe           551,500    59,225,700 78.8
+[020] 020 POL Poland           Europe           323,250    38,653,600 73.2
+[021] 059 ATA Antarctica       Antarctica    13,120,000             0  0.0
+[022]     EMPTY
+[023] 023 CHN China            Asia           9,572,900 1,277,558,000 71.4
+[024] 053 DEU Germany          Europe           357,022    82,164,700 77.4
+[025]     EMPTY
+[026]     EMPTY
+[027] 027 BEL Belgium          Europe            30,518    10,239,000 77.8
+[028]     EMPTY
+[029] 029 TCA Turks and Caicos North America        430        17,000 73.3
+[030] 090 YEM Yemen            Asia             527,968    18,112,000 59.8
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CODE STATUS > Snapshot CountryData finished - 26 countries displayed.
+FILE STATUS > CountryData FILE closed.
+CODE STATUS > Snapshot CountryIndex started.
+CODE INDEX > MAX_N_HOME_LOC: 20, nHome: 0, nColl: 0
+
+[SUB] CODE | DRP | LINK |
+[000] JPN  | 013 | 034  |
+[001] EMPTY
+[002] EMPTY
+[003] EMPTY
+[004] MEX  | 012 | 029  |
+[005] EMPTY
+[006] EMPTY
+[007] EMPTY
+[008] LBN  | 003 | -01  |
+[009] SOM  | 011 | -01  |
+[010] KEN  | 017 | 032  |
+[011] EGY  | 001 | -01  |
+[012] CHN  | 023 | 026  |
+[013] EMPTY
+[014] OMN  | 016 | -01  |
+[015] USA  | 006 | -01  |
+[016] EMPTY
+[017] YEM  | 030 | 028  |
+[018] NIC  | 010 | -01  |
+[019] EMPTY
+[020] FRA  | 019 | -01  |
+[021] BEL  | 027 | -01  |
+[022] GBR  | 002 | -01  |
+[023] HTI  | 009 | 021  |
+[024] VEN  | 014 | 022  |
+[025] POL  | 020 | 020  |
+[026] IND  | 015 | 024  |
+[027] DEU  | 024 | 025  |
+[028] WSM  | 007 | -01  |
+[029] XVI  | 004 | 023  |
+[030] QAT  | 005 | 027  |
+[031] ZWE  | 018 | -01  |
+[032] RUS  | 008 | 031  |
+[033] TCA  | 029 | 030  |
+[034] ATA  | 021 | 033  |
+CODE STATUS > Snapshot CountryIndex finished - 26 countries displayed.
+FILE STATUS > IndexBackup File opened.
+FILE STATUS > IndexBackup File backed up and closed.
+CODE STATUS > UserApp finished - 40 transactions processed.
+FILE STATUS > TheLog FILE closed.

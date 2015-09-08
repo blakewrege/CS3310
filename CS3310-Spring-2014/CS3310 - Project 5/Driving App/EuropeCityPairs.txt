@@ -1,0 +1,28 @@
+% EuropeCityPairs.txt
+%
+% This is the Transaction data
+% NOTE:  There may not always BE a path
+%
+% 2 cases of invalid city names not in the list
+Kalamazoo Berlin
+Munich GrandRapids
+% start & destination flipped
+%    should get same distance since it's an undirected graph
+Paris Warsaw
+Warsaw Paris
+Brussels Belgrade
+Belgrade Brussels
+% other "normal" test cases, some close together,
+%    some are a long way apart
+Belgrade Prague
+Brussels Budapest
+Amsterdam Brussels
+Amsterdam Bern
+Rome Berlin
+Naples Warsaw
+Warsaw Naples
+Vienna Belgrade
+Lisbon Warsaw
+Vienna Belgrade
+% odd case where start = destination
+Rome Rome
