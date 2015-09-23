@@ -904,3 +904,25 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/cellphoneplans
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 !SUBENTRY 1 org.eclipse.core.resources 4 372 2015-09-08 12:03:11.172
 !MESSAGE Resource '/cellphoneplans-gui' is not open.
+!SESSION 2015-09-23 17:36:02.431 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2015-09-23 17:39:48.645
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.liveeditor/org.eclipse.e4.tools.emf.liveeditor.OpenLiveDialogHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2015-09-23 17:39:48.647
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.css.spy/org.eclipse.e4.tools.css.spy.OpenSpyHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2015-09-23 17:39:48.647
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.css.spy/org.eclipse.e4.tools.css.spy.OpenScratchpadHandler
+
+!ENTRY org.eclipse.e4.core.services 4 0 2015-09-23 17:39:56.352
+!MESSAGE Called with invalid contribution URI: bundleclass://org.eclipse.e4.tools.emf.liveeditor
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2015-09-23 17:39:56.352
+!MESSAGE Removing part descriptor with the 'org.eclipse.e4.tools.emf.liveeditor.view' id and the 'Live Application Model' description. Points to the invalid 'bundleclass://org.eclipse.e4.tools.emf.liveeditor/org.eclipse.e4.tools.emf.liveeditor.LivePartDelegator' class.

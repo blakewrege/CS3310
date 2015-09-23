@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Name: Blake Wrege 
  * Date: 01/28/2014
- * Course: CS1120
+ * Course: CS112
  * Description: This program tests if the value is a Palindrome
  */
 public class Palindrome {
