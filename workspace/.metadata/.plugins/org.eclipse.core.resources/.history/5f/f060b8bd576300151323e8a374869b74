@@ -1,0 +1,111 @@
+import scala.io.Source
+import scala.collection.mutable.ListBuffer
+
+/**
+ * @author blake
+ */
+
+object test {
+
+  def printList(args: List[_]): Unit = {
+    args.foreach(println)
+  }
+
+  def main(args: Array[String]) {
+
+    println("Following is the content read:")
+
+    val filename = "RawData.csv"
+    val fileLines = Source.fromFile(filename, "ISO-8859-1").getLines.toList
+    var count = 0
+    val codearray = new ListBuffer[String]()
+    val valuearray = new ListBuffer[Int]()
+    while (count < (fileLines.length)) {
+
+      val words = fileLines(count).split(",") 
+      codearray += words(1) 
+      valuearray += words(1).toList.head.toInt - 64
+      count = count + 1;
+
+    }
+    val codeList = codearray.toList
+    val valueList = valuearray.toList
+    val sortedList = codeList.sortWith(_ < _)
+//   printList(sortedList)
+//    printList(valueList)
+    
+    
+
+    
+    //BST
+    
+    
+  val item2 = "ATA".toList.head.toInt - 64
+  val nums = 1 to 26   
+  var first = 1;
+  var last = count;
+  var middle = first + (first+last)/2;
+
+  while(first<=last)                                                                              //Performs a binary search comparing user input to sorted Country Codes in ascii
+  {
+      (first,"  ","  ",middle,"  ",last).productIterator.foreach(print)
+    println()
+ //   first=first+1  
+     
+     
+      if(middle==3&&last==2)                                                                        //fixes an error for if position equals zero
+      {
+        middle = 0;
+      }
+        
+      else
+      {
+        middle = first + (last-first)/2;
+      }     
+    
+      if(nums(middle)==item2)                                                                          //Seeks to the offset value and then reads values for printing
+      {
+        if (item2==sortedList(0)) {
+          
+        
+       println() 
+       print("DONE")
+       println() 
+      (first,"  ","  ",middle,"  ",last).productIterator.foreach(print)
+     
+      first=last+1;
+       }
+      }
+         
+      
+      else if(nums(middle)<item2)
+      {
+        first = middle+1;
+      }
+      else
+      {
+        last = middle-1;
+      }
+   }
+
+//    if(nums(middle)!=item2)
+//    {
+//      printf("\nCountry Code not found");
+//    }
+//      printf("\nMay I have another, sir?\n");
+
+  
+     
+   
+     
+  }
+}
+
+
+
+  
+
+  
+  
+  
+  

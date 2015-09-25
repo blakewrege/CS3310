@@ -8,6 +8,26 @@ import java.util.Scanner;
  */
 public class WorldData {
 	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	Scanner input = new Scanner(System.in);
 	String wordList,inverseWord;
 	String[] splitStr;
@@ -24,6 +44,9 @@ public class WorldData {
     	}
     	
 
+	
+	
+	
 	
 private static String printStringBackward(char[] x){      
      String inverseWord = ""; 
