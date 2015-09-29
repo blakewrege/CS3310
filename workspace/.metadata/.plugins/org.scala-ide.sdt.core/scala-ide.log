@@ -4512,3 +4512,471 @@ java.lang.NullPointerException
 2015-09-29 07:24:17,075  WARN [Worker-6] - ScalaProject - Project CS3310-scala runs on platform default installation.
 2015-09-29 07:24:19,156  WARN [Worker-6] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
 2015-09-29 07:24:19,156  WARN [Worker-6] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:08:58,206  WARN [Worker-1] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:08:58,206  WARN [Worker-1] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:08:58,209  WARN [Worker-1] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:08:58,209  WARN [Worker-1] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:08:58,566  WARN [Worker-1] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:08:58,566  WARN [Worker-1] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:00,859  WARN [Worker-7] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:00,860  WARN [Worker-7] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:03,827  WARN [Worker-7] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:03,827  WARN [Worker-7] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:05,379  WARN [main] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:05,379  WARN [main] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:19,386  WARN [Worker-7] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:19,387  WARN [Worker-7] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:20,642  WARN [Worker-4] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:20,642  WARN [Worker-4] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:20,673  WARN [Worker-4] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:20,673  WARN [Worker-4] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:20,716  WARN [Worker-4] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:20,716  WARN [Worker-4] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:42,223  WARN [Worker-3] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:42,223  WARN [Worker-3] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:42,244  WARN [Worker-3] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:42,244  WARN [Worker-3] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:09:43,269  WARN [Worker-3] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:09:43,269  WARN [Worker-3] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:10:31,821  WARN [Worker-7] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:10:31,821  WARN [Worker-7] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:10:31,843  WARN [Worker-7] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:10:31,843  WARN [Worker-7] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:10:35,288  WARN [Worker-7] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:10:35,288  WARN [Worker-7] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:13:50,200  WARN [Worker-8] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:13:50,200  WARN [Worker-8] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:13:50,228  WARN [Worker-8] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:13:50,229  WARN [Worker-8] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:14:27,606  WARN [Worker-18] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:14:27,606  WARN [Worker-18] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:14:27,632  WARN [Worker-18] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:14:27,633  WARN [Worker-18] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:14:27,655  WARN [Worker-18] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:14:27,655  WARN [Worker-18] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:22:55,442 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:22:55,442 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:05,542  WARN [Worker-18] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:23:05,542  WARN [Worker-18] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:23:05,581  WARN [Worker-18] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:23:05,581  WARN [Worker-18] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:23:29,121 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,122 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,652 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,652 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,652 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,653 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,653 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,653 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,654 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,654 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,654 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,655 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,655 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,655 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,656 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,656 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,656 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,656 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,657 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,657 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,657 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,657 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,657 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,658 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,658 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,658 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,659 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,659 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,659 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,660 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,660 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,660 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,661 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,661 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,661 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,661 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,662 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,662 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,662 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,662 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,662 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,663 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,663 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,663 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,664 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,664 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,664 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:29,665 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-29 08:23:37,199  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:23:37,199  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 08:23:37,229  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 08:23:37,229  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:00:31,455  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:00:31,455  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:00:31,481  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:00:31,481  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:00:38,769  WARN [Worker-55] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:00:38,769  WARN [Worker-55] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:00:38,790  WARN [Worker-55] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:00:38,790  WARN [Worker-55] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:00:47,970  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:00:47,970  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:00:47,991  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:00:47,991  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:02:24,030  WARN [Worker-50] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:02:24,030  WARN [Worker-50] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:02:24,052  WARN [Worker-50] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:02:24,052  WARN [Worker-50] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:52,393  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:52,393  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:52,417  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:52,417  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:54,201  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:54,201  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:55,270  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:55,270  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:55,292  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:55,292  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:55,318  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:55,318  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:59,475  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:59,475  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:04:59,488  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:04:59,488  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:00,218  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:00,218  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:21,504  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:21,504  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:21,517  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:21,517  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:22,106  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:22,107  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:34,683  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:34,683  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:34,704  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:34,705  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:05:35,389  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:05:35,389  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:06:21,188  WARN [Worker-61] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:06:21,189  WARN [Worker-61] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:06:21,210  WARN [Worker-61] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:06:21,210  WARN [Worker-61] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:06:21,789  WARN [Worker-61] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:06:21,790  WARN [Worker-61] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:06:44,784  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:06:44,784  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:06:44,801  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:06:44,801  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:07:12,102  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:07:12,103  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:07:12,123  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:07:12,123  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:07:13,819  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:07:13,819  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:07:21,246  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:07:21,246  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:07:21,256  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:07:21,256  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:07:22,126  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:07:22,126  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:17,969  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:17,969  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:17,984  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:17,985  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:18,729  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:18,729  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:19,798  WARN [Worker-61] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:19,798  WARN [Worker-61] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:19,819  WARN [Worker-61] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:19,819  WARN [Worker-61] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:19,839  WARN [Worker-61] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:19,839  WARN [Worker-61] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:49,093  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:49,093  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:49,122  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:49,122  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:08:49,135  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:08:49,135  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:04,091  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:04,091  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:04,122  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:04,123  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:07,314  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:07,314  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:08,379  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:08,380  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:08,401  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:08,402  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:08,417  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:08,417  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:25,746  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:25,746  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:10:25,771  WARN [Worker-60] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:10:25,771  WARN [Worker-60] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:12:02,801  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:12:02,801  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:12:02,822  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:12:02,822  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:12:04,825  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:12:04,825  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:12:05,899  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:12:05,899  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:12:05,920  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:12:05,920  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:12:05,934  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:12:05,934  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:13:27,394  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:13:27,394  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:13:27,427  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:13:27,427  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:14:04,143  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:14:04,144  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:14:04,162  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:14:04,162  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:14:05,090  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:14:05,090  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:15:20,542  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:15:20,543  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:15:20,576  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:15:20,576  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:15:22,960  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:15:22,960  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:15:22,981  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:15:22,982  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:15:47,241  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:15:47,242  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:15:47,270  WARN [Worker-58] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:15:47,270  WARN [Worker-58] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:17:22,365  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:17:22,365  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:17:22,384  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:17:22,384  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:17:23,551  WARN [Worker-70] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:17:23,551  WARN [Worker-70] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:17:23,567  WARN [Worker-70] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:17:23,567  WARN [Worker-70] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:18:51,649  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:18:51,649  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:18:51,672  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:18:51,672  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:18:52,610  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:18:52,610  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:08,826  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:08,826  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:08,846  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:08,846  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:10,468  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:10,469  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:10,479  WARN [Worker-63] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:10,479  WARN [Worker-63] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:23,111  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 569
+2015-09-29 10:19:23,111  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 596
+2015-09-29 10:19:26,791  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:26,791  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:26,807  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:26,807  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:26,827  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:26,827  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:35,934  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:35,934  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:35,956  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:35,957  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:19:36,665  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:19:36,665  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:03,324  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:03,324  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:03,344  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:03,345  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:06,703  WARN [Worker-51] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:06,704  WARN [Worker-51] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:21,760  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:21,760  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:21,779  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:21,779  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:22,654  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:22,654  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:44,937  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:44,938  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:44,969  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:44,969  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:21:47,156  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:21:47,156  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:22:13,359  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:22:13,359  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:22:13,381  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:22:13,381  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:22:15,014  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:22:15,014  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:22:16,964  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:22:16,964  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:22:16,974  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:22:16,975  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:23:37,215  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:23:37,215  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:23:37,238  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:23:37,238  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:23:38,772  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:23:38,772  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:24:48,261  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:24:48,262  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:24:48,296  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:24:48,296  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:24:51,653  WARN [Worker-56] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:24:51,653  WARN [Worker-56] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:26:02,221  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:26:02,221  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:26:02,248  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:26:02,248  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:26:05,554  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:26:05,554  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:26:21,646  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:26:21,646  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:26:21,667  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:26:21,667  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:26:22,657  WARN [Worker-67] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:26:22,657  WARN [Worker-67] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:28:55,804  WARN [Worker-76] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:28:55,804  WARN [Worker-76] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:28:55,834  WARN [Worker-76] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:28:55,834  WARN [Worker-76] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:28:59,132  WARN [Worker-76] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:28:59,132  WARN [Worker-76] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:29:14,341  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:29:14,341  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:29:14,362  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:29:14,362  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:29:15,342  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:29:15,342  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:30:03,848  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:30:03,848  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:30:03,869  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:30:03,869  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:30:04,681  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:30:04,681  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:32:05,736  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:32:05,736  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:32:05,756  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:32:05,756  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:32:10,017  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:32:10,018  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:34,569  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:34,570  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:34,603  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:34,603  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:37,308  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:37,309  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:49,706  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:49,706  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:49,727  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:49,727  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:50,430  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:50,430  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:52,475  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:52,475  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:52,495  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:52,495  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:33:53,166  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:33:53,167  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:37:29,517  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:37:29,517  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:37:29,537  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:37:29,537  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:38:29,007  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:38:29,007  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:38:29,027  WARN [Worker-64] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:38:29,027  WARN [Worker-64] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:38:42,967  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:38:42,967  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:38:42,987  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:38:42,987  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:38:43,666  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:38:43,667  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:41:18,278  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:41:18,278  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:41:18,305  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:41:18,305  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:41:27,480  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:41:27,480  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:41:27,501  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:41:27,502  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:41:29,983  WARN [Worker-71] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:41:29,984  WARN [Worker-71] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:42:43,227  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:42:43,227  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:42:43,243  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:42:43,243  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:42:46,826  WARN [Worker-78] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:42:46,826  WARN [Worker-78] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:44:57,569  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:44:57,569  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:44:57,596  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:44:57,596  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:45:11,147  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:45:11,147  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:45:11,168  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:45:11,169  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:45:14,514  WARN [Worker-12] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:45:14,514  WARN [Worker-12] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:45:51,080  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:45:51,080  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:45:51,099  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:45:51,099  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:46:07,815  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:46:07,815  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:46:07,824  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:46:07,824  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:46:09,043  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:46:09,043  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:50:19,992  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:50:19,992  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:50:20,030  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:50:20,031  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:50:34,383  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:50:34,383  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:50:34,405  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:50:34,405  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:51:21,575  WARN [Worker-81] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:51:21,575  WARN [Worker-81] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:51:21,585  WARN [Worker-81] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:51:21,585  WARN [Worker-81] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:51:43,675  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:51:43,675  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:51:43,694  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:51:43,694  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:51:46,790  WARN [Worker-72] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:51:46,790  WARN [Worker-72] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:55:49,683  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:55:49,683  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:55:49,700  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:55:49,700  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:55:53,404  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:55:53,404  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:57:58,412  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:57:58,413  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:57:58,443  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:57:58,443  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:58:02,183  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:58:02,183  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:58:58,358  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:58:58,358  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:58:58,393  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:58:58,393  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 10:59:01,996  WARN [Worker-74] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 10:59:01,997  WARN [Worker-74] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 11:04:06,128  WARN [Worker-85] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 11:04:06,128  WARN [Worker-85] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 11:04:06,167  WARN [Worker-85] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 11:04:06,167  WARN [Worker-85] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-09-29 11:04:09,822  WARN [Worker-85] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-09-29 11:04:09,822  WARN [Worker-85] - ScalaProject - Project CS3310-scala runs on platform default installation.

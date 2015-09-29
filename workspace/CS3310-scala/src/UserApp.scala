@@ -10,9 +10,10 @@ object UserApp {
   
     def main(args: Array[String]) {
       
-     val tranDat = new UIinput("TransData.txt")
-     val rawDat = new DataStorage(Iterator("NULL"))    
      
+     val rawDat = new DataStorage(Iterator("NULL"))    
+     val tranDat = new UIinput("TransData.txt", rawDat.databackup)
+    
      
      
 

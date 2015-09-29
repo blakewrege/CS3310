@@ -1,56 +1,87 @@
 import scala.io.Source
 import scala.collection.mutable.ListBuffer
 
-class UIinput(val filename: String) {
-
-
+class UIinput(val filename: String, val rawdata: String) {
 
   val transData = Source.fromFile(filename, "ISO-8859-1").getLines.toList
-  val test = filterList(transData)
-  
-  
-  
-  
-  
-  
+  val rawList = rawdata.split(",").toList
+  filterList(transData,rawList)
 
-    def filterList(transData: List[_]): Unit = {
+  
+  
+  def filterList(transData: List[_],rawList: List[_]): Unit = {
     var count = 0
-      val argarry = new ListBuffer[String]()
+    val argarry = new ListBuffer[String]()
     while (count < (transData.length)) {
       transData(count).toString().take(1) match {
-        case "A" => Aswitch(transData(count).toString())
-        case "I" => Iswitch(transData(count).toString())
-        case "S" => Sswitch(transData(count).toString())
-        case "D" => Dswitch(transData(count).toString())
-        case whoa => "Unexpected case: " + whoa.toString
+        case "A" => Aswitch(transData(count).toString(),rawList)
+        case "I" => Iswitch(transData(count).toString(),rawList)
+        case "S" => Sswitch(transData(count).toString(),rawList)
+        case "D" => Dswitch(transData(count).toString(),rawList)
+        case broke => "Unexpected case: " + broke.toString
       }
-     count = count + 1
+      count = count + 1
     }
 
+  }
+
+  def Aswitch(strTok: String,rawList: List[_]): Unit = {
+    println("SHOW ALL")
+  }
+
+  def Iswitch(strTok: String,rawList: List[_]): Unit = {
+    println("INSERT")
+  }
+
+  def Sswitch(strTok: String,rawList: List[_]): Unit = {
+    
+    BSTsearch(rawList,strTok)
   
   }
-  
-  
-  
-  
-  
-   def Aswitch (strTok: String): Unit = {
-   println("SHOW ALL") 
-   }
-   
-   def Iswitch (strTok: String): Unit = {
-   println("INSERT") 
-   }
-   
-   def Sswitch (strTok: String): Unit = {
-   println("Search") 
-   }
-   
-   def Dswitch (strTok: String): Unit = {
-   println("Delete") 
-   }
-   
-   
+
+  def Dswitch(strTok: String,rawList: List[_]): Unit = {
+    println("Delete")
+  }
+
+  def BSTsearch(args: List[_], command: String): Unit = {
+    val parsecode = command.split(" ")
+    val code = parsecode(1)
+    var count = 0;
+    val item = code.toUpperCase()
+    val itemval = item.toList.head.toInt - 64
+    val nums = 1 to args.length
+    var first = 1;
+    var last = args.length;
+    var middle = first + (first + last) / 2;
+
+    while (first <= last) {
+      println()
+      count = count + 1
+
+      if (middle == 3 && last == 2) {
+        middle = 0;
+      } else {
+        middle = first + (last - first) / 2;
+      }
+
+      if (nums(middle) == itemval) {
+        if (item == args(middle)) {
+
+          println()
+          printf("DONE: %s = %s",item, args(middle))
+          printf("\nNumber of nodes %d", count);
+        } else {
+          printf("\nCountry Code %s not found",item);
+        }
+        first = last + 1;
+
+      } else if (nums(middle) < itemval) {
+        first = middle + 1;
+      } else {
+        last = middle - 1;
+      }
+    }
+
+  }
 
 }
