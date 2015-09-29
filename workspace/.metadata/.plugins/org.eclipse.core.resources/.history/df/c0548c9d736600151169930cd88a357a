@@ -1,0 +1,25 @@
+import scala.io.Source
+import scala.collection.mutable.ListBuffer
+
+class UIinput(val filename: String) {
+
+  def printList(args: List[_]): List[_] = {
+    val argarray = new ListBuffer[String]()
+    var count = 0
+println(args.length)
+    while (count < (args.length)) {
+     if (args(count).toString.take(1) != "%") {
+        val words = args(count).toString
+        argarray += words
+      }
+println(args(count))
+      count = count + 1;
+      }
+    return argarray.toList
+  }
+  
+
+  val file = Source.fromFile(filename, "ISO-8859-1").getLines.toList
+  val newfile = printList(file)
+
+}

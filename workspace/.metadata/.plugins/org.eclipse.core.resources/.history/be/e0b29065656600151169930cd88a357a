@@ -1,0 +1,25 @@
+import scala.collection.mutable.ListBuffer
+import jdk.nashorn.internal.runtime.Source.RawData
+
+class DataStorage {
+  
+  val thedata = new RawData("RawData.csv")
+  
+
+  val fileLines = thedata.file.toList
+  var count = 0
+  val codearray = new ListBuffer[String]()
+  val valuearray = new ListBuffer[Int]()
+  while (count < (fileLines.length)) {
+
+    val words = fileLines(count).split(",")
+    codearray += words(1)
+    valuearray += words(1).toList.head.toInt - 64
+    count = count + 1;
+
+  }
+  val codeList = codearray.toList
+  val valueList = valuearray.toList
+  val sortedList = codeList.sortWith(_ < _)
+}
+  

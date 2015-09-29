@@ -1,0 +1,23 @@
+import scala.collection.mutable.ListBuffer
+import scala.io.Source
+import _root_.scala.tools.nsc
+
+
+/* 
+ * Note: in scala you can't overload classes only functions
+ * I had to use some improvised solutions here.
+ */
+
+
+class DataStorage(val filedata: Iterator[String]) {
+
+
+  }
+
+
+
+
+
+
+
+  

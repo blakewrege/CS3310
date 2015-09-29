@@ -1,0 +1,13 @@
+
+
+object UserApp {
+  
+    def main(args: Array[String]) {
+     val TranData = new UIinput("TransData.txt")
+
+      
+      
+    }
+  
+  
+}

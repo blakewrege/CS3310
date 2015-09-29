@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;UserApp.scala&apos; to &apos;CS3310-scala/src/(default package)&apos;&#x0A;- Original project: &apos;CS3310-UserApp&apos;&#x0A;- Destination element: &apos;CS3310-scala/src/(default package)&apos;&#x0A;- Original element: &apos;UserApp.scala&apos;&#x0A;- Update references to refactored element" description="Move file" destination="=CS3310-scala/src&lt;" element1="src/UserApp.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1443500543031" units="0" version="1.0"/>
+</session>

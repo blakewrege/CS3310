@@ -1,0 +1,19 @@
+
+
+object UserApp {
+  
+    def printList(args: List[_]): Unit = {
+    args.foreach(println)
+  }
+  
+    def main(args: Array[String]) {
+     val trandata = new UIinput("TransData.txt")
+     printList(trandata.file)
+     
+
+      
+      
+    }
+  
+  
+}

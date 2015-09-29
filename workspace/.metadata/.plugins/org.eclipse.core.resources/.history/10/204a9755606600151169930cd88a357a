@@ -1,0 +1,10 @@
+
+
+class UserApp {
+  
+    def main(args: Array[String]) {
+      println("poop")
+    }
+  
+  
+}
