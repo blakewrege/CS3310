@@ -1,7 +1,0 @@
-
-
-class UIinput(val filename: String) {
-  
-  
-  
-}

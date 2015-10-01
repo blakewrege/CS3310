@@ -17,8 +17,8 @@ object Setup {
     val outdata = new DataStorage(UIoutput)
     var count = 0
     while (count < indata.file.length){
-      outdata.insert(List(0,0,0))
-     //println(indata.readline(indata.file(count).toString()))
+     outdata.insert(indata.readline(indata.file(count)))
+     //println(indata.readline(indata.file(count)))
      count = count + 1
     }
 

@@ -1,8 +1,0 @@
-import scala.io.Source
-
-class UIinput(val filename: String) {
-  
-    val file = Source.fromFile(filename, "ISO-8859-1").getLines.tolist
-    
-  
-}

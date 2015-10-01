@@ -1,20 +1,21 @@
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 import _root_.scala.tools.nsc
-import scala.reflect.internal.Trees.Return
+
 
 /* 
  * Note: in scala you can't overload classes only functions
  * I had to use some improvised solutions here.
  */
 
+
 class DataStorage(val UIoutput: UIoutput) {
   
-  val ptrstruct = new ptrstruct(0)
+  private val test = "hi";
  // val newptrstruct = new ptrstruct(ptrstruct.list+1)
   
   
-  
+
   
   
   def fromraw(filedata: Iterator[String]): Unit = {
@@ -50,15 +51,15 @@ class DataStorage(val UIoutput: UIoutput) {
   
   def insert(args: List[_]): Unit ={
     
-    
+
 
     
-
-    println(ptrstruct.lister+1)
-    
-    
-    
-    
+val test = new Person()
+if (test.i < 1){
+println(test.i)
+}else{
+ println(test.addtolist(args))
+}
     
     
     
@@ -120,17 +121,28 @@ class DataStorage(val UIoutput: UIoutput) {
 
 }
 
-
-class ptrstruct(val pointers: Int){
   
-  val lister = 0.toInt
-  
-  def tester(test: Int): Int = {
+object Person {
+    private var current = 0
+    private val codearray = new ListBuffer[List[_]]()
+    private def inc = {current += 1; current} 
+    private def appender(args: List[_]) = { codearray += args; codearray   }
+ 
     
-  return test+1
-  
-  }
+    //  def createPerson() = new Person()
 }
+ 
+class Person {
+    val i = Person.inc
+
+    def addtolist(args: List[_]): List[_] = {
+    return Person.appender(args).toList
+  } 
+
+
+}
+  
+  
 
 
 
