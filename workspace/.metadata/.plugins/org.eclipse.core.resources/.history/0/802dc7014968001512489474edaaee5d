@@ -17,8 +17,7 @@ object Setup {
     val outdata = new DataStorage(UIoutput)
     var count = 0
     while (count < indata.file.length){
-     println(indata.readline(indata.file(count).toString()))
-     count = count + 1
+     println(indata.readline(indata.file.toString())
     }
 
 
@@ -40,7 +39,7 @@ object Setup {
       List(0, 0, 1)
    )
    
-  //printList(dim)
+  printList(dim)
   
       UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage") 
   

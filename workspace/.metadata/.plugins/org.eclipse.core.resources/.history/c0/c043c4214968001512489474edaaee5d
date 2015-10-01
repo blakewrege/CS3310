@@ -18,7 +18,6 @@ object Setup {
     var count = 0
     while (count < indata.file.length){
      println(indata.readline(indata.file(count).toString()))
-     count = count + 1
     }
 
 

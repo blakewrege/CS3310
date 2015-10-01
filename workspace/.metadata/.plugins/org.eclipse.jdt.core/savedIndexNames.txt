@@ -1,3 +1,2 @@
 INDEX VERSION 1.127+/home/blake/github/CS3310/workspace/.metadata/.plugins/org.eclipse.jdt.core
 3734779282.index
-374950143.index

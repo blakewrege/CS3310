@@ -15,23 +15,11 @@ object Setup {
     val indata = new RawData("RawData.csv", UIoutput)
 
     val outdata = new DataStorage(UIoutput)
-    var count = 0
-    while (count < indata.file.length){
-     println(indata.readline(indata.file(count).toString()))
-     count = count + 1
-    }
-
-
+    outdata.fromraw(indata.file)
+    
+    
+    UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage") 
  
-    
-    
-    
-    
-    
-    
-    
-    
-//        outdata.fromraw(indata.file)
   
     val dim: List[List[Int]] =
    List(
@@ -39,15 +27,14 @@ object Setup {
       List(0, 1, 0),
       List(0, 0, 1)
    )
-   
-  //printList(dim)
   
-      UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage") 
+  
+  
   
   }
 
-  def printList(args: List[List[_]]): Unit = {
-    args(0).foreach(println)
+  def printList(args: List[_]): Unit = {
+    args.foreach(println)
   }
 
  

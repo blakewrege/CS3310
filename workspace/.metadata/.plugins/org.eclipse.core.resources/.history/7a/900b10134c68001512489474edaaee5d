@@ -8,8 +8,6 @@ import _root_.scala.tools.nsc
  */
 
 class DataStorage(val UIoutput: UIoutput) {
-  
-  
   def fromraw(filedata: Iterator[String]): Unit = {
     val fileLines = filedata.toList
     var count = 0
@@ -40,23 +38,8 @@ class DataStorage(val UIoutput: UIoutput) {
     val databackup = Source.fromFile("Backup.csv", "ISO-8859-1").getLines.mkString(",")
     return databackup
   }
-  
-  def insert(args: List[_]){
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  }
 
-
+}
 
 
 
@@ -107,7 +90,7 @@ class DataStorage(val UIoutput: UIoutput) {
     return List("invalid", count)
   }
 
-}
+  }
 
 
 
