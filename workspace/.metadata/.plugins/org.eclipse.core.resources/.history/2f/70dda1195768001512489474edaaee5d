@@ -1,7 +1,6 @@
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 import _root_.scala.tools.nsc
-import scala.reflect.internal.Trees.Return
 
 /* 
  * Note: in scala you can't overload classes only functions
@@ -11,7 +10,6 @@ import scala.reflect.internal.Trees.Return
 class DataStorage(val UIoutput: UIoutput) {
   
   val ptrstruct = new ptrstruct(0)
- // val newptrstruct = new ptrstruct(ptrstruct.list+1)
   
   
   
@@ -50,11 +48,16 @@ class DataStorage(val UIoutput: UIoutput) {
   
   def insert(args: List[_]): Unit ={
     
+    if ( ptrstruct.list == 0){
+     println(ptrstruct.list )
+           val ptrstruct = new ptrstruct(1)
+    }else{
+           val ptrstruct = new ptrstruct(ptrstruct.list+1)
+           
+    }
     
 
     
-
-    println(ptrstruct.lister+1)
     
     
     
@@ -123,13 +126,10 @@ class DataStorage(val UIoutput: UIoutput) {
 
 class ptrstruct(val pointers: Int){
   
-  val lister = 0.toInt
   
-  def tester(test: Int): Int = {
-    
-  return test+1
   
-  }
+ val list = pointers
+  
 }
 
 

@@ -11,7 +11,7 @@ import scala.reflect.internal.Trees.Return
 class DataStorage(val UIoutput: UIoutput) {
   
   val ptrstruct = new ptrstruct(0)
- // val newptrstruct = new ptrstruct(ptrstruct.list+1)
+  val newptrstruct = new ptrstruct(ptrstruct.list+1)
   
   
   
@@ -54,7 +54,7 @@ class DataStorage(val UIoutput: UIoutput) {
 
     
 
-    println(ptrstruct.lister+1)
+    
     
     
     
@@ -123,12 +123,13 @@ class DataStorage(val UIoutput: UIoutput) {
 
 class ptrstruct(val pointers: Int){
   
-  val lister = 0.toInt
+  var lister = 0.toInt
   
-  def tester(test: Int): Int = {
+  def test(test: Int): val = {
     
-  return test+1
   
+  test = pointers.toInt + test.toInt
+  return test
   }
 }
 

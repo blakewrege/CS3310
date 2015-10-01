@@ -54,7 +54,7 @@ class DataStorage(val UIoutput: UIoutput) {
 
     
 
-    println(ptrstruct.lister+1)
+    
     
     
     
@@ -127,7 +127,7 @@ class ptrstruct(val pointers: Int){
   
   def tester(test: Int): Int = {
     
-  return test+1
+  return test
   
   }
 }

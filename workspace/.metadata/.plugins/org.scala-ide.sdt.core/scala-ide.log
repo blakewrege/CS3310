@@ -9257,3 +9257,554 @@ java.lang.NullPointerException
 2015-10-01 11:05:46,646  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
 2015-10-01 11:05:47,994  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
 2015-10-01 11:05:47,994  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:34:40,174  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:34:40,174  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:34:40,181  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:34:40,181  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:34:40,190  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:34:40,191  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:49:58,613  WARN [Worker-91] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:49:58,613  WARN [Worker-91] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:49:58,619  WARN [Worker-91] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:49:58,619  WARN [Worker-91] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:51:38,010  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:51:38,010  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:51:38,016  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:51:38,016  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 11:51:39,357  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 11:51:39,357  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:01:03,335  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:01:03,335  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:01:03,341  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:01:03,342  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:01:17,202  WARN [Worker-91] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:01:17,202  WARN [Worker-91] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:01:17,209  WARN [Worker-91] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:01:17,209  WARN [Worker-91] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:01:26,266  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:01:26,267  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:01:26,275  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:01:26,275  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:29,585  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:29,585  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:29,590  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:29,590  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:30,746  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:30,746  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:43,776  WARN [Worker-91] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:43,776  WARN [Worker-91] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:43,781  WARN [Worker-91] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:43,781  WARN [Worker-91] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:51,129  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:51,129  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:51,136  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:51,136  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:02:51,879  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:02:51,879  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:03:45,846  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:03:45,846  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:03:45,857  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:03:45,857  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:05:41,642  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:05:41,642  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:05:41,648  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:05:41,648  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:05:57,361  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:05:57,361  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:05:57,365  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:05:57,365  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:06:32,610  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:06:32,611  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:06:32,616  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:06:32,616  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:06:44,248  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:06:44,248  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:06:44,253  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:06:44,253  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:06:48,972  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:06:48,973  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:06:48,979  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:06:48,979  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:12,479  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:12,480  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:12,484  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:12,485  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:24,576  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:24,576  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:24,581  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:24,581  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:25,846  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:25,846  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:34,993  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:34,993  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:35,004  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:35,005  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:07:35,674  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:07:35,674  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:11:34,335  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:11:34,335  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:11:34,339  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:11:34,340  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:11:40,776  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:11:40,776  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:11:40,785  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:11:40,785  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:12:06,379  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:12:06,379  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:12:06,387  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:12:06,387  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:14:00,737  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:14:00,738  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:14:00,742  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:14:00,742  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:14:06,232  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:14:06,232  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:14:06,237  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:14:06,237  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:14:06,913  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:14:06,913  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:05,056  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:05,056  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:05,066  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:05,066  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:22,164  WARN [Worker-94] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:22,164  WARN [Worker-94] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:22,169  WARN [Worker-94] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:22,169  WARN [Worker-94] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:27,003  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:27,003  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:27,009  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:27,009  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:27,541  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:27,541  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:38,393  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:38,393  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:38,402  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:38,402  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:39,132  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:39,132  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:40,195  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:40,195  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:40,206  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:40,206  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:19:40,219  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:19:40,219  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:20:35,146  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:20:35,146  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:20:35,153  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:20:35,154  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:20:35,843  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:20:35,843  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:20:36,854  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:20:36,854  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:20:36,864  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:20:36,864  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:20:36,876  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:20:36,876  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:25:44,768  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:25:44,768  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:25:44,774  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:25:44,774  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:25:46,058  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:25:46,058  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:25:46,066  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:25:46,066  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:26:12,321  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:26:12,321  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:26:12,332  WARN [Worker-86] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:26:12,332  WARN [Worker-86] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:26:40,735  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:26:40,735  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:26:40,741  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:26:40,741  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:27:08,478  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:27:08,478  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:27:08,483  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:27:08,483  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:27:31,015  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:27:31,016  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:27:31,025  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:27:31,025  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:28:03,189  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:28:03,189  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:28:03,204  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:28:03,204  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:28:04,362  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:28:04,362  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:02,939  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:02,939  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:02,945  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:02,945  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:03,912  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:03,912  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:04,973  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:04,973  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:04,981  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:04,981  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:04,991  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:04,991  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:47,043  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:47,043  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:47,051  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:47,051  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:47,719  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:47,719  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:48,779  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:48,779  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:48,789  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:48,789  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:31:48,801  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:31:48,801  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:33:06,436 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:961)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:810)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:706)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:840)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:326)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:504)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:429)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:518)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:329)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2619)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2461)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2473)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3025)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3024)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3011)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2917)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2924)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2888)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2751)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:327)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2708)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2693)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2973)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:2972)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3170)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3176)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:742)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1194)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:656)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:562)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2015-10-01 12:33:07,820 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:961)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:810)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:706)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:840)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:326)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:504)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:429)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:518)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:329)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2619)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2461)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2473)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3025)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3024)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3011)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2917)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2924)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2888)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2751)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:327)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2708)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2693)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2973)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:2972)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3170)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3176)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:742)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1194)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:656)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:562)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2015-10-01 12:33:31,814 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:961)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:810)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:706)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:840)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:326)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:504)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:429)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:518)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:329)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2619)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2461)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2473)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3025)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3024)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3011)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2917)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2924)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2888)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2751)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:327)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2708)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2693)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2973)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:2972)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3170)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3176)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:742)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1194)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:656)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:562)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2015-10-01 12:33:41,850  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:33:41,850  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:33:41,859  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:33:41,860  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:33:43,049  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:33:43,049  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:33:43,055  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:33:43,055  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:34:45,117  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:34:45,117  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:34:45,127  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:34:45,127  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:35:00,393  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:35:00,393  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:35:00,400  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:35:00,400  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:35:10,984  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:35:10,984  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:35:10,992  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:35:10,992  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:35:11,576  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:35:11,576  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:08,276  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:08,276  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:08,282  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:08,282  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:09,549  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:09,549  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:09,559  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:09,559  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:43,705  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:43,706  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:43,716  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:43,716  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:49,173  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:49,173  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:38:49,178  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:38:49,178  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:39:18,871  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:39:18,871  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:39:18,876  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:39:18,876  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:39:27,670  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:39:27,670  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:39:27,675  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:39:27,675  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:40:05,458  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:40:05,458  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:40:05,466  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:40:05,467  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:40:06,833  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:40:06,834  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:40:06,844  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:40:06,844  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:40:20,665  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:40:20,665  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:40:20,670  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:40:20,670  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:01,327  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:01,327  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:01,334  WARN [Worker-95] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:01,335  WARN [Worker-95] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:13,528  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:13,528  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:13,534  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:13,534  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:26,930  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:26,931  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:26,941  WARN [Worker-90] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:26,941  WARN [Worker-90] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:40,699  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:40,699  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:40,704  WARN [Worker-93] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:40,704  WARN [Worker-93] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:50,962  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:50,962  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:41:50,968  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:41:50,968  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:42:03,894  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:42:03,894  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:42:03,899  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:42:03,899  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:42:50,678  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:42:50,678  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:42:50,685  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:42:50,685  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:43:09,403  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:43:09,403  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:43:09,413  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:43:09,413  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:43:17,339  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:43:17,339  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:43:17,348  WARN [Worker-92] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:43:17,348  WARN [Worker-92] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:44:01,732  WARN [Worker-97] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:44:01,733  WARN [Worker-97] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:44:01,738  WARN [Worker-97] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:44:01,738  WARN [Worker-97] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:44:47,653  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:44:47,653  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:44:47,661  WARN [Worker-96] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:44:47,661  WARN [Worker-96] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:44:53,813  WARN [Worker-97] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:44:53,813  WARN [Worker-97] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:44:53,820  WARN [Worker-97] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:44:53,820  WARN [Worker-97] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:45:55,526  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:45:55,527  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-01 12:45:55,535  WARN [Worker-89] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-01 12:45:55,535  WARN [Worker-89] - ScalaProject - Project CS3310-scala runs on platform default installation.

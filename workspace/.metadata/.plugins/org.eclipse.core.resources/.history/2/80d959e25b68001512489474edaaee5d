@@ -54,7 +54,7 @@ class DataStorage(val UIoutput: UIoutput) {
 
     
 
-    println(ptrstruct.lister+1)
+    
     
     
     
