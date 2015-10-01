@@ -1,0 +1,102 @@
+import scala.io.Source
+import scala.collection.mutable.ListBuffer
+
+class UIinput() {
+
+  def setup(filename: String): List[_] = {
+    val transData = Source.fromFile(filename, "ISO-8859-1").getLines.toList
+    //    val rawList = rawdata.split(",").toList
+    //    filterList(transData, rawList)
+    return transData
+  }
+
+  def filterList(transline: String, rawList: List[_]): Unit = {
+
+    transline.take(1) match {
+      case "A" => Aswitch(transline, rawList)
+      case "I" => Iswitch(transline, rawList)
+      case "S" => Sswitch(transline, rawList)
+      case "D" => Dswitch(transline, rawList)
+      case broke => "Unexpected case: " + broke.toString
+    }
+
+  }
+
+  def Aswitch(strTok: String, rawList: List[_]): Unit = {
+    //println("SHOW ALL")
+  }
+
+  def Iswitch(strTok: String, rawList: List[_]): Unit = {
+    //println("INSERT")
+  }
+
+  def Sswitch(strTok: String, rawList: List[_]): Unit = {
+    //    println(strTok)
+    println(BSTsearch(rawList, strTok))
+
+  }
+
+  def Dswitch(strTok: String, rawList: List[_]): Unit = {
+    //println("Delete")
+  }
+
+  def BSTsearch(args: List[_], command: String): List[_] = {
+    println(command)
+    val parsecode = command.split(" ")
+    val item = parsecode(1).toUpperCase()
+    val itemval = (item.toList.head.toDouble - 64)
+    val nums = 0 to args.length
+    var first = 1;
+    var last = args.length;
+    var middle = first + (first + last) / 2;
+    var count = 0;
+
+    if (itemval < 0 || itemval > 26) {
+      val result =
+        return List("invalid country code", "0")
+    } else {
+      while (first <= last) {
+
+        count = count + 1
+
+        if (middle == 3 && last == 2) {
+          middle = 0;
+        } else if (middle == 25 && args(middle).toString().compareTo(item) == -2) {
+          return ("poop", "0").toString().toList
+        } else {
+          middle = first + (last - first) / 2;
+        }
+
+        if (args(middle) == item) {
+          if (0 == args(middle).toString().compareTo(item)) {
+
+            printf("DONE: %s = %s", item, args(middle))
+            printf("\nNumber of nodes %d\n", count);
+            return List("invalid country code", "0")
+          } else {
+            return List("invalid country code", "0")
+          }
+          first = last + 1;
+
+        } else if (args(middle).toString().compareTo(item)
+          < 0) {
+          first = middle + 1;
+        } else {
+          last = middle - 1;
+        }
+      }
+    }
+    return List("invalid country code", "0")
+  }
+
+  def printList(args: List[_]): Unit = {
+    args.foreach(println)
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+import scala.collection.mutable.ListBuffer
+import scala.io.Source
+import _root_.scala.tools.nsc
+
+class UIoutput {
+}
+  def writeout(toLog: String) Unit = {
+  
+  
+  
+  
+  
+}

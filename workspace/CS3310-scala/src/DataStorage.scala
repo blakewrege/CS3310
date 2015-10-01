@@ -7,34 +7,84 @@ import _root_.scala.tools.nsc
  * I had to use some improvised solutions here.
  */
 
-class DataStorage(val filedata: Iterator[String]) {
-
-  val fileLines = filedata.toList
-  var count = 0
-  val codearray = new ListBuffer[String]()
-  val valuearray = new ListBuffer[Int]()
-  if (filedata.length > 2) {
-    println("Setup")
+class DataStorage(val UIoutput: UIoutput) {
+  def fromraw(filedata: Iterator[String]): Unit = {
+    val fileLines = filedata.toList
+    var count = 0
+    val codearray = new ListBuffer[String]()
+    val valuearray = new ListBuffer[Int]()
     while (count < (fileLines.length)) {
       val words = fileLines(count).split(",")
       codearray += words(1)
       valuearray += words(1).toList.head.toInt - 64
       count = count + 1;
     }
-  }
-  val codeList = codearray.toList
-  val valueList = valuearray.toList
-  val sortedList = codeList.sortWith(_ < _)
 
-  if (filedata.length > 2) {
+    val codeList = codearray.toList
+    val valueList = valuearray.toList
+    val sortedList = codeList.sortWith(_ < _)
+
     scala.tools.nsc.io.File("Backup.csv").writeAll(sortedList.mkString(","))
-  } 
-  
+
+  }
+
+  def frombackup: String = {
     val databackup = Source.fromFile("Backup.csv", "ISO-8859-1").getLines.mkString(",")
-    val test = databackup.split(",")
-    
-  
+    return databackup
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//class DataStorage(val filedata: Iterator[String]) {
+//
+//  val fileLines = filedata.toList
+//  var count = 0
+//  val codearray = new ListBuffer[String]()
+//  val valuearray = new ListBuffer[Int]()
+//  if (filedata.length > 2) {
+//    println("Setup")
+//    while (count < (fileLines.length)) {
+//      val words = fileLines(count).split(",")
+//      codearray += words(1)
+//      valuearray += words(1).toList.head.toInt - 64
+//      count = count + 1;
+//    }
+//  }
+//  val codeList = codearray.toList
+//  val valueList = valuearray.toList
+//  val sortedList = codeList.sortWith(_ < _)
+//
+//  if (filedata.length > 2) {
+//    scala.tools.nsc.io.File("Backup.csv").writeAll(sortedList.mkString(","))
+//  } 
+//  
+//    val databackup = Source.fromFile("Backup.csv", "ISO-8859-1").getLines.mkString(",")
+//    val test = databackup.split(",")
+//    
+//  
+//}
 
 
 

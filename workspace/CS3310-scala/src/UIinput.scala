@@ -1,87 +1,105 @@
 import scala.io.Source
 import scala.collection.mutable.ListBuffer
 
-class UIinput(val filename: String, val rawdata: String) {
+class UIinput(val UIoutput: UIoutput) {
 
-  val transData = Source.fromFile(filename, "ISO-8859-1").getLines.toList
-  val rawList = rawdata.split(",").toList
-  filterList(transData,rawList)
+  def setup(filename: String): List[_] = {
+    UIoutput.displayThis("\n-->> OPENED TransData file")
+    val transData = Source.fromFile(filename, "ISO-8859-1").getLines.toList
+    UIoutput.displayThis("\n-->> CLOSED TransData file")
+    return transData
+  }
+  
 
-  
-  
-  def filterList(transData: List[_],rawList: List[_]): Unit = {
-    var count = 0
-    val argarry = new ListBuffer[String]()
-    while (count < (transData.length)) {
-      transData(count).toString().take(1) match {
-        case "A" => Aswitch(transData(count).toString(),rawList)
-        case "I" => Iswitch(transData(count).toString(),rawList)
-        case "S" => Sswitch(transData(count).toString(),rawList)
-        case "D" => Dswitch(transData(count).toString(),rawList)
-        case broke => "Unexpected case: " + broke.toString
-      }
-      count = count + 1
+  def filterList(transline: String, rawList: List[_]): List[_] = {
+
+    transline.take(1) match {
+    //  case "A" => return Aswitch(transline, rawList)
+  //    case "I" => return Iswitch(transline, rawList)
+      case "S" => return Sswitch(transline, rawList) :+ transline.toUpperCase
+   //   case "D" => return Dswitch(transline, rawList)
+      case _ => return List("comment",0) :+ transline.take(1)
     }
 
   }
 
-  def Aswitch(strTok: String,rawList: List[_]): Unit = {
-    println("SHOW ALL")
+  def Aswitch(strTok: String, rawList: List[_]): Unit = {
+    //println("SHOW ALL")
   }
 
-  def Iswitch(strTok: String,rawList: List[_]): Unit = {
-    println("INSERT")
+  def Iswitch(strTok: String, rawList: List[_]): Unit = {
+    //println("INSERT")
   }
 
-  def Sswitch(strTok: String,rawList: List[_]): Unit = {
+  def Sswitch(strTok: String, rawList: List[_]): List[_] = {
+    //    println(strTok)
+    return BSTsearch(rawList, strTok)
     
-    BSTsearch(rawList,strTok)
+
+  }
+
+  def Dswitch(strTok: String, rawList: List[_]): Unit = {
+    //println("Delete")
+  }
   
-  }
+  
+  
 
-  def Dswitch(strTok: String,rawList: List[_]): Unit = {
-    println("Delete")
-  }
-
-  def BSTsearch(args: List[_], command: String): Unit = {
+  def BSTsearch(args: List[_], command: String): List[_] = {
     val parsecode = command.split(" ")
-    val code = parsecode(1)
-    var count = 0;
-    val item = code.toUpperCase()
-    val itemval = item.toList.head.toInt - 64
-    val nums = 1 to args.length
+    val item = parsecode(1).toUpperCase()
+    val itemval = (item.toList.head.toDouble - 64)
+    val nums = 0 to args.length
     var first = 1;
     var last = args.length;
     var middle = first + (first + last) / 2;
+    var count = 0;
 
-    while (first <= last) {
-      println()
-      count = count + 1
+    if (itemval < 0 || itemval > 26) {
+      val result =
+        return List("invalid", "0")
+    } else {
+      while (first <= last) {
 
-      if (middle == 3 && last == 2) {
-        middle = 0;
-      } else {
-        middle = first + (last - first) / 2;
-      }
+        count = count + 1
 
-      if (nums(middle) == itemval) {
-        if (item == args(middle)) {
-
-          println()
-          printf("DONE: %s = %s",item, args(middle))
-          printf("\nNumber of nodes %d", count);
+        if (middle == 3 && last == 2) {
+          middle = 0;
+        } else if (middle == 25 && args(middle).toString().compareTo(item) == -2) {
+            return List("invalid", count)
         } else {
-          printf("\nCountry Code %s not found",item);
+          middle = first + (last - first) / 2;
         }
-        first = last + 1;
 
-      } else if (nums(middle) < itemval) {
-        first = middle + 1;
-      } else {
-        last = middle - 1;
+        if (args(middle) == item) {
+          if (0 == args(middle).toString().compareTo(item)) {
+
+
+            return List("valid", count)
+          } else {
+            return List("invalid", count)
+          }
+          first = last + 1;
+
+        } else if (args(middle).toString().compareTo(item)
+          < 0) {
+          first = middle + 1;
+        } else {
+          last = middle - 1;
+        }
       }
     }
-
+    return List("invalid", count)
   }
 
+  def printList(args: List[_]): Unit = {
+    args.foreach(println)
+  }
 }
+
+
+
+
+
+
+

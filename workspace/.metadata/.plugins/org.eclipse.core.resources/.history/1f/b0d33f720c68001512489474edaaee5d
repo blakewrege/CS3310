@@ -1,0 +1,44 @@
+import scala.io.Source
+import scala.collection.mutable.ListBuffer
+
+object UserApp {
+
+  def main(args: Array[String]) {
+    val logger = new UIoutput
+    logger.writeout("\n-->> USERAPP started")
+
+    val rawdata = new DataStorage()
+    val input = new UIinput()
+
+ val translist =  input.setup("TransData.txt")
+ 
+    var count = 0
+    while (count < (translist.length - 1)) {
+    val transaction = input.filterList(translist(count).toString(), rawdata.frombackup.split(",").toList)
+    readtransaction(transaction)
+    count = count + 1
+    
+    }
+
+    
+    
+    
+    logger.writeout("\n-->> USERAPP finished – processed 14 transactions")
+    
+    
+    
+    def printList(args: List[_]): Unit = {
+      args.foreach(println)
+    }
+     
+    def readtransaction(args: List[_]): Unit = {
+   if( args(0).toString().compareTo("comment") != 0) {
+      logger.writeout("\n"+args(0))
+    }
+    }
+    
+
+  }
+
+}
+

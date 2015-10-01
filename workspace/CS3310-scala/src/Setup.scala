@@ -10,10 +10,15 @@ import scala.collection.mutable.ListBuffer
 object Setup {
 
   def main(args: Array[String]) {
+    val UIoutput = new UIoutput
+    UIoutput.start("-->> SETUP started")
+    val indata = new RawData("RawData.csv", UIoutput)
 
-    val indata = new RawData("RawData.csv")
-    val outdata = new DataStorage(indata.file)
-
+    val outdata = new DataStorage(UIoutput)
+    outdata.fromraw(indata.file)
+    
+    
+    UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage") 
   }
 
   def printList(args: List[_]): Unit = {

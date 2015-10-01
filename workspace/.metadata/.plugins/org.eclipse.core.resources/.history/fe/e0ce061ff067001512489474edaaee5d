@@ -1,0 +1,34 @@
+import scala.io.Source
+import scala.collection.mutable.ListBuffer
+
+
+object UserApp {
+ 
+  
+    def main(args: Array[String]) {
+    val logger = new UIoutput
+    logger.writeout("\n-->> SETUP started")
+     
+     val rawdata = new DataStorage()    
+     val input = new UIinput()
+    
+     input.setup("Backup.csv",rawdata.frombackup )
+    
+    
+    
+     //printList(rawDat.databackup.split(",").toList)
+     
+
+      
+     
+      def printList(args: List[_]): Unit = {
+    args.foreach(println)
+  }  
+      
+    }
+    
+    
+  
+  
+}
+
