@@ -1,11 +1,10 @@
 import scala.io.Source
 import scala.collection.mutable.ListBuffer
 
-
 /**
- * @author blake
+ * @author Blake Wrege
+ * CS3310 Assignment 1
  */
-
 
 object Setup {
 
@@ -16,42 +15,29 @@ object Setup {
 
     val outdata = new DataStorage(UIoutput)
     var count = 0
-    while (count < indata.file.length){
-     outdata.insert(indata.readline(indata.file(count)))
-     //println(indata.readline(indata.file(count)))
-     count = count + 1
+
+    // Reading the file line by line
+
+    val lines = new ListBuffer[String]()
+
+    while (count < indata.file.length) {
+
+      println(indata.readline(indata.file(count)))
+      count = count + 1
     }
 
+    UIoutput.displayThis("\n-->> OPENED Backup file")
 
- 
-    
-    
-    
-    
-    
-    
-    
-    
-//        outdata.fromraw(indata.file)
-  
-    val dim: List[List[Int]] =
-   List(
-      List(1, 0, 0),
-      List(0, 1, 0),
-      List(0, 0, 1)
-   )
-   
-  //printList(dim)
-  
-      UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage") 
-  
+    outdata.fromraw(indata.file)
+    UIoutput.displayThis("\n-->> CLOSED Backup file")
+
+    UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage")
+
   }
 
   def printList(args: List[List[_]]): Unit = {
     args(0).foreach(println)
   }
-
- 
 
 }
 

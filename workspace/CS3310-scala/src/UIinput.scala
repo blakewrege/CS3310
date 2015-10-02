@@ -11,39 +11,43 @@ class UIinput(val UIoutput: UIoutput) {
   }
   
 
+  //Case operators in Scala are called match
+  
   def filterList(transline: String, rawList: List[_]): List[_] = {
 
     transline.take(1) match {
-    //  case "A" => return Aswitch(transline, rawList)
-  //    case "I" => return Iswitch(transline, rawList)
+      case "A" => return Aswitch(transline, rawList)
+      case "I" => return Iswitch(transline, rawList)
       case "S" => return Sswitch(transline, rawList) :+ transline.toUpperCase
-   //   case "D" => return Dswitch(transline, rawList)
+      case "D" => return Dswitch(transline, rawList)
       case _ => return List("comment",0) :+ transline.take(1)
     }
 
   }
 
   def Aswitch(strTok: String, rawList: List[_]): Unit = {
-    //println("SHOW ALL")
+    println("SHOW ALL")
   }
 
   def Iswitch(strTok: String, rawList: List[_]): Unit = {
-    //println("INSERT")
+    println("INSERT")
   }
 
   def Sswitch(strTok: String, rawList: List[_]): List[_] = {
-    //    println(strTok)
+        println(strTok)
     return BSTsearch(rawList, strTok)
     
 
   }
 
   def Dswitch(strTok: String, rawList: List[_]): Unit = {
-    //println("Delete")
+    println("Delete")
   }
   
   
   
+  
+  // My original BST that works just isn't in the right spot
 
   def BSTsearch(args: List[_], command: String): List[_] = {
     val parsecode = command.split(" ")

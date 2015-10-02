@@ -1,0 +1,62 @@
+-->> SETUP started
+-->> OPENED RawData file
+-->> CLOSED RawData file
+-->> OPENED Backup file
+-->> CLOSED Backup file
+-->> SETUP finished – inserted 26 countries into DataStorage
+-->> USERAPP started
+-->> OPENED TransData file
+-->> CLOSED TransData file
+-->> OPENED Backup file
+S MEX >> [visited 5 nodes]
+S ATA >> [visited 4 nodes]
+S ZWE >> [visited 4 nodes]
+S IND >> [visited 5 nodes]
+S POL >> [visited 5 nodes]
+S LBN >> [visited 4 nodes]
+S VEN >> [visited 4 nodes]
+S OMN >> [visited 4 nodes]
+S GBR >> [visited 2 nodes]
+S AAA >> invalid [visited 4 nodes]
+S AXE >> invalid [visited 5 nodes]
+S RUT >> invalid [visited 5 nodes]
+S GOD >> invalid [visited 4 nodes]
+S GAP >> invalid [visited 5 nodes]
+S PAN >> invalid [visited 5 nodes]
+S PUT >> invalid [visited 5 nodes]
+S MIX >> invalid [visited 5 nodes]
+S MAX >> invalid [visited 5 nodes]
+S MEX >> [visited 5 nodes]
+S ATA >> [visited 4 nodes]
+S RUS >> [visited 5 nodes]
+S 123 >> invalid [visited 0 nodes]
+S ### >> invalid [visited 0 nodes]
+S ::: >> invalid [visited 0 nodes]
+S [[[ >> invalid [visited 0 nodes]
+S {{{ >> invalid [visited 0 nodes]
+S KEN >> [visited 5 nodes]
+S OMN >> [visited 4 nodes]
+S SOM >> [visited 4 nodes]
+S JPN >> [visited 3 nodes]
+S YEM >> [visited 5 nodes]
+S FRA >> [visited 5 nodes]
+S RUS >> [visited 5 nodes]
+S ZWE >> [visited 4 nodes]
+S MEX >> [visited 5 nodes]
+S DEU >> [visited 3 nodes]
+S IND >> [visited 5 nodes]
+S XVI >> [visited 3 nodes]
+S ABC >> invalid [visited 4 nodes]
+S ZYX >> invalid [visited 5 nodes]
+S RAN >> invalid [visited 5 nodes]
+S RUT >> invalid [visited 5 nodes]
+S ICE >> invalid [visited 5 nodes]
+S IOU >> invalid [visited 5 nodes]
+S KAP >> invalid [visited 5 nodes]
+S KUP >> invalid [visited 5 nodes]
+S KAA >> invalid [visited 5 nodes]
+S KZZ >> invalid [visited 5 nodes]
+S IAA >> invalid [visited 5 nodes]
+S IZZ >> invalid [visited 5 nodes]
+-->> CLOSED Backup file
+-->> USERAPP finished – processed 189 transactions
