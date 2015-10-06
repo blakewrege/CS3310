@@ -17,32 +17,29 @@ object Setup {
 
     val lines = new ListBuffer[String]()
 
-    //    while (count < indata.file.length){
-    //
-    //     println(indata.readline(indata.file(count)))
-    //     count = count + 1
-    //    }
+        while (count < indata.file.length){
+  outdata.insert("CN")
+//         println(indata.readline(indata.file(count)))
+         count = count + 1
+        }
 
     UIoutput.displayThis("\n-->> OPENED Backup file")
 
-    outdata.fromraw(indata.file)
+ //   outdata.fromraw(indata.file)
     UIoutput.displayThis("\n-->> CLOSED Backup file")
 
     UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage")
 
+    outdata.getClass.asSubclass(f)
   }
 
-  def printList(args: List[List[_]]): Unit = {
-    args(0).foreach(println)
-  }
+
 
 }
 
 
 
-  
 
-  
-  
+
   
   

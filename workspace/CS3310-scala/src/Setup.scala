@@ -15,22 +15,27 @@ object Setup {
 
     val outdata = new DataStorage(UIoutput)
     var count = 0
-
+    val test = new BinarySearchTree
     // Reading the file line by line
 
     val lines = new ListBuffer[String]()
 
     while (count < indata.file.length) {
-
-      println(indata.readline(indata.file(count)))
+      val lister = indata.readline(indata.file(count))
+ //  test.insert(lister(0).toString())
+ //     test.insert(count.toString())
+     outdata.insert(indata.readline(indata.file(count)))
+//      println(indata.readline(indata.file(count)))
       count = count + 1
     }
+   // test.inOrderTraversal
 
     UIoutput.displayThis("\n-->> OPENED Backup file")
 
-    outdata.fromraw(indata.file)
+    //outdata.fromraw(indata.file)
+     outdata.finishup
     UIoutput.displayThis("\n-->> CLOSED Backup file")
-
+    
     UIoutput.displayThis("\n-->> SETUP finished – inserted 26 countries into DataStorage")
 
   }

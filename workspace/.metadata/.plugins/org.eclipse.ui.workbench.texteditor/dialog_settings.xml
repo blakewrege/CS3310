@@ -2,17 +2,22 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="User" key="selection"/>
+		<item value="UIoutput.displayThis" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="log.display_this"/>
+			<item value="log.display_this(&quot;--&gt;&gt; CLOSED Backup file&quot;"/>
+			<item value="UIoutput.displayThis"/>
 			<item value="import scala.io.Source"/>
 			<item value="user"/>
 			<item value="super"/>
 		</list>
 		<list key="replacehistory">
+			<item value="UIoutput.displayThis"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

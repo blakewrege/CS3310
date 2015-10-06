@@ -16,6 +16,7 @@ class RawData(val filename: String, val UIoutput: UIoutput) {
     
  val parselist = line.split(",").toList 
     
+
   return List(parselist(0),parselist(1),parselist(2),
       parselist(3),parselist(5),parselist(7),parselist(8))
   }
