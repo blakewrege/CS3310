@@ -1,0 +1,70 @@
+
+import java.io.ByteArrayInputStream;
+import java.io.DataInputStream;
+import java.io.IOException;
+
+public class fileobj3
+{
+public static void main(String args[]) throws IOException
+{
+
+String s = "";
+int poo = 1958201;
+String hexstr = Integer.toHexString(poo); 
+System.out.println("Converts Int to Hex to Ascii");
+System.out.print("Int= "+poo+" \nHex= "+ hexstr+"\n");
+
+if(hexstr.length()==6){
+	hexstr = "00"+hexstr.substring(0, 6);
+}
+
+int decpoo = 0;
+
+
+String Hexarry[] = new String[4];
+int Decarry[] = new int[4];
+
+for (int c=0; c<hexstr.length(); c=c+2) {
+Hexarry[c/2] = hexstr.substring(c, c+2);	
+Decarry[c/2] = hex2decimal(hexstr.substring(c, c+2));	
+System.out.println("Hex= "+ Hexarry[c/2] +" Dec= "+Decarry[c/2] +" ASCII= "+(char)Decarry[c/2] );
+
+} 
+
+
+}
+
+
+public static int hex2decimal(String s) {
+    String digits = "0123456789ABCDEF";
+    s = s.toUpperCase();
+    int val = 0;
+    for (int i = 0; i < s.length(); i++) {
+        char c = s.charAt(i);
+        int d = digits.indexOf(c);
+        val = 16*val + d;
+    }
+    return val;
+}
+
+}
+
+
+
+/*
+1234 = 49-50-51-52 = 31-32-33-34 = 825373492
+
+example from program: 
+
+1958201 = 00-1d-e1-39 = 0-29-225-57 = weirdshit
+Converts Int to Hex to Ascii
+Int= 1958201 
+Hex= 1de139
+Hex= 00 Dec= 0 ASCII= 
+Hex= 1d Dec= 29 ASCII= 
+Hex= e1 Dec= 225 ASCII= á
+Hex= 39 Dec= 57 ASCII= 9
+
+*/
+
+

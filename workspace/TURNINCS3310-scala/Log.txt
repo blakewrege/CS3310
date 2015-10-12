@@ -1,3 +1,0 @@
--->> SETUP started
--->> OPENED RawData file
--->> CLOSED RawData file

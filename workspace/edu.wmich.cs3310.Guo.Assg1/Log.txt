@@ -374,3 +374,47 @@ LOC> LCH RCH CDE ID- NAME-------------------- CONTINENT---- -------AREA ---POPUL
 037> -01 -01 IZZ 060 IZOOZOO                  Antarctica              0             0  0.0
 ===========================
 -->> PRETTY PRINT finished
+-->> PRETTYPRINT started
+RootPtr is 00, N is 38, NextEmptyPtr is 38
+
+LOC> LCH RCH CDE ID- NAME-------------------- CONTINENT---- -------AREA ---POPULATION LIFE
+000> 001 003 MEX 012 Mexico                   North America   1,958,201    98,881,000 71.5
+001> 005 002 CHN 003 China                    Asia            9,572,900 1,277,558,000 71.4
+002> 004 013 JPN 009 Japan                    Asia              377,829   126,714,000 80.7
+003> 009 008 USA 006 United States            North America   9,363,520   278,357,000 77.1
+004> 012 006 FRA 019 France                   Europe            551,500    59,225,700 78.8
+005> 025 -01 BEL 027 Belgium                  Europe             30,518    10,239,000 77.8
+006> -01 007 GBR 017 United Kingdom           Europe            242,900    59,623,400 77.7
+007> -01 014 HTI 030 Haiti                    North America      27,750     8,222,000 49.2
+008> -01 011 VEN 022 Venezuela                South America     912,050    24,170,000 73.1
+009> -01 010 NIC 031 Nicaragua                North America     130,000     5,074,000 68.7
+010> 015 017 POL 020 Poland                   Europe            323,250    38,653,600 73.2
+011> 018 022 YEM 024 Yemen                    Asia              527,968    18,112,000 59.8
+012> 016 -01 EGY 015 Egypt                    Africa          1,001,449    68,470,000 63.3
+013> 019 -01 LBN 032 Lebanon                  Asia               10,400     3,282,000 71.3
+014> 030 031 IND 004 India                    Asia            3,287,263 1,013,662,000 62.5
+015> -01 -01 OMN 033 Oman                     Asia              309,500     2,542,000 71.8
+016> -01 -01 DEU 013 Germany                  Europe            357,022    82,164,700 77.4
+017> 021 024 SOM 028 Somalia                  Africa            637,657    10,097,000 46.2
+018> -01 020 WSM 036 Samoa                    Oceania             2,831       180,000 69.2
+019> 032 033 KEN 021 Kenya                    Africa            580,367    30,080,000 48.0
+020> -01 -01 XVI 001 Hex Land                 North America           1 1,966,514,816  0.0
+021> -01 023 QAT 035 Qatar                    Asia               11,000       599,000 72.4
+022> -01 027 ZWE 025 Zimbabwe                 Africa            390,757    11,669,000 37.8
+023> 028 029 RUS 008 Russian Federation       Europe         17,075,400   146,934,000 67.2
+024> -01 -01 TCA 037 Turks and Caicos Islands North America         430        17,000 73.3
+025> 026 -01 ATA 039 Antarctica               Antarctica     13,120,000             0  0.0
+026> -01 -01 ABC 040 ABETTERCOUNTRY           Europe        123,456,789 1,234,567,890 82.9
+027> -01 -01 ZYX 041 ZONEYOURXRAY             Asia                  100        98,765 25.0
+028> -01 -01 RAN 042 RANDOM                   Asia          248,248,248 9,876,543,210 29.2
+029> -01 -01 RUT 043 RUTABAGA                 Africa         98,769,876        88,888 30.1
+030> 036 -01 ICE 050 ICECREAMSANDWICH         Asia          121,212,121   999,999,999 60.0
+031> -01 037 IOU 051 IOWEYOU                  North America  10,101,010   900,800,700 71.5
+032> 034 -01 KAP 055 KAPISTAN                 South America  44,884,488       345,678 63.8
+033> -01 035 KUP 056 KUPERTINO                North America     246,246 1,234,567,890 75.9
+034> -01 -01 KAA 057 KAACHEW                  Africa            987,987    10,000,000 41.4
+035> -01 -01 KZZ 058 KALAMAZOOZOO             North America 100,200,300 9,876,543,210 68.9
+036> -01 -01 IAA 059 IAMAPPLE                 Oceania                10            25 30.1
+037> -01 -01 IZZ 060 IZOOZOO                  Antarctica              0             0  0.0
+===========================
+-->> PRETTY PRINT finished
