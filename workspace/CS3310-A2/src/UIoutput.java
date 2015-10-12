@@ -42,4 +42,9 @@ public class UIoutput
 	{
 		output.close();
 	}
+
+	public void displayThis(StringBuffer buf) {
+		// TODO Auto-generated method stub
+		
+	}
 }

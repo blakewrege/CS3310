@@ -22,7 +22,6 @@ public class RawData
 	String inFileName = "RawData.csv";
 	private FileReader input;
 	private BufferedReader inFile;
-	private String restOfData;
 	public int n = 0;
 	private String name;
 	private String continent;
@@ -69,12 +68,6 @@ public class RawData
 		lifeExpectancy = Float.parseFloat(field[8]);
 		
 		
-		
-		
-		
-		
-		
-		restOfData = field[1] + "," + field[2] + "," + field[3] + "," + field[5] + "," + field[7] + "," + field[8];
 	}
 	
 	public int getN()
@@ -88,10 +81,6 @@ public class RawData
 		return id;
 	}
 	
-	public String getRestOfData()
-	{
-		return restOfData;
-	}
 		
 	public void finishUp() throws IOException
 	{

@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="UIoutput.displayThis" key="selection"/>
+		<item value="input" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="rd"/>
 			<item value="Gr"/>
 			<item value="log.display_this"/>
 			<item value="log.display_this(&quot;--&gt;&gt; CLOSED Backup file&quot;"/>
@@ -21,6 +22,7 @@
 			<item value="super"/>
 		</list>
 		<list key="replacehistory">
+			<item value="input"/>
 			<item value="UIoutput.displayThis"/>
 			<item value=""/>
 		</list>

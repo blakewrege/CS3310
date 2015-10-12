@@ -1,84 +1,194 @@
+import java.awt.event.FocusAdapter;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.ArrayList;
+import java.util.Formatter;
 
-/********************************
- * Countries Of The World App 1.0
- * @author Caleb Viola
- */
+
+
 public class DataStorage {
 	private short n;
 	private short maxId;
-	private boolean[] status;
-	private RandomAccessFile file;
-	private DataTableRecord dtr;
+	RandomAccessFile file;
+	
 
-	/*************************************************************
-	 * Constructor
-	 * @param fileName
-	 * @param log
-	 * @throws IOException
-	 */
-	public DataStorage(String fileName, Log log) throws IOException{
+
+	public DataStorage(String fileName,UIoutput output) throws IOException{
+		
 		file = new RandomAccessFile(fileName, "rw");
-		file.seek(0);
-		try {
-			String[] line = file.readLine().split("'");
-			n = Short.parseShort(line[0]);
-			maxId = Short.parseShort(line[1]);
-		} catch (Exception e) {
-			n = 0;
-			maxId = 1;
-			file.writeBytes(String.format("%03d'%03d\n", n, maxId));
-		}
-		log.displayThis("FILE STATUS > CountryData FILE opened");
-		dtr = new DataTableRecord();
-	}	
-	
 
-	/************************************************************
-	 * IN command
-	 * @param code
-	 * @param id
-	 * @param name
-	 * @param continent
-	 * @param area
-	 * @param population
-	 * @param lifeExpectancy
-	 * @param userApp
-	 * @param log
-	 * @throws IOException
-	 */
-	public void insert1Country(String code, short id, String name,
-			String continent, int area, long population, float lifeExpectancy,
-			Log log) throws IOException { 
-		dtr.byteOffset(id);
-		status = dtr.locateWithStatus(file);
-		if ((status[0] && status[1]) || (!status[0] && status[1])){
-			if (id > maxId){
-				/* fill space in between with pre-formatted string
-				 * for better management and readability
-				 * */
-				if (id-maxId != 1){
-					dtr.byteOffset(maxId+1);
-					status = dtr.locateWithStatus(file);
-					for (int x = maxId+1; x < id; x++)
-						dtr.fill1record(file);
-				}
-				maxId = id;
-			}
-			dtr.write1Country(file, code, id, name, continent, area,
-					population, lifeExpectancy);
-			n++;
-			
-		}else if (status[0] && !status[1])
-			log.displayThis("   SORRY, another country has that id");
-		else
-			log.displayThis("   SORRY, invalid id");	
-	}
-}
+
 	
+		
+		
+		
+	}
+	
+	public void setup() throws IOException{
+		file.seek(2);
+		file.writeShort((short)39);	
+		int x=0;
+		int poo=0;
+		file.seek(4);
+		while(x<(52*39)){
+		file.write((char)poo);
+		x = x+1;
+		}
+		
+	}
+	
+	
+	
+	
+	
+	public void insert1Country(String code, short id, String name,
+			String continent, int area, long population, float lifeExpectancy) throws IOException{
+
+		file.seek(((id*52)+4)-52);
+		
+		file.writeShort((short)id);	
+		file.write(code.getBytes());
+		while (name.length()<18){name = name+" ";}
+		name = name.substring(0,18);
+		while (continent.length()<13){continent = continent+" ";}
+	    continent = continent.substring(0,13);
+		file.write(name.getBytes());
+		file.write(continent.getBytes());
+		file.writeInt(area);
+		file.writeLong(population);
+		file.writeFloat((float)lifeExpectancy);
+
+	}
+
+	public void select(short id, UIoutput output) throws IOException {
+
+		// System.out.println(id);
+		int x = 0;
+		short myID;
+		String myCode = "";
+		String myName = "";
+		String myContitnent = "";
+		int myArea;
+		long myPopulation;
+		float myLifeExpectancy;
+	    StringBuffer buf = new StringBuffer();
+	    java.util.Formatter formatter = new java.util.Formatter(buf);
+
+		if (id > 0 && id < 39) {
+			file.seek(((id * 52) + 4) - 52);
+			myID = file.readShort();
+
+			if (id == myID) {
+				while (x < 34) {
+					if (x < 3) {
+						myCode = myCode + (char) file.read();
+					} else if (x < 21) {
+						myName = myName + (char) file.read();
+					} else {
+						myContitnent = myContitnent + (char) file.read();
+					}
+					x = x + 1;
+
+				}
+				myArea=file.readInt();
+				myPopulation=file.readLong();
+				myLifeExpectancy=file.readFloat();
+				formatter.format("%s %03d %-24s %-13s %,11d %,13d %4.1f\n", 
+               	new String(myCode), id, new String(myName), new String(myContitnent), myArea, myPopulation, myLifeExpectancy);
+				output.displayThis("S " + id + " >> ");
+				output.displayThis("CDE ID- NAME-------------------- CONTINENT---- -------AREA ---POPULATION LIFE");
+				output.displayThis(buf.toString());
+				output.displayThis("");//output a blank line	
+				formatter.close();	
+			}
+			if(x==0){
+				output.displayThis("S " + id + " >> " + "invalid country id " +"\n");	
+			}
+		}
+
+	}
+
+	public void finishUp() throws IOException {
+		file.close();
+
+	}
+
+}
+//	public void insert1Country(String code, Short id, String name, String continent, int area, long population,
+//			float lifeExpectancy, UIoutput output) throws IOException {
+//		file.writeShort((short)12);	
+//		file.write("MEX".getBytes());
+//		while (name.length()<18){
+//			name = name+" ";
+//		}
+//		file.write("Mexico            ".getBytes());
+//		file.write(name.getBytes());
+//		file.write("North America".getBytes());
+//		file.writeInt(1958201);
+//		file.writeLong(98881000);
+//		file.writeFloat((float)71.5);
+//		
+//	}
+//	public DataStorage(String fileName, Log log) throws IOException{
+//		file = new RandomAccessFile(fileName, "rw");
+//		file.seek(4);
+//		try {
+//			String[] line = file.readLine().split("'");
+//			n = Short.parseShort(line[0]);
+//			maxId = Short.parseShort(line[1]);
+//		} catch (Exception e) {
+//			n = 0;
+//			maxId = 1;
+//			file.writeBytes(String.format("%03d'%03d\n", n, maxId));
+//		}
+//		log.displayThis("FILE STATUS > CountryData FILE opened");
+//		dtr = new DataTableRecord();
+//	}	
+//	
+//
+//	/************************************************************
+//	 * IN command
+//	 * @param code
+//	 * @param id
+//	 * @param name
+//	 * @param continent
+//	 * @param area
+//	 * @param population
+//	 * @param lifeExpectancy
+//	 * @param userApp
+//	 * @param log
+//	 * @throws IOException
+//	 */
+//	public void insert1Country(String code, short id, String name,
+//			String continent, int area, long population, float lifeExpectancy,
+//			Log log) throws IOException { 
+//		dtr.byteOffset(id);
+//		status = dtr.locateWithStatus(file);
+//		if ((status[0] && status[1]) || (!status[0] && status[1])){
+//			if (id > maxId){
+//				/* fill space in between with pre-formatted string
+//				 * for better management and readability
+//				 * */
+//				if (id-maxId != 1){
+//					dtr.byteOffset(maxId+1);
+//					status = dtr.locateWithStatus(file);
+//					for (int x = maxId+1; x < id; x++)
+//						dtr.fill1record(file);
+//				}
+//				maxId = id;
+//			}
+//			dtr.write1Country(file, code, id, name, continent, area,
+//					population, lifeExpectancy);
+//			n++;
+//			
+//		}else if (status[0] && !status[1])
+//			log.displayThis("   SORRY, another country has that id");
+//		else
+//			log.displayThis("   SORRY, invalid id");	
+//	}
+//}
+//	
 	
 	
 	
