@@ -18,11 +18,11 @@ public class UserApp {
 		String transCode;
 		UIinput input = new UIinput();
 		UIoutput output = new UIoutput("open in append mode");//The String is just for calling a specified constructor for UserApp
-		DataStorage dataStorage = new DataStorage("DataStorage.bin", output);
+		DataStorage stor = new DataStorage("DataStorage.bin",output);
 		output.displayThis("-->> USERAPP started");
 		output.displayThis("-->> OPENED TransData file");
-		output.displayThis("-->> OPENED Backup file");
 		output.displayThis("-->> OPENED Log file\n");
+		stor.setupApp();
 		
 
 		//TransCode is the 1st char in the record: I, D, S, A (for Insert, Delete, Select, showAll)
@@ -32,11 +32,13 @@ public class UserApp {
 			transCode = input.getTransCode();
 			switch (transCode)
 			{
-//			case "I": dataStorage.insert(input.getCountryCode(), input.getRestOfData());
-//				break;
-//			case "D": dataStorage.delete(input.getCountryCode());
-//				break;
-			case "S": dataStorage.select(input.getId(),output);
+			case "I": stor.insert1Country(input.getCode(), input.getId(), input.getName(),
+			input.getContinent(), input.getArea(), input.getPopulation(),
+			input.getLifeExpectancy(),output);
+				break;
+			case "D": stor.delete(input.getId(),output);
+				break;
+			case "S": stor.select(input.getId(),output);
 				break;
 //			case "A": dataStorage.all();
 //				break;
@@ -47,10 +49,9 @@ public class UserApp {
 			}
 		}	
 		output.displayThis("-->> CLOSED Log file");
-		output.displayThis("-->> CLOSED Backup file");
 		output.displayThis("-->> CLOSED TransData file");
-		output.displayThis("-->> USERAPP finished" + " - processed " + input.getN() + " transactions\n");
-		dataStorage.finishUp();
+		output.displayThis("-->> USERAPP finished" + " - processed " + input.getId() + " transactions\n");
+		stor.finishUp();
 		output.finishUp();
 	}
 }

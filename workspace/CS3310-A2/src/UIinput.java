@@ -8,17 +8,21 @@
 
 
 import java.io.*;
-
+import java.util.Arrays;
 public class UIinput {
 	
-	private String inFileName = "TransData2a.txt";
+	private String inFileName = "TransData2b.txt";
 	private FileReader input;
 	private BufferedReader inFile;
 	private int n = 0;
 	private String transCode;
 	private short id;
-	private String restOfData;
-	private String countryCode;
+	private String name;
+	private String continent;
+	private String code;
+	private int area;
+	private long population;
+	private float lifeExpectancy;
 	
 	//Constructor
 	public UIinput() throws FileNotFoundException
@@ -53,10 +57,7 @@ public class UIinput {
 		return id;
 	}
 	
-	public String getRestOfData()
-	{
-		return restOfData;
-	}
+
 	
 	public int getN() //get the number of transactions
 	{
@@ -66,31 +67,67 @@ public class UIinput {
 	private void cleanup(String theLine) //separate the line to independent String field.
 	{
 		transCode = theLine.substring(0, 1);
+
 		if(transCode.equals("%")){} //If transcode is %, then do nothing
 		else if(transCode.equals("S")){id = (short) Integer.parseInt(theLine.substring(2, theLine.length()));} //If thranscode is S, then read id
 		else if(transCode.equals("A")){}
 		else if(transCode.equals("I")) //If transcode is I, then clean up the information of the record.
 		{
+
 			String field[] = theLine.substring(2, theLine.length()).split(",");
-			countryCode = field[1];
-			restOfData = field[0] + "," + field[2] + "," + field[3] + "," + field[4] + "," + field[5] + "," + field[6];
+			//System.out.println(Arrays.toString(field)+" "+ field.length);
+		    id= Short.parseShort((field[1]));
+			code = field[0].trim();
+			name = field[2];
+			
+			continent = field[3];
+			area = Integer.parseInt(field[4]);
+			population = Long.parseLong(field[5]);
+			lifeExpectancy = Float.parseFloat(field[6]);
+			
 		}
-		else if(transCode.equals("D")){countryCode = theLine.substring(2, 5);}
+		else if(transCode.equals("D")){id = (short) Integer.parseInt(theLine.substring(2, theLine.length()));}
+	}
+
+	public float getLifeExpectancy() {
+		// TODO Auto-generated method stub
+		return lifeExpectancy;
+	}
+
+	public long getPopulation() {
+		// TODO Auto-generated method stub
+		return population;
+	}
+
+	public int getArea() {
+		// TODO Auto-generated method stub
+		return area;
+	}
+
+	public String getContinent() {
+		// TODO Auto-generated method stub
+		return continent;
+	}
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return name;
+	}
+
+	public String getCode() {
+		// TODO Auto-generated method stub
+		return code;
 	}
 	
-	private void setCountryCode(String countryCode)
-	{
-		this.countryCode = countryCode;
-	}
-	
-	private void setTransCode(String transCode)
-	{
-		this.transCode = transCode;
-	}
+
 //
-//	public void finishUp() throws IOException //close file
-//	{
-//		input.close();
-//		inFile.close();
-//	}
+	public void finishUp() throws IOException //close file
+	{
+		input.close();
+		inFile.close();
+	}
+	
+	
+	
+	
 }

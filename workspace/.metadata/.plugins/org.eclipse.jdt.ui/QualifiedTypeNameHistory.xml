@@ -53,10 +53,10 @@
 <fullyQualifiedTypeName name="java.lang.Byte"/>
 <fullyQualifiedTypeName name="java.lang.Long"/>
 <fullyQualifiedTypeName name="Log"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="DataStorage"/>
 <fullyQualifiedTypeName name="UIoutput"/>
 <fullyQualifiedTypeName name="java.awt.event.FocusAdapter"/>
 <fullyQualifiedTypeName name="java.util.Formatter"/>
+<fullyQualifiedTypeName name="DataStorage"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

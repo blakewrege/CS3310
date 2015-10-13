@@ -19,7 +19,7 @@ public class RawData
 	final short SIZE_OF_CODE = (short) (3 * SIZE_OF_A_CHAR);
 	final short SIZE_OF_NAME = (short) (18 * SIZE_OF_A_CHAR);
 	final short SIZE_OF_CONT = (short) (13 * SIZE_OF_A_CHAR);
-	String inFileName = "RawData.csv";
+	String inFileName = "RawData2.csv";
 	private FileReader input;
 	private BufferedReader inFile;
 	public int n = 0;

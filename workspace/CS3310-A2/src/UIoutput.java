@@ -30,14 +30,7 @@ public class UIoutput
 		output.format(status + "\n");
 	}
 	
-	//receive BST node and display (formatted)
-	public void displayThis(Node BST) throws IOException
-	{
-		output.format("%s %03d %-24s %-13s %,11d %,13d %4.1f\n",
-               BST.countryCode, Integer.parseInt(BST.id), BST.name, BST.continent, Long.parseLong(BST.area), 
-               Long.parseLong(BST.population), Double.parseDouble(BST.life));
-	}
-	
+
 	public void finishUp() throws IOException
 	{
 		output.close();

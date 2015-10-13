@@ -6,22 +6,24 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="input" key="selection"/>
+		<item value="print" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="print"/>
+			<item value=","/>
+			<item value="import java.awt.event.FocusAdapter;"/>
+			<item value="&#x09;public void select(short id, UIoutput output) throws IOException {"/>
 			<item value="rd"/>
 			<item value="Gr"/>
 			<item value="log.display_this"/>
 			<item value="log.display_this(&quot;--&gt;&gt; CLOSED Backup file&quot;"/>
-			<item value="UIoutput.displayThis"/>
-			<item value="import scala.io.Source"/>
-			<item value="user"/>
-			<item value="super"/>
 		</list>
 		<list key="replacehistory">
+			<item value="+&quot;,&quot;+"/>
+			<item value="&quot;,&quot;"/>
 			<item value="input"/>
 			<item value="UIoutput.displayThis"/>
 			<item value=""/>
@@ -31,7 +33,7 @@
 		<item value="321" key="DIALOG_WIDTH"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="212" key="DIALOG_Y_ORIGIN"/>
-		<item value="981" key="DIALOG_X_ORIGIN"/>
+		<item value="304" key="DIALOG_Y_ORIGIN"/>
+		<item value="1202" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

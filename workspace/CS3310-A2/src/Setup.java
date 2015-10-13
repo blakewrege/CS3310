@@ -22,14 +22,15 @@ public class Setup {
 		
 		RawData input = new RawData();
 		UIoutput output  = new UIoutput(); 
-		DataStorage stor = new DataStorage("DataStorage.bin", output);
+		DataStorage stor = new DataStorage("DataStorage.bin",output);
+		stor.setup();
 		
 
 		
 		output.displayThis("-->> SETUP started");
 		output.displayThis("-->> OPENED RawData file");
 		output.displayThis("-->> OPENED Log file\n");
-		stor.setup();
+
 		
 		while(input.input1Country()) //loop through the end of the file
 		{
@@ -46,7 +47,7 @@ public class Setup {
 		output.displayThis("-->> CLOSED Backup file");
 		output.displayThis("-->> CLOSED RawData file");
 		output.displayThis("-->> SETUP finished" + " - inserted " + input.getN() + " countries into DataStorage\n");
-		
+
 		output.finishUp();
 		
 		
@@ -55,63 +56,3 @@ public class Setup {
 }
 		
 		
-		
-		
-//		
-//public void addCountry(Country country) throws Exception {
-//    file.seek(0);
-//    short n = file.readShort();
-//    short maxId = file.readShort();
-//    if (country.getId() > maxId || country.getId() <= 0) {
-//        throw new Exception("Invalid country ID.");
-//    }
-//
-//    // Find the beginning of the record.
-//    file.seek(4 + country.getId() * COUNTRY_SIZE);
-//
-//    // Read the ID.
-//    short id = file.readShort();
-//    if (id == country.getId()) {
-//        throw new Exception("Invalid (duplicate) country ID.");
-//    } else {
-//        file.writeChars(country.getCode());
-//        file.writeChars(String.format("%1$-" + 18 + "s", country.getName()));
-//        file.writeChars(String.format("%1$-" + 13 + "s", country.getContinent()));
-//        file.writeInt(country.getArea());
-//        file.writeLong(country.getPopulation());
-//        file.writeFloat(country.getLifeExpectancy());
-//    }
-//}
-//		
-		
-		
-		
-
-
-
-//		RawData input = new RawData();
-//		DataStorage dataStorage = new DataStorage();
-//		UIoutput output = new UIoutput(); //Open in truncate mode
-//		
-//		output.displayThis("-->> SETUP started");
-//		output.displayThis("-->> OPENED RawData file");
-//		output.displayThis("-->> OPENED Backup file");
-//		output.displayThis("-->> OPENED Log file\n");
-//		
-//		while(input.input1Country()) //loop through the end of the file
-//		{
-//			dataStorage.insert(input.getCountryCode(), input.getRestOfData());
-//			//store to interior storage, which is an array
-//		}
-//		
-//		output.displayThis("-->> CLOSED Log file");
-//		output.displayThis("-->> CLOSED Backup file");
-//		output.displayThis("-->> CLOSED RawData file");
-//		output.displayThis("-->> SETUP finished" + " - inserted " + input.getN() + " countries into DataStorage\n");
-//		
-//		output.finishUp();
-//		dataStorage.finishUp();
-//		input.finishUp();
-//		System.out.printf("done");
-//	} 
-
