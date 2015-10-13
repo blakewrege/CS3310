@@ -1,16 +1,13 @@
 //CLASS: UIinput - Used by UserApp program
-//AUTHOR: Jia Guo
-//DESCRIPTION: Input file for UserApp program. EVERYTHING to do with this file is done within UIinput class
-//		transCode is the 1st char in the record: I, D, S, A (for Insert, Delete, Select, showAll)
-//		sample records: I FRA ... D CHN S USA A 
-//Regarding any other issues, please feel free to contact me via email: jia.guo@wmich.edu
+//AUTHOR: Blake Wrege (based off Jia Guo)
+//DESCRIPTION: Input file for UserApp program. 
 //*****************************************************************************************************
 
 
 import java.io.*;
 import java.util.Arrays;
 public class UIinput {
-	
+	// Use both TransData2a.txt and TransData2b.txt
 	private String inFileName = "TransData2b.txt";
 	private FileReader input;
 	private BufferedReader inFile;

@@ -1,12 +1,5 @@
 //CLASS: RawData - Used by Setup program
-//AUTHOR: Jia Guo
-//DESCRIPTION: This is the input file for Setup program. The functions of this class includes: 
-//		open file in public constructor, close file in public finishUp method, a single record read 
-//		in by input1Country public method; record split into individual fields by private cleanup and setter methods
-//		individual field data available to Setup by public getter methods; only a SINGLE record (and a single set of fields) 
-//		is needed within the class since a NEW record can over-write the prior record’s data, since the prior record is already 
-//		completely handled
-//Regarding any other issues, please feel free to contact me via email: jia.guo@wmich.edu
+//AUTHOR: Blake
 //*****************************************************************************************************
 
 

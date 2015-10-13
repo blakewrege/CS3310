@@ -1,11 +1,6 @@
 //PROGRAM: UserApp
-//AUTHOR: Jia Guo
-//DESCRIPTION: UserApp (and the 3 classes it uses) processes the user requests (transactions) 
-//		which are in TransData file (obtained by calling appropriate methods in UIinput class), 
-//		sending the answers to displayThis method in UIoutput class. To get the answers for the 
-//		requests, UserApp calls appropriate public methods in DataStorage class. Again, appropriate 
-//		status messages are sent to displayThis method in UIoutput class, as needed.
-//Regarding any other issues, please feel free to contact me via email: jia.guo@wmich.edu
+//AUTHOR: Blake Wrege (based off Jia Guo)
+//DESCRIPTION: Setup (and the 3 classes it uses) creates DataStorage file
 //*****************************************************************************************************
 
 
@@ -21,6 +16,7 @@ public class UserApp {
 		DataStorage stor = new DataStorage("DataStorage.bin",output);
 		output.displayThis("-->> USERAPP started");
 		output.displayThis("-->> OPENED TransData file");
+		output.displayThis("-->> OPENED DataStorage file");
 		output.displayThis("-->> OPENED Log file\n");
 		stor.setupApp();
 		
@@ -40,8 +36,8 @@ public class UserApp {
 				break;
 			case "S": stor.select(input.getId(),output);
 				break;
-//			case "A": dataStorage.all();
-//				break;
+			case "A": stor.all(output);
+				break;
 			case "%": 
 				break;
 			default: System.out.println("Invalid transcode!");
@@ -49,6 +45,7 @@ public class UserApp {
 			}
 		}	
 		output.displayThis("-->> CLOSED Log file");
+		output.displayThis("-->> CLOSED DataStorage file");
 		output.displayThis("-->> CLOSED TransData file");
 		output.displayThis("-->> USERAPP finished" + " - processed " + input.getId() + " transactions\n");
 		stor.finishUp();

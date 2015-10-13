@@ -1,5 +1,5 @@
 //CLASS: UIoutput - used by both Setup and UserApp
-//AUTHOR: Jia GUO
+//AUTHOR: Blake Wrege (based off Jia Guo)
 //DESCRIPTION: output report to Log.txt
 //Regarding any other issues, please feel free to contact me via email: jia.guo@wmich.edu
 //*****************************************************************************************************

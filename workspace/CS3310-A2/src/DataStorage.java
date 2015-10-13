@@ -21,19 +21,20 @@ public class DataStorage {
 		file.setLength(0);
 	}
 
-	// Reads the maxID in the file for UserApp
+	// Reads the maxID in DataStorage file for UserApp
 	public void setupApp() throws IOException {
 		file.seek(2);
 		maxId = file.readShort();
 	}
-
+	// Ensures maxID is in the correct location in file and closes it
 	public void finishUp() throws IOException {
 		file.seek(2);
 		file.writeShort((short) maxId);
 		file.close();
 
 	}
-
+	// Compares the current id to the  maxId, if id is greater than maxId then it
+	// becomes new the new maxId and fills the file with empty records to that point
 	public void getMax(short id) throws IOException {
 		if (maxId <= id) {
 			if (maxId == 0) {
@@ -54,7 +55,20 @@ public class DataStorage {
 		}
 
 	}
+	// Is used to print off all the records, calls selectAll function
+	public void all(UIoutput output) throws IOException {
 
+		output.displayThis("\nA");
+		output.displayThis("CDE ID- NAME-------------------- CONTINENT---- -------AREA ---POPULATION LIFE");
+		int count = 1;
+		while (count < maxId) {
+			selectAll((short) count, output);
+			count = count + 1;
+		}
+		output.displayThis("");
+	}
+	
+	// Insert used by the Setup Program
 	public void insert1Country(String code, short id, String name, String continent, int area, long population,
 			float lifeExpectancy) throws IOException {
 
@@ -78,49 +92,99 @@ public class DataStorage {
 		file.writeFloat((float) lifeExpectancy);
 
 	}
-
+	// Overloaded insert function used by the UserApp Program
 	public void insert1Country(String code, short id, String name, String continent, int area, long population,
 			float lifeExpectancy, UIoutput output) throws IOException {
 
 		output.displayThis("I " + new String(code) + "," + id + "," + new String(name.trim()) + ","
 				+ new String(continent.trim()) + "," + area + "," + population + "," + lifeExpectancy);
-
+		boolean valid = true;
+		// If id is less than maxId checks to ensure not duplicate
 		if (id > 0 && id < maxId) {
 			file.seek(((id * 52) + 4) - 52);
 			if (id == file.readShort()) {
 				output.displayThis("   >> (duplicate) invalid country id \n");
-			} 
-		}else if (id > 0 && id < 60) {
+				valid = false;
+			}
+		}
+		// Checks to make sure id isn't out of bounds
+		if (id < 1 || id > 60) {
+			output.displayThis("   >> invalid country id \n");
 
-				getMax(id);
+			valid = false;
+		}
 
-				file.seek(((id * 52) + 4) - 52);
+		if (valid == true) {
 
-				file.writeShort((short) id);
-				file.write(code.getBytes());
-				while (name.length() < 18) {
-					name = name + " ";
+			getMax(id);
+
+			file.seek(((id * 52) + 4) - 52);
+
+			file.writeShort((short) id);
+			file.write(code.getBytes());
+			while (name.length() < 18) {
+				name = name + " ";
+			}
+			name = name.substring(0, 18);
+			while (continent.length() < 13) {
+				continent = continent + " ";
+			}
+			continent = continent.substring(0, 13);
+			file.write(name.getBytes());
+			file.write(continent.getBytes());
+			file.writeInt(area);
+			file.writeLong(population);
+			file.writeFloat((float) lifeExpectancy);
+			output.displayThis("   >> OK, " + name + " inserted \n");
+
+		}
+
+	}
+
+	
+	
+	// Basically just the select method except only the data record
+	public void selectAll(short id, UIoutput output) throws IOException {
+
+		int x = 0;
+		short myID;
+		String myCode = "";
+		String myName = "";
+		String myContinent = "";
+		int myArea;
+		long myPopulation;
+		float myLifeExpectancy;
+		StringBuffer buf = new StringBuffer();
+		java.util.Formatter formatter = new java.util.Formatter(buf);
+
+		if (id > 0 && id < maxId) {
+			file.seek(((id * 52) + 4) - 52);
+			myID = file.readShort();
+
+			if (id == myID) {
+				while (x < 34) {
+					if (x < 3) {
+						myCode = myCode + (char) file.read();
+					} else if (x < 21) {
+						myName = myName + (char) file.read();
+					} else {
+						myContinent = myContinent + (char) file.read();
+					}
+					x = x + 1;
+
 				}
-				name = name.substring(0, 18);
-				while (continent.length() < 13) {
-					continent = continent + " ";
-				}
-				continent = continent.substring(0, 13);
-				file.write(name.getBytes());
-				file.write(continent.getBytes());
-				file.writeInt(area);
-				file.writeLong(population);
-				file.writeFloat((float) lifeExpectancy);
-				output.displayThis("   >> OK, " + name + " inserted \n");
-
-			} else {
-				output.displayThis("   >> invalid country id \n");
-
+				myArea = file.readInt();
+				myPopulation = file.readLong();
+				myLifeExpectancy = file.readFloat();
+				formatter.format("%s %03d %-24s %-13s %,11d %,13d %4.1f", new String(myCode), id, new String(myName),
+						new String(myContinent), myArea, myPopulation, myLifeExpectancy);
+				output.displayThis(buf.toString());
+				formatter.close();
 			}
 		}
 
-	
-
+	}
+	// Used to select a record
 	public void select(short id, UIoutput output) throws IOException {
 
 		int x = 0;
@@ -134,7 +198,7 @@ public class DataStorage {
 		StringBuffer buf = new StringBuffer();
 		java.util.Formatter formatter = new java.util.Formatter(buf);
 
-		if (id > 0 && id < 39) {
+		if (id > 0 && id < maxId) {
 			file.seek(((id * 52) + 4) - 52);
 			myID = file.readShort();
 
@@ -167,7 +231,7 @@ public class DataStorage {
 		}
 
 	}
-
+	// Used to delete a record
 	public void delete(short id, UIoutput output) throws IOException {
 
 		int x = 0;
