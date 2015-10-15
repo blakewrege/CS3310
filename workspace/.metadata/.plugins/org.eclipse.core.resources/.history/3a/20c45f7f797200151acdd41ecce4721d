@@ -72,45 +72,24 @@ public class DataStorage {
 	public void insert1Country(String code, short id, String name, String continent, int area, long population,
 			float lifeExpectancy) throws IOException {
 
-		boolean valid = true;
-		// If id is less than maxId checks to ensure not duplicate
-		if (id > 0 && id < maxId) {
-			file.seek(((id * 52) + 4) - 52);
-			if (id == file.readShort()) {
-				System.out.print("  (duplicate) invalid country id \n");
-				valid = false;
-			}
+		getMax(id);
+		file.seek(((id * 52) + 4) - 52);
+
+		file.writeShort((short) id);
+		file.write(code.getBytes());
+		while (name.length() < 18) {
+			name = name + " ";
 		}
-		// Checks to make sure id isn't out of bounds
-		if (id < 1 || id > 60) {
-			System.out.print(" invalid country id \n");
-
-			valid = false;
+		name = name.substring(0, 18);
+		while (continent.length() < 13) {
+			continent = continent + " ";
 		}
-
-		if (valid == true) {
-
-			getMax(id);
-
-			file.seek(((id * 52) + 4) - 52);
-
-			file.writeShort((short) id);
-			file.write(code.getBytes());
-			while (name.length() < 18) {
-				name = name + " ";
-			}
-			name = name.substring(0, 18);
-			while (continent.length() < 13) {
-				continent = continent + " ";
-			}
-			continent = continent.substring(0, 13);
-			file.write(name.getBytes());
-			file.write(continent.getBytes());
-			file.writeInt(area);
-			file.writeLong(population);
-			file.writeFloat((float) lifeExpectancy);
-
-		}
+		continent = continent.substring(0, 13);
+		file.write(name.getBytes());
+		file.write(continent.getBytes());
+		file.writeInt(area);
+		file.writeLong(population);
+		file.writeFloat((float) lifeExpectancy);
 
 	}
 	// Overloaded insert function used by the UserApp Program
