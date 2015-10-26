@@ -16173,3 +16173,21 @@ java.lang.NullPointerException
 2015-10-14 09:42:04,847 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 2015-10-14 09:42:04,847 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 2015-10-14 09:42:04,847 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at java.lang.Thread.run(Thread.java:745)
+2015-10-24 12:48:43,368  WARN [Worker-5] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 12:48:43,374  WARN [Worker-5] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 12:48:43,393  WARN [Worker-5] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 12:48:43,397  WARN [Worker-5] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 12:48:44,998  WARN [Worker-5] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 12:48:44,998  WARN [Worker-5] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 12:48:52,253  WARN [Java indexing] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 12:48:52,254  WARN [Java indexing] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 12:52:18,912  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 12:52:18,913  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 15:00:00,080  WARN [Worker-19] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 15:00:00,081  WARN [Worker-19] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 15:00:00,082  WARN [Worker-19] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 15:00:00,082  WARN [Worker-19] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 15:00:00,171  WARN [Worker-19] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 15:00:00,171  WARN [Worker-19] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-24 15:00:01,644  WARN [Java indexing] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-10-24 15:00:01,645  WARN [Java indexing] - ScalaProject - Project CS3310-scala runs on platform default installation.

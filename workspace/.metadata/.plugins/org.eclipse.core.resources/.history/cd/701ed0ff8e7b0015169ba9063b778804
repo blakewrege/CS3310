@@ -1,0 +1,116 @@
+import java.awt.event.FocusAdapter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.ArrayList;
+import java.util.Formatter;
+
+public class HashTable {
+	private short n;
+	private short maxId = 0;
+	int MAX_SIZE = 499;
+	int IdArr[] = new int[MAX_SIZE];
+	String CodeArr[] = new String[MAX_SIZE];
+
+
+
+	
+	// Insert used by the Setup Program
+	public void insert1Country(String code, short id, String name, String continent, int area, long population,
+			float lifeExpectancy) throws IOException {
+
+		boolean valid = true;
+		// If id is less than maxId checks to ensure not duplicate
+		if (id > 0 && id < maxId) {
+			file.seek(((id * 52) + 4) - 52);
+			if (id == file.readShort()) {
+				System.out.print("  (duplicate) invalid country id \n");
+				valid = false;
+			}
+		}
+		// Checks to make sure id isn't out of bounds
+		if (id < 1 || id > 60) {
+			System.out.print(" invalid country id \n");
+
+			valid = false;
+		}
+
+		if (valid == true) {
+
+			getMax(id);
+
+			file.seek(((id * 52) + 4) - 52);
+
+			file.writeShort((short) id);
+			file.write(code.getBytes());
+			while (name.length() < 18) {
+				name = name + " ";
+			}
+			name = name.substring(0, 18);
+			while (continent.length() < 13) {
+				continent = continent + " ";
+			}
+			continent = continent.substring(0, 13);
+			file.write(name.getBytes());
+			file.write(continent.getBytes());
+			file.writeInt(area);
+			file.writeLong(population);
+			file.writeFloat((float) lifeExpectancy);
+
+		}
+
+	}
+	// Overloaded insert function used by the UserApp Program
+	public void insert1Country(String code, short id, String name, String continent, int area, long population,
+			float lifeExpectancy, UIoutput output) throws IOException {
+
+		output.displayThis("I " + new String(code) + "," + id + "," + new String(name.trim()) + ","
+				+ new String(continent.trim()) + "," + area + "," + population + "," + lifeExpectancy);
+		boolean valid = true;
+		// If id is less than maxId checks to ensure not duplicate
+		if (id > 0 && id < maxId) {
+			file.seek(((id * 52) + 4) - 52);
+			if (id == file.readShort()) {
+				output.displayThis("   >> (duplicate) invalid country id \n");
+				valid = false;
+			}
+		}
+		// Checks to make sure id isn't out of bounds
+		if (id < 1 || id > 60) {
+			output.displayThis("   >> invalid country id \n");
+
+			valid = false;
+		}
+
+		if (valid == true) {
+
+			getMax(id);
+
+			file.seek(((id * 52) + 4) - 52);
+
+			file.writeShort((short) id);
+			file.write(code.getBytes());
+			while (name.length() < 18) {
+				name = name + " ";
+			}
+			name = name.substring(0, 18);
+			while (continent.length() < 13) {
+				continent = continent + " ";
+			}
+			continent = continent.substring(0, 13);
+			file.write(name.getBytes());
+			file.write(continent.getBytes());
+			file.writeInt(area);
+			file.writeLong(population);
+			file.writeFloat((float) lifeExpectancy);
+			output.displayThis("   >> OK, " + name + " inserted \n");
+
+		}
+
+	}
+
+	
+
+
+
+}

@@ -1,0 +1,8 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE:	1
+RAW DATA FILE:	Test
+HASH FUNCTION: 1 (with maxNHomeLoc: 20)
+COL RESOL ALG: 2 (Chaining, Separate)
+N_HOME: 11, N_COLL: 15 --> 26
+AVE SEARCH PATH (for successful):	(11+52)/(11+15) --> 2.4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
