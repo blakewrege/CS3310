@@ -37,8 +37,7 @@ public class Setup {
 		output.displayThis("RAW DATA FILE:	Test");
 		output.displayThis("HASH FUNCTION: 1 (with maxNHomeLoc: 20)");
 		output.displayThis("COL RESOL ALG: 2 (Chaining, Separate)");
-		output.displayThis("N_HOME: 11, N_COLL: 15 --> 26");
-		output.displayThis("AVE SEARCH PATH (for successful):	(11+52)/(11+15) --> 2.4");
+
 		stor.Hash(count,1, 20, 2, output);
 		output.displayBrk();
 		
