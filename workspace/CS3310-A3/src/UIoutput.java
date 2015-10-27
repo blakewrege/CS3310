@@ -31,7 +31,7 @@ public class UIoutput
 	}
 	public void displayBrk() throws IOException
 	{
-		output.format("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" + "\n", null);
+		output.format("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" + "\n", null);
 	}
 	
 

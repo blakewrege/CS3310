@@ -1,33 +1,25 @@
 //PROGRAM: Setup
 //AUTHOR: Blake Wrege (based off Jia Guo)
-//DESCRIPTION: Setup (and the 3 classes it uses) creates DataStorage file
+//DESCRIPTION: 
 
-//******************************************  Assignment 2  *******************************************************
-
+//******************************************  Assignment 3  *******************************************************
 
 import java.io.*;
 
 public class Setup {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException
-	{
-		
-		
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+
 		RawData input = new RawData("RawDataTest.csv");
-		UIoutput output  = new UIoutput(); 
-		HashTable stor = new HashTable();		
+		UIoutput output = new UIoutput();
+		HashTable stor = new HashTable();
 		int count = 0;
 
-
-
-		
-		while(input.input1Country()) //loop through the end of the file
+		while (input.input1Country()) // loop through the end of the file
 		{
 
-			
-			
-			stor.insert1Country(input.getCode(), input.getId(),count);
-		count = count +1;
+			stor.insert1Country(input.getCode(), input.getId(), count);
+			count = count + 1;
 
 		}
 		input.finishUp();
@@ -35,46 +27,61 @@ public class Setup {
 		output.displayBrk();
 		output.displayThis("CASE:	1");
 		output.displayThis("RAW DATA FILE:	Test");
-		output.displayThis("HASH FUNCTION: 1 (with maxNHomeLoc: 20)");
-		output.displayThis("COL RESOL ALG: 2 (Chaining, Separate)");
+		stor.Hash(count, 1, 20, 2, output);
 
-		stor.Hash(count,1, 20, 2, output);
-		output.displayBrk();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-//		RawData inputAll = new RawData("RawDataAll.csv");
-//		HashTable storAll = new HashTable();	
-//		count = 0;
-//		System.out.println("now for all");
-//		
-//		while(inputAll.input1Country()) //loop through the end of the file
-//		{
-//			
-//			
-//			storAll.insert1Country(inputAll.getCode(), inputAll.getId(),count);
-//		count = count +1;
-//
-//		}
-//		inputAll.finishUp();
-//		storAll.ReadAll(count);
-//		
-		
-		
-		
-		
-		
-		
-		
-		
+		output.displayThis("CASE:	2");
+		output.displayThis("RAW DATA FILE:	Test");
+		stor.Hash(count, 2, 20, 2, output);
+
+		output.displayThis("CASE:	3");
+		output.displayThis("RAW DATA FILE:	Test");
+		stor.Hash(count, 3, 20, 2, output);
+
+		output.displayThis("CASE:	4");
+		output.displayThis("RAW DATA FILE:	Test");
+		stor.Hash(count, 4, 20, 2, output);
+
+		output.displayThis("CASE:	5");
+		output.displayThis("RAW DATA FILE:	Test");
+		stor.Hash(count, 1, 30, 2, output);
+
+		output.displayThis("CASE:	6");
+		output.displayThis("RAW DATA FILE:	Test");
+		stor.Hash(count, 1, 30, 1, output);
+
+		RawData inputAll = new RawData("RawDataAll.csv");
+		HashTable storAll = new HashTable();
+		count = 0;
+		System.out.println("now for all");
+
+		while (inputAll.input1Country()) // loop through the end of the file
+		{
+
+			storAll.insert1Country(inputAll.getCode(), inputAll.getId(), count);
+			count = count + 1;
+
+		}
+		inputAll.finishUp();
+		// storAll.ReadAll(count);
+		output.displayThis("CASE:	7");
+		output.displayThis("RAW DATA FILE:	ALL");
+		storAll.Hash(count, 1, 240, 2, output);
+
+		output.displayThis("CASE:	8");
+		output.displayThis("RAW DATA FILE:	ALL");
+		storAll.Hash(count, 1, 260, 2, output);
+
+		output.displayThis("CASE:	9");
+		output.displayThis("RAW DATA FILE:	ALL");
+		storAll.Hash(count, 1, 350, 2, output);
+
+		output.displayThis("CASE:	10");
+		output.displayThis("RAW DATA FILE:	ALL");
+		storAll.Hash(count, 1, 240, 1, output);
+
+		output.displayThis("CASE:	11");
+		output.displayThis("RAW DATA FILE:	ALL");
+		storAll.Hash(count, 1, 260, 1, output);
 
 		output.finishUp();
 
@@ -82,17 +89,3 @@ public class Setup {
 }
 
 
-
-////setup ensures that the binary file has been cleared
-//stor.setup();
-//
-//output.displayThis("-->> SETUP started");
-//output.displayThis("-->> OPENED RawData file");
-
-//output.displayThis("-->> CLOSED Log file");
-//output.displayThis("-->> CLOSED RawData file");		
-//output.displayThis("-->> CLOSED DataStorage file");
-//output.displayThis("-->> SETUP finished" + " - inserted " + input.getN() + " countries into DataStorage\n");
-//stor.finishUp();
-		
-		

@@ -10,19 +10,13 @@ public class RawData
 	
 	final short SIZE_OF_A_CHAR = 1; 
 	final short SIZE_OF_CODE = (short) (3 * SIZE_OF_A_CHAR);
-	final short SIZE_OF_NAME = (short) (18 * SIZE_OF_A_CHAR);
-	final short SIZE_OF_CONT = (short) (13 * SIZE_OF_A_CHAR);
 	String inFileName = "RawDataTest.csv";
 	private FileReader input;
 	private BufferedReader inFile;
 	public int n = 0;
-	private String name;
-	private String continent;
 	private String code;
 	private short id;
-	private int area;
-	private long population;
-	private float lifeExpectancy;
+
 
 	
 	public RawData(String inFileName) throws FileNotFoundException, IOException
@@ -58,7 +52,6 @@ public class RawData
 		if(field[8].equals("NULL"))
 			field[8] = "0.0";
 		code = field[0];
-		name = field[2];
 
 		}	
 		
@@ -85,47 +78,6 @@ public class RawData
 	
 	public String getCode(){
 		return code;
-	}
-	
-	
-	/*****************
-	 * Getter for name
-	 * @return
-	 */
-	public String getName(){
-		return name;
-	}
-	
-	/**********************
-	 * Getter for continent
-	 * @return
-	 */
-	public String getContinent(){
-		return continent;
-	}
-	
-	/*****************
-	 * Getter for area
-	 * @return
-	 */
-	public int getArea(){
-		return area;
-	}
-	
-	/***********************
-	 * Getter for population
-	 * @return
-	 */
-	public long getPopulation(){
-		return population;
-	}
-	
-	/***************************
-	 * Getter for lifeExpectancy
-	 * @return
-	 */
-	public float getLifeExpectancy(){
-		return lifeExpectancy;
 	}
 	
 }

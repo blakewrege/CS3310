@@ -1,14 +1,16 @@
-import java.awt.event.FocusAdapter;
-import java.io.FileNotFoundException;
+//CLASS: Hash Table
+//AUTHOR: Blake Wrege (based off Jia Guo)
+//DESCRIPTION: Setup (and the 3 classes it uses) creates DataStorage file
+
+//******************************************  Assignment 3  *******************************************************
+
+
+
 import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Formatter;
 
 public class HashTable {
-	int nCase = 1;
-	private short maxId = 0;
 	int MAX_SIZE = 499;
 	int IdArr[] = new int[MAX_SIZE];
 	String CodeArr[] = new String[MAX_SIZE];
@@ -16,9 +18,11 @@ public class HashTable {
 	int LinkArr[] = new int[MAX_SIZE];
 	int ColArr[] = new int[MAX_SIZE];
 	int ColArrNew[] = new int[MAX_SIZE];
+	boolean usedArr[] = new boolean[MAX_SIZE];
 	String HomeLoc[] = new String[MAX_SIZE];
 
 	int nColl = 0;
+	int tColl = 0;
 	int nHome = 0;
 
 	// Insert used by the Setup Program
@@ -26,6 +30,18 @@ public class HashTable {
 		CodeArr[count] = code;
 		IdArr[count] = id;
 
+	}
+
+	public void cleanup() {
+		HomeArr = new int[MAX_SIZE];
+		LinkArr = new int[MAX_SIZE];
+		ColArr = new int[MAX_SIZE];
+		ColArrNew = new int[MAX_SIZE];
+		HomeArr = new int[MAX_SIZE];
+		usedArr = new boolean[MAX_SIZE];
+		nColl = 0;
+		tColl = 0;
+		nHome = 0;
 	}
 
 	public void Hash(int count, int HashFunc, int maxNHomeLoc, int ColRes, UIoutput output) throws IOException {
@@ -37,34 +53,141 @@ public class HashTable {
 			hashnum = Hashformula(HashFunc, i);
 			hashaddr = hashnum % maxNHomeLoc;
 
-			// System.out.println(CodeArr[i] + " " + IdArr[i] + " " + hashnum +
-			// " " + hashaddr);
-
 			if (ColRes == 2) {
 				ColArr[i] = hashaddr;
-				HomeArr[i] = Myhome(hashaddr, i, maxNHomeLoc);
+				HomeArr[i] = chainCol(hashaddr, i, maxNHomeLoc);
 			}
-			// System.out.println(CodeArr[i] + " " + HomeArr[i] + "
-			// "+ColArr[i]);
+			if (ColRes == 1) {
+				// System.out.println(CodeArr[i]+" "+hashaddr);
+				ColArr[i] = hashaddr;
+				HomeArr[i] = linearCol(hashaddr, i, maxNHomeLoc);
+			}
+
+		}
+		output.displayThis("HASH FUNCTION: " + HashFunc + " (with maxNHomeLoc: " + maxNHomeLoc + ")");
+
+		if (ColRes == 1) {
+			linearFinshup(maxNHomeLoc);
+			tColl = tColl + nColl;
+			output.displayThis("COL RESOL ALG: 1 (Linear, Embedded)");
+			output.displayThis("N_HOME: " + nHome + ", N_COLL: " + nColl + " --> " + (nColl + nHome));
+			output.displayThis("AVE SEARCH PATH (for successful):	(" + nHome + "+" + tColl + ")/(" + nHome + "+"
+					+ nColl + ") --> " + roundAvg());
+			if (count < 31) {
+			output.displayThis("LOC  CODE DRP");
+
+				for (int i = 0; i < maxNHomeLoc; i++) {
+					linearFormat(i, output);
+				}
+			}else{
+				output.displayThis("HASH TABLE:  big table --> saved paper by not printing it");	
+			}
+			
 
 		}
 
 		if (ColRes == 2) {
+			output.displayThis("COL RESOL ALG: 2 (Chaining, Separate)");
+			output.displayThis("N_HOME: " + nHome + ", N_COLL: " + nColl + " --> " + (nColl + nHome));
+
 			setLinks(maxNHomeLoc);
+			searchPathChain(maxNHomeLoc);
+			output.displayThis("AVE SEARCH PATH (for successful):	(" + nHome + "+" + tColl + ")/(" + nHome + "+"
+					+ nColl + ") --> " + roundAvg());
+			if (count < 31) {
+				output.displayThis("LOC  CODE DRP LINK");
+				for (int i = 0; (i < maxNHomeLoc + nColl); i++) {
+					if (LinkArr[i] == 0) {
+						LinkArr[i] = -1;
+					}
+
+					chainFormat(i, output);
+					}
+				
+
+			}else{
+				output.displayThis("HASH TABLE:  big table --> saved paper by not printing it");	
+			}
+
 		}
+		cleanup();
+		output.displayBrk();
 
-		output.displayThis("N_HOME: " + nHome + ", N_COLL: " + nColl + " --> " + (nColl + nHome));
-		output.displayThis("AVE SEARCH PATH (for successful):	(11+52)/(11+15) --> 2.4");
-		if (nCase < 7) {
+	}
 
-			output.displayThis("LOC  CODE DRP LINK");
-			for (int i = 0; (i < maxNHomeLoc + nColl); i++) {
-				format(i, output);
+	public String roundAvg() {
+		float top = nHome + tColl;
+		float bottem = nHome + nColl;
+
+		return roundOff(top / bottem);
+	}
+
+	String roundOff(float val) {
+		return String.format("%.1f", val);
+	}
+
+		
+	public void searchPathChain(int maxNHomeLoc) {
+
+		for (int i = 0; i < (maxNHomeLoc + nColl); i++) {
+			if (ColArrNew[i] != -1) {
+				for (int j = i + 1; j < (maxNHomeLoc + nColl); j++) {
+					if (ColArrNew[i] == ColArrNew[j]) {
+						LinkArr[i] = j;
+						tColl++;
+					}
+				}
+
 			}
 		}
 
-		nCase++;
+		tColl = tColl + nColl;
 
+	}
+
+	private int linearCol(int hashaddr, int i, int maxNHomeLoc) {
+
+		if (usedArr[hashaddr] == false) {
+			nHome++;
+		} else {
+			nColl++;
+		}
+
+		while (usedArr[hashaddr] == true) {
+			if (hashaddr < maxNHomeLoc - 1) {
+				hashaddr++;
+				tColl++;
+			} else {
+				hashaddr = 0;
+				tColl++;
+			}
+		}
+
+		usedArr[hashaddr] = true;
+
+		return hashaddr;
+	}
+
+	public void linearFinshup(int maxNHomeLoc) {
+		for (int i = 0; i < (nColl + nHome); i++) {
+			HomeLoc[HomeArr[i]] = CodeArr[i] + " " + IdArr[i];
+		}
+	}
+
+	public void linearFormat(int loc, UIoutput output) throws IOException {
+		StringBuffer buf = new StringBuffer();
+		java.util.Formatter formatter = new java.util.Formatter(buf);
+		if (HomeLoc[loc] != null && !HomeLoc[loc].isEmpty()) {
+			String fields[] = HomeLoc[loc].split(" ");
+			int id = Integer.parseInt(fields[1]);
+			formatter.format("%03d> %s  %03d", loc, new String(fields[0]), id);
+			output.displayThis(buf.toString());
+			formatter.close();
+		} else {
+			formatter.format("%03d>", loc);
+			output.displayThis(buf.toString());
+			formatter.close();
+		}
 	}
 
 	public void setLinks(int maxNHomeLoc) {
@@ -75,60 +198,39 @@ public class HashTable {
 		for (int i = 0; i < (nHome + nColl); i++) {
 			ColArrNew[HomeArr[i]] = ColArr[i];
 		}
-		for (int i = 0; i < (maxNHomeLoc + nColl); i++) {
-			// System.out.println(i+" "+ ColArrNew[i]);
-		}
 
 		for (int i = 0; i < (maxNHomeLoc); i++) {
 			if (ColArrNew[i] != -1) {
-				System.out.print("Compare:" + ColArrNew[i] + " to ");
-
 				for (int j = i + 1; j < (maxNHomeLoc + nColl); j++) {
+
 					if (ColArrNew[i] == ColArrNew[j]) {
 						LinkArr[i] = j;
-						System.out.print(j + " ");
+
 					}
 				}
-				System.out.println();
-				System.out.println(LinkArr[i]);
+
 			}
 		}
 
 		for (int i = maxNHomeLoc + nColl; i > (maxNHomeLoc); i--) {
 			if (ColArrNew[i] != -1) {
-				System.out.print("Compare:" + ColArrNew[i] + " to ");
 				int j = i - 1;
 				while (j > (maxNHomeLoc)) {
-					// System.out.print(ColArr[j]+" ");
 					if (ColArrNew[i] == ColArrNew[j]) {
 						LinkArr[i] = j;
-						System.out.print(j + " ");
 						j = maxNHomeLoc;
 					}
 					j--;
 				}
-				System.out.println();
-				System.out.println(LinkArr[i]);
 			}
 		}
-
 		for (int i = 0; i < (nHome + nColl); i++) {
 			HomeLoc[HomeArr[i]] = CodeArr[i] + " " + IdArr[i];
-			if (LinkArr[i] == 0) {
-				LinkArr[i] = -1;
-			}
-
-		}
-
-		for (int i = 0; (i < maxNHomeLoc + nColl); i++) {
-			// System.out.println(HomeLoc[i]);
-			// System.out.println(CodeArr[i] + " " + HomeArr[i] + "
-			// "+ColArr[i]);
 		}
 
 	}
 
-	public void format(int loc, UIoutput output) throws IOException {
+	public void chainFormat(int loc, UIoutput output) throws IOException {
 		StringBuffer buf = new StringBuffer();
 		java.util.Formatter formatter = new java.util.Formatter(buf);
 		if (HomeLoc[loc] != null && !HomeLoc[loc].isEmpty()) {
@@ -144,18 +246,19 @@ public class HashTable {
 		}
 	}
 
-	private int Myhome(int hashaddr, int i, int maxNHomeLoc) {
-
-		for (int j = 0; j < i; j++) {
-			if (HomeArr[j] == hashaddr) {
-				hashaddr = (maxNHomeLoc) + nColl;
-				nColl++;
-			}
-
-		}
-		if (hashaddr < maxNHomeLoc)
+	private int chainCol(int hashaddr, int i, int maxNHomeLoc) {
+		if (usedArr[hashaddr] == false) {
 			nHome++;
+		} else {
+			nColl++;
+		}
 
+		if (usedArr[hashaddr] == true) {
+
+			hashaddr = maxNHomeLoc + nColl - 1;
+		}
+
+		usedArr[hashaddr] = true;
 		return hashaddr;
 	}
 
@@ -191,3 +294,20 @@ public class HashTable {
 	}
 
 }
+
+//
+//
+// for (int i = 0; i < (maxNHomeLoc); i++) {
+// if (ColArrNew[i] != -1) {
+// System.out.print("Compare:" + ColArrNew[i] + " to ");
+//
+// for (int j = i + 1; j < (maxNHomeLoc + nColl); j++) {
+// if (ColArrNew[i] == ColArrNew[j]) {
+// LinkArr[i] = j;
+// System.out.print(j + " ");
+// }
+// }
+// System.out.println();
+// System.out.println(LinkArr[i]);
+// }
+// }
