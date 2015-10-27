@@ -1,8 +1,7 @@
-//CLASS: UIoutput - used by both Setup and UserApp
-//AUTHOR: Blake Wrege (based off Jia Guo)
+//CLASS: UIoutput - used by both Setup and Hashtable
+//AUTHOR: Blake Wrege 
 //DESCRIPTION: output report to Log.txt
-//Regarding any other issues, please feel free to contact me via email: jia.guo@wmich.edu
-//*****************************************************************************************************
+//************************************  Assignment 3  **********************************
 
 
 

@@ -16191,3 +16191,22 @@ java.lang.NullPointerException
 2015-10-24 15:00:00,171  WARN [Worker-19] - ScalaProject - Project CS3310-scala runs on platform default installation.
 2015-10-24 15:00:01,644  WARN [Java indexing] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
 2015-10-24 15:00:01,645  WARN [Java indexing] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-10-27 10:33:26,449 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - Exception in thread "EclipseProjectCoordinateAdvisorService STARTING"
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - java.lang.IllegalArgumentException: assertion failed.
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.utils.Throws.throwIllegalArgumentException(Throws.java:29)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.utils.Checks.ensureIsTrue(Checks.java:254)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.utils.Checks.ensureIsTrue(Checks.java:249)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.coordinates.DependencyInfo.<init>(DependencyInfo.java:52)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.internal.coordinates.rcp.DependencyInfoJsonTypeAdapter.deserialize(DependencyInfoJsonTypeAdapter.java:57)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.internal.coordinates.rcp.DependencyInfoJsonTypeAdapter.deserialize(DependencyInfoJsonTypeAdapter.java:1)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.Gson.fromJson(Gson.java:803)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.Gson.fromJson(Gson.java:768)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.gson.Gson.fromJson(Gson.java:717)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at org.eclipse.recommenders.coordinates.rcp.EclipseProjectCoordinateAdvisorService.startUp(EclipseProjectCoordinateAdvisorService.java:170)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+2015-10-27 10:33:26,451 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at java.lang.Thread.run(Thread.java:745)

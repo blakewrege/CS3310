@@ -1,6 +1,6 @@
 //CLASS: RawData - Used by Setup program
 //AUTHOR: Blake
-//*****************************************************************************************************
+//************************************  Assignment 3  **********************************
 
 
 import java.io.*;
@@ -30,7 +30,6 @@ public class RawData
 	{
 		String theLine = inFile.readLine();
 		if(theLine != null)
-		//if(theLine.length() != 0)
 		{
 			cleanup(theLine);
 			n++;
@@ -42,7 +41,7 @@ public class RawData
 	
 	//split record into individual fields
 	private void cleanup(String theLine)
-	{
+	{			// This is the line that parses out the fields from each line
 		if (theLine.length() > 2 && theLine.substring(0,6).equals("INSERT")){
 			theLine = theLine.substring(30, theLine.length()-2).replace("'","");		
 		

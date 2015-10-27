@@ -6,3 +6,6 @@
 1445922572845	Rename method 'format'
 1445922605915	Rename method 'ChainCol'
 1445946110779	Rename method 'searchpath'
+1445950540768	Rename method 'Hash'
+1445950556932	Rename method 'Hashformula'
+1445950588736	Rename method 'hashformula'

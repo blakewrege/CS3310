@@ -1,0 +1,87 @@
+//CLASS: RawData - Used by Setup program
+//AUTHOR: Blake
+//************************************  Assignment 3  **********************************
+
+
+import java.io.*;
+
+public class RawData 
+{
+	
+	final short SIZE_OF_A_CHAR = 1; 
+	final short SIZE_OF_CODE = (short) (3 * SIZE_OF_A_CHAR);
+	String inFileName = "RawDataTest.csv";
+	private FileReader input;
+	private BufferedReader inFile;
+	public int n = 0;
+	private String code;
+	private short id;
+
+
+	
+	public RawData(String inFileName) throws FileNotFoundException, IOException
+	{
+		input = new FileReader(inFileName);
+		inFile = new BufferedReader(input);
+	}	
+	
+	//A single record read in.
+	public boolean input1Country() throws IOException
+	{
+		String theLine = inFile.readLine();
+		if(theLine != null)
+		//if(theLine.length() != 0)
+		{
+			cleanup(theLine);
+			n++;
+			return true;
+		}	
+		else
+			return false;
+	}
+	
+	//split record into individual fields
+	private void cleanup(String theLine)
+	{
+		if (theLine.length() > 2 && theLine.substring(0,6).equals("INSERT")){
+			theLine = theLine.substring(30, theLine.length()-2).replace("'","");		
+		
+		
+		String field[] = theLine.split(",");
+		id = Short.parseShort(field[1]);
+		if(field[8].equals("NULL"))
+			field[8] = "0.0";
+		code = field[0];
+
+		}	
+		
+	}
+	
+	public int getN()
+	{
+
+		return n;
+	}
+	
+	public short getId()
+	{
+		return id;
+	}
+	
+		
+	public void finishUp() throws IOException
+	{
+		inFile.close();
+		input.close();
+	}
+	
+	
+	public String getCode(){
+		return code;
+	}
+	
+}
+
+	
+	
+	
