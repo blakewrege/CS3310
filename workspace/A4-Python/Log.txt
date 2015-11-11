@@ -1,0 +1,2 @@
+>>> Program starting
+STORE IS OPENING

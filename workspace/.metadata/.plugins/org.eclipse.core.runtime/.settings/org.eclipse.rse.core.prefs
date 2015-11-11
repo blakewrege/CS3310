@@ -1,2 +1,3 @@
-activeuserprofiles=CAS-DB2214-T3;Team;blaketop
 eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=blake
+useridperkey=blakelaptop.Local\=blake;
