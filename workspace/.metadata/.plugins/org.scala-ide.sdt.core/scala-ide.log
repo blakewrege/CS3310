@@ -16210,3 +16210,21 @@ java.lang.NullPointerException
 2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 2015-10-27 10:33:26,450 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 2015-10-27 10:33:26,451 ERROR [EclipseProjectCoordinateAdvisorService STARTING] - System.err - at java.lang.Thread.run(Thread.java:745)
+2015-11-11 04:57:00,653 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/home/blake/.p2/pool/plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar'
+2015-11-11 04:57:00,679 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/home/blake/.p2/pool/plugins/com.zeroturnaround.eclipse.optimizer.plugin_1.0.9/agent/eclipse-optimizer-agent.jar'
+2015-11-11 04:57:00,770 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar'
+2015-11-11 04:57:00,844 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar'
+2015-11-11 04:57:01,799 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar'
+2015-11-11 04:57:01,806 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar'
+2015-11-11 04:57:01,819 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar'
+2015-11-11 04:57:01,849 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar'
+2015-11-11 04:57:01,856 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar'
+2015-11-11 04:57:01,886 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar'
+2015-11-11 04:57:02,077 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar'
+2015-11-11 04:57:02,105 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar'
+2015-11-11 04:57:02,856 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar'
+2015-11-11 04:57:02,860 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar'
+2015-11-11 04:57:02,868 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar'
+2015-11-11 04:57:02,873 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar'
+2015-11-11 04:57:03,052 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar'
+2015-11-11 04:57:03,272 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar'
