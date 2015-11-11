@@ -22,7 +22,7 @@ class CustomerPrQ():
         with open(self.fileName, 'r') as myfile:
             for line in myfile:
                 if not line.startswith('//', 0, 2):
-                    self.addCustomerToQ(line.rstrip('\n').split(','), False, log)
+                    self.addCustomerToQ(line.rstrip('\n').split(','), log)
         log.write('>>> Initial heap built containing {} nodes\n\n'.format(len(self.heapNodes)))
 
     #**************************************
@@ -75,13 +75,13 @@ class CustomerPrQ():
         subtract = 0
         for jumpTheQPoints in raw:
             if not jumpTheQPoints == '':
-                subtract += {jumpTheQPoints: (15 if jumpTheQPoints.isnumeric() and
-                                                    (int(jumpTheQPoints) >= 65 or int(jumpTheQPoints) >= 80) else 0),
+                subtract += {jumpTheQPoints: (15 if jumpTheQPoints.isnumeric() and (int(jumpTheQPoints) >= 65 or int(jumpTheQPoints) >= 80) else 0),
                              'employee': 25,
                              'owner': 80,
                              'vip': 5,
                              'superVIP': 10}[jumpTheQPoints]
         return self.initialPriorityValue - subtract
+
 
     #***************************
     def walkUp(self, startFrom):

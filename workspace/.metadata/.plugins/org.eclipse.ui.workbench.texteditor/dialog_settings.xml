@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="print" key="selection"/>
+		<item value="Crowd" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="crowd"/>
 			<item value="import java.awt.event.FocusAdapter;"/>
 			<item value="print"/>
 			<item value="temp"/>
@@ -19,7 +20,6 @@
 			<item value="format"/>
 			<item value=","/>
 			<item value="&#x09;public void select(short id, UIoutput output) throws IOException {"/>
-			<item value="rd"/>
 		</list>
 		<list key="replacehistory">
 			<item value="theLine"/>

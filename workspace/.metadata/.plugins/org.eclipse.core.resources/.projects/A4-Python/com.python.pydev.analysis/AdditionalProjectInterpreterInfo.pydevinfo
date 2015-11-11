@@ -1,22 +1,12 @@
 -- VERSION_4
 -- START DISKCACHE_2
-C:\Users\blake\Github\CS3310\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\A4-Python\com.python.pydev.analysis\v2_indexcache
-main|1447254208483754000|C:\Users\blake\Github\CS3310\workspace\A4-Python\main.py
+/home/blake/github/CS3310/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/A4-Python/com.python.pydev.analysis/v2_indexcache
 -- END DISKCACHE
 -- START DICTIONARY
-1
-1=main
+0
 -- END DICTIONARY
 -- START TREE 1
-8
-all|1|ALL_FILENAME!11@
-cas|1|case!10@
-cre|1|create_hash_table!10@
-get|1|get_hash_function_number!10@
-has|4|hash_concatenate_backward!10@hash_concatenate!10@hash_multiply!10@hash_add!10@
-log|1|LOG_FILE_NAME!11@
-pri|1|print_hash_table!10@
-tes|1|TEST_FILENAME!11@
+0
 -- END TREE
 -- START TREE 2
 0
