@@ -1,0 +1,61 @@
+
+public class heap {
+	
+    private Node[] nodes;
+	
+    public Node getNodeAt(int index) {
+        return nodes[index];
+    }
+    
+	public Node getLC(int index) {
+        return getNodeAt(2 * index);
+    }
+	
+    public Node getRC(int index) {
+        return getNodeAt(2 * index + 1);
+    }
+
+    public Node getParent(int index) {
+        return getNodeAt(index / 2);
+    }
+	
+    public void switchNodes(int index1, int index2) {
+        Node temp = nodes[index1];
+        nodes[index1] = nodes[index2];
+        nodes[index2] = temp;
+    }
+
+
+
+public void insert(Node node, int N) {
+    int cursor = N+1;
+    insert(N + 1, node, true);
+    /* Compare to parent */
+    while (cursor > 1 && node.compareTo(getNodeAt(cursor / 2)) < 0) {
+        insert(cursor, getNodeAt(cursor / 2), true);
+        cursor /= 2;
+    }
+
+    insert(cursor, node, true);
+}
+
+
+public void insert(int index, Node node, boolean overwrite) {
+    if (index >= getNodeCount() || overwrite) {
+        nodes[index] = node;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

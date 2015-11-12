@@ -1,0 +1,12 @@
+
+public class heap {
+	
+	public Node getLeftChild(int index) {
+        return getNodeAt(2 * index);
+    }
+	
+	
+	
+	
+
+}

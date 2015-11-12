@@ -1,0 +1,20 @@
+
+public class CustomerPQ {
+	
+	
+	
+	
+	public void insert(int count, String theLine) throws IOException{
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

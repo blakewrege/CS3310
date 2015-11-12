@@ -1,0 +1,21 @@
+import java.io.IOException;
+
+public class CustomerPQ {
+	
+	
+	
+	
+	public void insert(int count, String theLine) throws IOException{
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

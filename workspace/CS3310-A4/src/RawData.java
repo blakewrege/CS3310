@@ -8,9 +8,7 @@ import java.io.*;
 public class RawData 
 {
 	
-	final short SIZE_OF_A_CHAR = 1; 
-	final short SIZE_OF_CODE = (short) (3 * SIZE_OF_A_CHAR);
-	String inFileName = "RawDataTest.csv";
+	String inFileName = "LineAt6Am.csv";
 	private FileReader input;
 	private BufferedReader inFile;
 	public int n = 0;
@@ -41,18 +39,13 @@ public class RawData
 	
 	//split record into individual fields
 	private void cleanup(String theLine)
-	{			// This is the line that parses out the fields from each line
-		if (theLine.length() > 2 && theLine.substring(0,6).equals("INSERT")){
-			theLine = theLine.substring(30, theLine.length()-2).replace("'","");		
+	{			// This is the line that parses out the fields from each line	
 		
 		
-		String field[] = theLine.split(",");
-		id = Short.parseShort(field[1]);
-		if(field[8].equals("NULL"))
-			field[8] = "0.0";
-		code = field[0];
+	//	String field[] = theLine.split(",");
 
-		}	
+		code = theLine;
+
 		
 	}
 	
