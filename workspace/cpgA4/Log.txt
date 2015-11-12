@@ -1,0 +1,104 @@
+>> Program starting.
+STORE OPENS
+Will now insert customers from LineAt6Am into PQ.
+Finished putting customers from LineAt6Am into PQ.
+ADDED:  Mary Smith (86)
+ADDED:  John Doe (100)
+ADDED:  Maria Garcia (93)
+ADDED:  Rajesh Patel (96)
+ADDED:  Malia AlFaleh (105)
+ADDED:  Li Sung (100)
+ADDED:  Jamal Brown (103)
+ADDED:  Latisha Ford (108)
+ADDED:  Su Chan (107)
+ADDED:  Bob O'Leary (48)
+ADDED:  Aziz Gupta (93)
+ADDED:  Roman Zwykowicz (97)
+ADDED:  Roberto Miguel Rodriguez (111)
+ADDED:  Josh Miller (104)
+ADDED:  Rosie O'Brien (60)
+ADDED:  Stan Anderson (96)
+ADDED:  Bob O'Leary Sr. (57)
+ADDED:  Lynn VanderCook (109)
+ADDED:  Mohsin Waleed (117)
+ADDED:  Abdalla AlSaid (120)
+ADDED:  Ling Yin (107)
+ADDED:  Jim O'Leary sr. (54)
+Dump of current heap (array) - 22 nodes:
+>> SUB  PV   NAME
+>> 1   48  Bob O'Leary
+>> 2   54  Jim O'Leary sr.
+>> 3   60  Rosie O'Brien
+>> 4   86  Mary Smith
+>> 5   57  Bob O'Leary Sr.
+>> 6   97  Roman Zwykowicz
+>> 7   93  Maria Garcia
+>> 8   96  Stan Anderson
+>> 9   107  Su Chan
+>> 10   105  Malia AlFaleh
+>> 11   93  Aziz Gupta
+>> 12   100  Li Sung
+>> 13   111  Roberto Miguel Rodriguez
+>> 14   104  Josh Miller
+>> 15   103  Jamal Brown
+>> 16   108  Latisha Ford
+>> 17   100  John Doe
+>> 18   109  Lynn VanderCook
+>> 19   117  Mohsin Waleed
+>> 20   120  Abdalla AlSaid
+>> 21   107  Ling Yin
+Will now process CustomerEvents data.
+SERVED:  Bob O'Leary (48)
+SERVED:  Jim O'Leary sr. (54)
+SERVED:  Bob O'Leary Sr. (57)
+SERVED:  Rosie O'Brien (60)
+SERVED:  Mary Smith (86)
+SERVED:  Aziz Gupta (93)
+SERVED:  Maria Garcia (93)
+SERVED:  Stan Anderson (96)
+SERVED:  Rajesh Patel (96)
+SERVED:  Roman Zwykowicz (97)
+SERVED:  John Doe (100)
+SERVED:  Li Sung (100)
+SERVED:  Jamal Brown (103)
+SERVED:  Josh Miller (104)
+ADDED:  Lottie Zipnowski-O'Leary (64)
+ADDED:  Jack Larson (114)
+SERVED:  Lottie Zipnowski-O'Leary (64)
+SERVED:  Malia AlFaleh (105)
+SERVED:  Su Chan (107)
+ADDED:  Fallah Ola (102)
+ADDED:  Jun Sung (120)
+ADDED:  Anushka T. Walloon (113)
+ADDED:  Betsy Oz (106)
+ADDED:  Jim Oz (107)
+ADDED:  Mrs. VanDooran (108)
+SERVED:  Fallah Ola (102)
+SERVED:  Betsy Oz (106)
+SERVED:  Ling Yin (107)
+Finished processing CustomerEvents data.
+Dump of current heap (array) - 10 nodes:
+>> SUB  PV   NAME
+>> 1   107  Jim Oz
+>> 2   108  Latisha Ford
+>> 3   108  Mrs. VanDooran
+>> 4   114  Jack Larson
+>> 5   109  Lynn VanderCook
+>> 6   113  Anushka T. Walloon
+>> 7   111  Roberto Miguel Rodriguez
+>> 8   117  Mohsin Waleed
+>> 9   120  Jun Sung
+STORE CLOSES
+Will now automatically serve 10 remaining customers
+SERVED:  Jim Oz (107)
+SERVED:  Latisha Ford (108)
+SERVED:  Mrs. VanDooran (108)
+SERVED:  Lynn VanderCook (109)
+SERVED:  Roberto Miguel Rodriguez (111)
+SERVED:  Anushka T. Walloon (113)
+SERVED:  Jack Larson (114)
+SERVED:  Mohsin Waleed (117)
+SERVED:  Jun Sung (120)
+SERVED:  Abdalla AlSaid (120)
+Heap is now empty - 0 nodes
+>> Program ending

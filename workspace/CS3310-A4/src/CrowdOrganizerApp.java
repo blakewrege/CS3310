@@ -2,9 +2,10 @@
 //AUTHOR: Blake Wrege 
 //DESCRIPTION: I pretty much just stole the Setup, RawData and UIoutput from A2 and reused them 
 
-//************************************  Assignment 3  **********************************
+//************************************  Assignment 4  **********************************
 
 import java.io.*;
+import java.util.Arrays;
 
 public class CrowdOrganizerApp {
 
@@ -17,34 +18,36 @@ public class CrowdOrganizerApp {
 		
 		output.displayThis(">> Program starting");
 		output.displayThis("STORE OPENS");
-		output.displayThis("Will now insert customers from LineAt6Am into PQ.");
+		output.displayThis("Will now insert customers from LineAt6Am into PQ");
 		while (input.input1Country()) // loop through the end of the file
 		{
 			// Sends each Country and Id to the arrays in HashTables class
-			//System.out.println(input.getCode());
-			stor.insert(count,input.getCode(), output);
+			stor.addCustToPQ(input.getCode(), output);
 			count = count + 1; // iterator for number of entries sent to HashTables
 
 		}
+		output.displayThis("\nFinished putting customers from LineAt6Am into PQ");
 		stor.dumpNodes(output);
 		input.finishUp();
 		
-		
+		output.displayThis("\nWill now process CustomerEvents data");
 		RawData events = new RawData("CustomerEvents.csv");
 		
 		while (events.input1Country()) // loop through the end of the file
 		{
 			// Sends each Country and Id to the arrays in HashTables class
-			System.out.println(events.getCode());
-			//stor.insert(count,input.getCode(), output);
-			count = count + 1; // iterator for number of entries sent to HashTables
-
+			switch (events.getCode()) {
+			case "CustomerServed":
+				stor.serveNextCustInPQ(output);
+				break;
+			default:
+				stor.addCustToPQ(events.getCode().substring(18), output);	
+				break;
+			}
 		}
+		output.displayThis("\nFinished putting customers from LineAt6Am into PQ");
+		stor.dumpNodes(output);
 		events.finishUp();
-		
-		
-		
-		
 		
 		
 		output.finishUp();

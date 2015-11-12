@@ -1,3 +1,8 @@
+//CLASS: CustomerPQ
+//AUTHOR: Blake Wrege 
+
+//************************************  Assignment 4  **********************************
+
 import java.io.IOException;
 
 public class CustomerPQ {
@@ -15,7 +20,7 @@ public class CustomerPQ {
 
 	}
 
-	public void insert(int count, String theLine, UIoutput output) throws IOException {
+	public void addCustToPQ(String theLine, UIoutput output) throws IOException {
 		// output.displayThis(theLine+" \n");
 		String fields[] = theLine.split(",");
 		for (int i = 0; i < fields.length; i++) {
@@ -26,7 +31,7 @@ public class CustomerPQ {
 		// System.out.println(" Length: "+fields.length);
 		determinePriorityValue(fields);
 		// System.out.println(""+priorityValue);
-		output.displayThis("ADDED: " + fields[0] + " (" + priorityValue + ")");
+		output.displayThis("ADDED:  " + fields[0] + " (" + priorityValue + ")");
 		heapInsert(fields[0], priorityValue);
 
 	}
@@ -101,6 +106,19 @@ public class CustomerPQ {
 	public int getN() {
 
 		return N;
+	}
+
+	public void serveNextCustInPQ(UIoutput output) throws IOException {
+		
+		output.displayThis("SERVED: " + heap.getNodeAt(0).getName() + " (" + heap.getNodeAt(0).getPriorityValue() + ")");
+		heap.delete(N);
+		N--;
+
+//		heap[0] = heap[N-1];	
+//		N--;
+//		
+//		walkDown(0);	
+		
 	}
 
 }

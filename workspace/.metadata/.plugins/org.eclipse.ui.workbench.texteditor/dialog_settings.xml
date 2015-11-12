@@ -6,22 +6,23 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Crowd" key="selection"/>
+		<item value="N" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="getNodeCount() "/>
+			<item value="import java.io.IOException;"/>
 			<item value="crowd"/>
 			<item value="import java.awt.event.FocusAdapter;"/>
 			<item value="print"/>
 			<item value="temp"/>
 			<item value="fin"/>
 			<item value="format"/>
-			<item value=","/>
-			<item value="&#x09;public void select(short id, UIoutput output) throws IOException {"/>
 		</list>
 		<list key="replacehistory">
+			<item value="N"/>
 			<item value="theLine"/>
 			<item value="+&quot;,&quot;+"/>
 			<item value="&quot;,&quot;"/>

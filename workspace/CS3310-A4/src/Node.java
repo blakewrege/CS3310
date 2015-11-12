@@ -1,4 +1,7 @@
+//CLASS: Node
+//AUTHOR: Blake Wrege 
 
+//************************************  Assignment 4  **********************************
 public class Node {
 	private String name;
 	private int value;
