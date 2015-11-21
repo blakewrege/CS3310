@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;CS3310-A5/src&apos;&#x0A;- Original project: &apos;CS3310-A2&apos;&#x0A;- Destination element: &apos;CS3310-A5/src&apos;&#x0A;- Original elements:&#x0A;     DataStorage.java&#x0A;     Setup.java&#x0A;     UIoutput.java&#x0A;     RawData.java" description="Copy compilation units" destination="=CS3310-A5/src" element1="/src&lt;{DataStorage.java" element2="/src&lt;{Setup.java" element3="/src&lt;{UIoutput.java" element4="/src&lt;{RawData.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1448070506506" units="4" version="1.0"/>
+</session>

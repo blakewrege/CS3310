@@ -1,0 +1,14 @@
+% OtherCityPairs.txt
+%
+% This is the Transaction data
+% NOTE:  There will not always BE a path
+%
+Cranbrook Alto
+Alto Cranbrook
+Alto Danville
+Glendale Alto
+Eden Barnes
+Danville Glendale
+Glendale Danville
+Barnes FallsRock
+Alto Alto

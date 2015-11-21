@@ -16228,3 +16228,11 @@ java.lang.NullPointerException
 2015-11-11 04:57:02,873 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar'
 2015-11-11 04:57:03,052 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar'
 2015-11-11 04:57:03,272 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar'
+2015-11-20 21:38:13,666  WARN [Worker-48] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-11-20 21:38:13,673  WARN [Worker-48] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-11-20 21:38:13,676  WARN [Worker-48] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-11-20 21:38:13,677  WARN [Worker-48] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-11-20 21:38:13,886  WARN [Worker-48] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-11-20 21:38:13,886  WARN [Worker-48] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2015-11-20 21:38:17,017  WARN [Java indexing] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2015-11-20 21:38:17,023  WARN [Java indexing] - ScalaProject - Project CS3310-scala runs on platform default installation.
