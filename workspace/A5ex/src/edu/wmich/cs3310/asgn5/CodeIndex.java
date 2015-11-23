@@ -7,8 +7,7 @@ import java.io.RandomAccessFile;
 /******************************
  * Handles the CodeIndex files.
  * TEST MODE World Data App 2.5
- * @author Caleb Viola
- */
+  */
 public class CodeIndex {
 	private RandomAccessFile file;
 	private short M;
@@ -53,7 +52,7 @@ public class CodeIndex {
 	public int selectByCode(String code, PrintWriter tL) throws IOException{
 		nodesRead = 0;
 		int result = searchOneNode(rootPtr, code);
-		if (result == -1) tL.print(" -->> Error - code not in index");
+		if (result == -1) tL.print(" -->> Error - code not found");
 		return result;
 	}
 	

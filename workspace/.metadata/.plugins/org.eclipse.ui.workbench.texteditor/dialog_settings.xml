@@ -12,6 +12,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="//CLASS: RawData - Used by Setup program"/>
 			<item value="getNodeCount() "/>
 			<item value="import java.io.IOException;"/>
 			<item value="crowd"/>
@@ -19,7 +20,6 @@
 			<item value="print"/>
 			<item value="temp"/>
 			<item value="fin"/>
-			<item value="format"/>
 		</list>
 		<list key="replacehistory">
 			<item value="N"/>
