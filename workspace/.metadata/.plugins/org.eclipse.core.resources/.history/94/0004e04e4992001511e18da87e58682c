@@ -1,0 +1,33 @@
+//PROGRAM: Setup
+//AUTHOR: Blake Wrege (based off Jia Guo)
+//DESCRIPTION: Setup (and the 3 classes it uses) creates DataStorage file
+
+//******************************************  Assignment 2  *******************************************************
+
+import java.io.*;
+
+public class UserApp {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		String[] codeIndex = { "CodeIndex1.bin", "CodeIndex2.bin", "CodeIndex3.bin" };
+		String[] transData = { "A5TransData1.txt", "A5TransData2.txt", "A5TransData3.txt" };
+		String[] dataStorage = { "DataStorage1.txt", "DataStorage2.txt", "DataStorage3.txt" };
+		UIoutput output = new UIoutput();
+		
+		
+		for (int i = 1; i < 2; i++) {
+			UI process = new UI(transData[i], output, i);
+			//index.setupApp();
+			//index.readFile();
+			process.readFile();
+			//data.readFile();
+			process.finishUp();
+
+			System.out.println();
+		}
+		output.finishUp();
+
+	}
+}
+
+

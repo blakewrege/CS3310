@@ -2,15 +2,22 @@
 <section name="Workbench">
 	<item value="CDC-1.0/Foundation-1.0" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="true" key="ProjectSelectionDialog.show_all"/>
 	<item value="2" key="CallHierarchyViewPart.field_mode"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="-1" key="org.eclipse.jdt.uiformatter_page.modify_dialog_tab_page.last_focus_index"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="false" key="delegateUpdating"/>
 	<item value="978" key="CallHierarchyViewPart.ratio1"/>
 	<item value="1" key="SearchScopeActionGroup.search_scope_type"/>
 	<item value="500" key="CallHierarchyViewPart.ratio3"/>
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="353" key="clean_up_save_particpant_modify_dialog.preferred_x"/>
+	<item value="0" key="clean_up_save_particpant_modify_dialog.preferred_y"/>
+	<item value="851" key="clean_up_save_particpant_modify_dialog.preferred_width"/>
+	<item value="574" key="clean_up_save_particpant_modify_dialog.preferred_height"/>
 	<item value="1" key="CallHierarchyViewPart.call_mode"/>
+	<item value="4" key="clean_up_save_particpant_modify_dialog.last_focus"/>
 	<item value="C:\Users\Blake\Desktop\pircbot-1.5.0" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="3" key="CallHierarchyViewPart.orientation"/>
 	<list key="SearchScopeActionGroup.working_set">
