@@ -1,0 +1,63 @@
+CS3310 - Kaminski - Asgn 6 demo specs
+
+0) delete Log.txt & MapDataPrintout.txt
+1) run Setup
+2) run PrettyPrint
+3) run DrivingApp
+4) printout MapDataPrintout.txt
+   USE courier font (or some other nice fixed-width font),
+         	smallish font, smallish margins, landscape
+   	AS NEEDED to avoid wrap-around for MapDataPrintout's bigGraph
+	and so the bigGraph fits on 1 page
+5) printout Log.txt
+   USE courier font (or some other nice fixed-width font),
+        	smallish font, smallish margins, landscape,
+   	& 2-sided printing
+   	AS NEEDED to reduce paper-usage
+   USE line wrap-around (NOT line-truncation) so the whole
+	Path & TraceOfTargets is visible
+6) printout MapGraph.bin file using a HexEditor
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+PACKET TO HAND IN - IN THIS ORDER
+   - cover page
+   - MapDataPrintout.txt (which shows the 2 map data files)
+   - HexEdit printout of MapGraph.bin
+   - Log.txt
+   - Setup program code file
+   - PrettyPrint program code file
+   - DrivingApp program code file
+   - Map class code file
+   - Route class code file
+   - UI class code file
+   - any other code files
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Make sure that:
+
+- MapGraph is implemented as an
+	EXTERNAL file
+	BINARY file
+	TRIANGULAR Adjacency MATRIX
+	LOWER LEFT triangle
+- DrivingApp uses the MapGraph.bin file and CityNameList.csv
+    and NOT the original RAW data file for Europe
+- the implementation of Dijkstra's Algorithm is the one that I
+    discussed in class
+- map.getRoadDistance returns 1 of THREE possible types of short
+    integer value:  0, "infinity", actual roadDistance
+- you have the right answers (as far as you can tell):
+	- check if they seem REASONABLE
+	- make sure there aren't duplicates in path or trace
+	- make sure trace's order of cities follows "what you
+		know Dijkstra's Algorithm should do"
+- answer path:
+    - prints from START to DESTINATION (not DESTINATION to START)
+    - uses city NAMES (not city NUMBERS or city CODES)
+- trace of targets shows the cities in the order that they were
+    selected as targets (Do NOT use Included array to print
+    target nodes in alphabetical order after the fact).
+- trace of targets shows city CODES
+- you follow the specs's format the output data files
