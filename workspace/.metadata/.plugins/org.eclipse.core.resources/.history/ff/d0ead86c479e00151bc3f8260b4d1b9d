@@ -1,0 +1,65 @@
+//PROGRAM: Setup
+//AUTHOR: Blake Wrege 
+//DESCRIPTION: I pretty much just stole the Setup, RawData and UIoutput from A2 and reused them 
+
+//************************************  Assignment 3  **********************************
+
+import java.awt.event.FocusAdapter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.ArrayList;
+import java.util.Formatter;
+
+public class Setup {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		// Tells the RawData Class to use RawDataTest.csv
+
+		String[][] cityNames = new String[0][];
+		short[][] adjMatrix = new short[0][];
+		int N;
+		Short city1, city2, distance;
+
+		RawData input = new RawData("EuropeMapData.csv");
+		UIoutput output = new UIoutput();
+
+		int count = 0;
+
+		while (input.input1Country()) // loop through the end of the file
+		{
+			if (input.getCode().contains("%") == false) {
+				if (input.getCode().matches(".*\\d+.*") == false) {
+					readCityName(input.getCode(), output);
+				} else {
+					String[] tokens = input.getCode().split(",");
+					if (tokens.length == 2) {
+						N = Integer.parseInt(tokens[1]);
+						// System.out.println(input.getCode());
+					}
+
+					Short city1 = Short.parseShort(tokens[0]);
+					Short city2 = Short.parseShort(tokens[1]);
+					Short distance = Short.parseShort(tokens[2]);
+
+				}
+
+			}
+
+		}
+		input.finishUp();
+		output.finishUp();
+	}
+
+	public static void readCityName(String theLine, UIoutput output) throws IOException {
+		StringBuffer buf = new StringBuffer();
+		java.util.Formatter formatter = new java.util.Formatter(buf);
+
+		String[] tokens = theLine.split(",");
+		String name = tokens[0];
+		String code = tokens[1];
+		formatter.format("%-10s,%-3s ", name, code);
+		output.displayThis(buf.toString());
+		formatter.close();
+	}
+}

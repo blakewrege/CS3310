@@ -1,0 +1,45 @@
+Map Data: Europe  Number of cities: 21
+Amsterdam
+Belgrade
+Berlin
+Bern
+Brussels
+Budapest
+Copenhagen
+Genoa
+Hamburg
+Lisbon
+Madrid
+Munich
+Naples
+Paris
+Prague
+Rome
+Trieste
+Vienna
+Warsaw
+Dublin
+London
+       0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20
+   ---------------------------------------------------------------------------------------------------------
+ 0|    0  inf  inf  558  164  inf  inf  inf  338  inf  inf  526  inf  inf  inf  inf  inf  inf  inf  inf  inf
+ 1|  inf    0  inf  inf  inf  263  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  403  501  inf  inf  inf
+ 2|  inf  inf    0  628  inf  inf  inf  inf  182  inf  inf  inf  inf  inf  219  inf  inf  inf  345  inf  inf
+ 3|  558  inf  628    0  497  inf  inf  304  inf  inf 1104  311  inf  inf  inf  inf  489  inf  inf  inf  inf
+ 4|  164  inf  inf  497    0  inf  inf  740  inf  inf  inf  inf  inf  225  inf  inf  inf  inf  inf  inf  inf
+ 5|  inf  263  inf  inf  inf    0  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  384  155  394  inf  inf
+ 6|  inf  inf  inf  inf  inf  inf    0  inf  180  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf
+ 7|  inf  inf  inf  304  740  inf  inf    0  inf  inf  951  inf  inf  629  inf  328  361  inf  inf  inf  inf
+ 8|  338  inf  182  inf  inf  inf  180  inf    0  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf
+ 9|  inf  inf  inf  inf  inf  inf  inf  inf  inf    0  339  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf
+10|  inf  inf  inf 1104  inf  inf  inf  951  inf  339    0  inf  inf  805  inf  inf  inf  inf  inf  inf  inf
+11|  526  inf  inf  311  inf  inf  inf  inf  inf  inf  inf    0  inf  inf  174  582  inf  280  inf  inf  inf
+12|  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf    0  inf  inf  134  inf  inf  inf  inf  inf
+13|  inf  inf  inf  inf  225  inf  inf  629  inf  inf  805  inf  inf    0  inf  inf  inf  inf  inf  inf  inf
+14|  inf  inf  219  inf  inf  inf  inf  inf  inf  inf  inf  174  inf  inf    0  inf  inf  185  479  inf  inf
+15|  inf  inf  inf  inf  inf  inf  inf  328  inf  inf  inf  582  134  inf  inf    0  442  inf  inf  inf  inf
+16|  inf  403  inf  489  inf  384  inf  361  inf  inf  inf  inf  inf  inf  inf  442    0  317  inf  inf  inf
+17|  inf  501  inf  inf  inf  155  inf  inf  inf  inf  inf  280  inf  inf  185  inf  317    0  464  inf  inf
+18|  inf  inf  345  inf  inf  394  inf  inf  inf  inf  inf  inf  inf  inf  479  inf  inf  464    0  inf  inf
+19|  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf    0  inf
+20|  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf  inf    0

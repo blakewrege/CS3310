@@ -1,0 +1,52 @@
+//PROGRAM: Setup
+//AUTHOR: Blake Wrege 
+//DESCRIPTION: I pretty much just stole the Setup, RawData and UIoutput from A2 and reused them 
+
+//************************************  Assignment 3  **********************************
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Setup {
+
+	String[][] cityNames = new String[0][]; // N rows, 2 columns
+	short[][] adjMatrix = new short[0][]; // row, col order
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		// Tells the RawData Class to use RawDataTest.csv
+		RawData input = new RawData("EuropeMapData.csv");
+		UIoutput output = new UIoutput();
+
+		int count = 0;
+
+		while (input.input1Country()) // loop through the end of the file
+		{
+			if (input.getCode().contains("%") == false) {
+				if (input.getCode().matches(".*\\d+.*") == false) {
+
+				} else {
+					System.out.println(input.getCode());
+				}
+
+			}
+
+		}
+		input.finishUp();
+
+	}
+
+	public void readCityName(String theLine, UIoutput output) throws IOException {
+
+		StringBuffer buf = new StringBuffer();
+		java.util.Formatter formatter = new java.util.Formatter(buf);
+
+		String[] tokens = theLine.split(",");
+
+		formatter.format("%s %03d %-24s %-13s %,11d %,13d %4.1f", new String(myCode), id, new String(myName),
+				new String(myContinent), myArea, myPopulation, myLifeExpectancy);
+		output.displayThis(buf.toString());
+		formatter.close();
+
+	}
+
+}

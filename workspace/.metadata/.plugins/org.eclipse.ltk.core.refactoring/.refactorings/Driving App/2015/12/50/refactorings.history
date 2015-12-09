@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DrivingApp.java&apos; to &apos;CS3310-A6/src/(default package)&apos;&#x0A;- Original project: &apos;Driving App&apos;&#x0A;- Destination element: &apos;CS3310-A6/src/(default package)&apos;&#x0A;- Original element: &apos;edu.wmich.cs3310.asgn5.DrivingApp.java&apos;" description="Copy compilation unit" destination="=CS3310-A6/src&lt;" element1="/src&lt;edu.wmich.cs3310.asgn5{DrivingApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1449635291068" units="1" version="1.0"/>
+</session>
