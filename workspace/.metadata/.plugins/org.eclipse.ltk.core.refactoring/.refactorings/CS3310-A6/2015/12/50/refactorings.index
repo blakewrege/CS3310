@@ -28,3 +28,20 @@
 1449748005087	Rename method 'findMinCostPath'
 1449748494570	Rename method 'reportAnswer'
 1449749215011	Rename local variable 'destinationNum'
+1449751766964	Delete element
+1449752568507	Rename local variable 'city1Number'
+1449752580537	Rename local variable 'city2Number'
+1449752982482	Rename local variable 'destinationNum'
+1449753371223	Rename field 'unvisitedNodes'
+1449753442409	Rename field 'nodesArr'
+1449753990368	Rename field 'cityNameListFile'
+1449754044671	Rename field 'cityNameList'
+1449754143634	Rename field 'mapGraphFile'
+1449754182087	Rename local variable 'actualIndex'
+1449755263167	Rename local variable 'mapGraphFile'
+1449755746386	Rename local variable 'cityNames'
+1449755855259	Rename method 'readCityName'
+1449756193006	Delete element
+1449756202554	Delete element
+1449756211909	Delete element
+1449756216689	Delete element

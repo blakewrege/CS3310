@@ -1,7 +1,6 @@
 
 //CLASS: Map
 //AUTHOR: Blake Wrege 
-//DESCRIPTION: Reused from UIoutput, outputs lines to Log.txt
 //************************************  Assignment 6  **********************************
 
 import java.io.IOException;
@@ -9,18 +8,19 @@ import java.io.RandomAccessFile;
 
 public class Map {
 	private int N;
-	private RandomAccessFile cityNameListFile;
-	private RandomAccessFile mapGraphFile;
+	private RandomAccessFile cityList;
+	private RandomAccessFile mapGraph;
 
 	public Map() throws IOException {
 		this.N = 0;
-		this.mapGraphFile = new RandomAccessFile("MapGraph.bin", "rws");
-		this.cityNameListFile = new RandomAccessFile("CityNameList.csv", "rws");
-		this.mapGraphFile.seek(0);
-		this.N = mapGraphFile.readShort();
+		this.cityList = new RandomAccessFile("CityNameList.csv", "rws");
+		this.mapGraph = new RandomAccessFile("MapGraph.bin", "rws");
+		this.mapGraph.seek(0);
+		this.N = mapGraph.readShort();
 
 	}
 
+	// Compares selected city name to list to find it's number
 	public short getCityNumber(String cityName) throws IOException {
 		for (short i = 0; i < N; i++) {
 			String nameInList = getCityName(i).trim();
@@ -31,33 +31,36 @@ public class Map {
 		return -1;
 	}
 
+	// closes files
 	public void finishUp() throws IOException {
-		this.cityNameListFile.close();
-		this.mapGraphFile.close();
+		this.cityList.close();
+		this.mapGraph.close();
 	}
 
-	public String getCityCode(short cityNumber) throws IOException {
-		cityNameListFile.seek(cityNumber * 16);
-		return cityNameListFile.readLine().split(",")[1];
-	}
-
+	// Calculates road distance between 2 cities
 	public short getRoadDistance(short cityNumber1, short cityNumber2) throws IOException {
 		if (cityNumber1 == cityNumber2) {
 			return 0;
 		} else {
-			int headerOffset = 2;
 			int row = Math.max(cityNumber1, cityNumber2);
 			int col = Math.min(cityNumber1, cityNumber2);
-			int actualIndex = ((row - 1) * (row)) / 2 + col;
-			int offset = headerOffset + actualIndex * 2;
-			mapGraphFile.seek(offset);
-			return mapGraphFile.readShort();
+			int indexLoc = ((row - 1) * (row)) / 2 + col;
+			int offset = 2 + indexLoc * 2;
+			mapGraph.seek(offset);
+			return mapGraph.readShort();
 		}
 	}
 
+	// Gets city code of selected city number
+	public String getCityCode(short cityNumber) throws IOException {
+		cityList.seek(cityNumber * 16);
+		return cityList.readLine().split(",")[1];
+	}
+
+	// Gets city name of selected city number
 	public String getCityName(short cityNumber) throws IOException {
-		cityNameListFile.seek(cityNumber * 16);
-		return cityNameListFile.readLine().split(",")[0];
+		cityList.seek(cityNumber * 16);
+		return cityList.readLine().split(",")[0];
 	}
 
 	public short getN() {

@@ -18,19 +18,20 @@ public class DrivingApp {
 		{
 			if (input.getLine().contains("%") == false) {
 				String[] cities = input.getLine().split(",");
-				short city1Number = map.getCityNumber(cities[0]);
-				short city2Number = map.getCityNumber(cities[1]);
-				output.displayThis(
-						String.format("%s (%d) TO %s (%d) \n", cities[0], city1Number, cities[1], city2Number));
-
-				if (city1Number < 0 || city2Number < 0) {
+				short city1Num = map.getCityNumber(cities[0]);
+				short city2Num = map.getCityNumber(cities[1]);
+				output.displayThis(String.format("%s (%d) TO %s (%d) \n", cities[0], city1Num, cities[1], city2Num));
+				// If both cities are on the map tries to find a path
+				if (city1Num < 0 || city2Num < 0) {
 					output.displayThis("ERROR - one city is NOT on this map \n\n");
 				} else {
-					route.findShortestPath(map.getN(), city1Number, city2Number, map, output);
+					route.findShortestPath(map.getN(), city1Num, city2Num, map, output);
 				}
 				output.displayBrk();
 			}
 		}
+		// Closes the opened files
+		map.finishUp();
 		input.finishUp();
 		output.finishUp();
 
