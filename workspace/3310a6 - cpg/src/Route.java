@@ -7,6 +7,7 @@ import java.util.*;
 public class Route {
     private short[] tentativeDistances;
     private short[] prevNodes;
+    private List<Short> currentNodesTrace;
     private List<Short> unvisitedNodes;
     private List<Short> finalTraversal;
 
@@ -21,7 +22,7 @@ public class Route {
     public void findMinCostPath(short startNum, short destinationNum, short n, Map map, Log log) throws IOException {
         this.initialize3ScratchArrays(n);
         this.searchForPath(startNum, destinationNum, map);
-        this.reportAnswer(destinationNum, map, log);
+        this.reportAnswer(startNum, destinationNum, map, log);
     }
 
     private void initialize3ScratchArrays(short N) {
@@ -30,6 +31,7 @@ public class Route {
         this.tentativeDistances = new short[N];
         this.prevNodes = new short[N];
         this.unvisitedNodes = new ArrayList();
+        this.currentNodesTrace = new ArrayList();
 
         for (short i = 0; i < N; i++) {
             this.tentativeDistances[i] = Short.MAX_VALUE;
@@ -63,6 +65,7 @@ public class Route {
             // The node has been visited.
             if (unvisitedNodes.contains(Short.valueOf(currentNode))) {
                 unvisitedNodes.remove(Short.valueOf(currentNode));
+                this.currentNodesTrace.add(Short.valueOf(currentNode));
             }
 
             // For each neighbor of currentNode:
@@ -82,28 +85,39 @@ public class Route {
         }
     }
 
-    private void reportAnswer(short destinationNum, Map map, Log log) throws IOException {
+    private void reportAnswer(short startNum, short destinationNum, Map map, Log log) throws IOException {
         // Create a stack data structure to store the path.
         Deque<Short> path = new ArrayDeque();
         short currentNode = destinationNum;
 
         // While we are still on the path:
-        while (this.prevNodes[currentNode] >= 0) {
-            path.push(currentNode);
+        while (this.prevNodes[currentNode] >= 0 && currentNode != startNum) {
+            // Have we reached a city again? That means the destination is unreachable.
+            if (path.contains(Short.valueOf(currentNode))) {
+                path.clear();
+                break;
+            } else {
+                path.push(currentNode);
+            }
             currentNode = prevNodes[currentNode];
         }
+        path.push(startNum);
 
         // Print the distance
-        log.displayThisLine(String.format("DISTANCE:  %d\r\n", this.tentativeDistances[destinationNum]));
+        log.displayThisLine(String.format("DISTANCE:  %s", this.tentativeDistances[destinationNum] > 0 ?
+                                                           Short.toString(this.tentativeDistances[destinationNum]) :
+                                                           "?"));
 
         // Print the path
         log.displayThis("PATH:  ");
-        if (path.size() > 0) {
+        if (path.size() > 0 && this.tentativeDistances[destinationNum] > 0) {
+            boolean first = true;
             while (path.size() > 0) {
-                log.displayThis(map.getCityName(path.pop()));
-                if (path.size() > 1) {
+                if (!first) {
                     log.displayThis(" > ");
                 }
+                log.displayThis(map.getCityName(path.pop()).trim());
+                first = false;
             }
         } else {
             log.displayThis("SORRY - can NOT get to destination city from start city");
@@ -111,5 +125,13 @@ public class Route {
         log.displayThis("\r\n");
 
         // Print trace of targets
+        log.displayThis("TRACE OF TARGETS: ");
+        int i = 1;
+        for (i = 1; i < currentNodesTrace.size(); i++) {
+            log.displayThis(String.format(" %s", map.getCityCode(currentNodesTrace.get(i))));
+        }
+        log.displayThis(String.format(" %s\r\n", map.getCityCode(destinationNum)));
+
+        log.displayThisLine(String.format("# TARGETS: %d", i));
     }
 }

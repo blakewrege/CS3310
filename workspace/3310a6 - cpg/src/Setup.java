@@ -61,7 +61,7 @@ public class Setup {
         }
 
         // Write map to file.
-        RandomAccessFile mapGraphFile = new RandomAccessFile("MapGraph.bin", "rw");
+        RandomAccessFile mapGraphFile = new RandomAccessFile("MapGraph.bin", "rws");
         mapGraphFile.seek(0);
         mapGraphFile.writeShort(N);
         for (int r = 0; r < N; r++) {

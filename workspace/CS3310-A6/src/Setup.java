@@ -4,12 +4,10 @@
 
 //************************************  Assignment 3  **********************************
 
-import java.awt.event.FocusAdapter;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.util.ArrayList;
-import java.util.Formatter;
 
 public class Setup {
 
@@ -22,7 +20,7 @@ public class Setup {
 		Short city1, city2, distance;
 
 		RawData input = new RawData("EuropeMapData.csv");
-		UIoutput output = new UIoutput();
+		Log output = new Log();
 
 		int count = 0;
 
@@ -35,7 +33,6 @@ public class Setup {
 					String[] tokens = input.getCode().split(",");
 					if (tokens.length == 2) {
 						N = Integer.parseInt(tokens[1]);
-
 						adjMatrix = new short[N][N];
 						for (int r = 0; r < N; r++) {
 							for (int c = 0; c < N; c++) {
@@ -54,9 +51,6 @@ public class Setup {
 						if (city1 == city2) {
 							adjMatrix[city1][city2] = 0;
 						} else {
-							// When adding, make sure the row is the larger of
-							// the
-							// two indices.
 							adjMatrix[Math.max(city1, city2)][Math.min(city1, city2)] = distance;
 						}
 					}
@@ -68,14 +62,14 @@ public class Setup {
 		}
 
 		// Write map to file.
-		RandomAccessFile mapGraphFile = new RandomAccessFile("MapGraph.bin", "rw");
-		// mapGraphFile.seek(0);
-		// mapGraphFile.writeShort(N);
-		// for (int r = 0; r < N; r++) {
-		// for (int c = 0; c < r; c++) {
-		// mapGraphFile.writeShort(adjMatrix[r][c]);
-		// }
-		// }
+		RandomAccessFile mapGraphFile = new RandomAccessFile("MapGraph.bin", "rws");
+		mapGraphFile.seek(0);
+		mapGraphFile.writeShort(N);
+		for (int r = 0; r < N; r++) {
+			for (int c = 0; c < r; c++) {
+				mapGraphFile.writeShort(adjMatrix[r][c]);
+			}
+		}
 		long x = 0;
 		mapGraphFile.seek(0);
 		System.out.println("length: " + mapGraphFile.length());
@@ -89,9 +83,27 @@ public class Setup {
 
 		input.finishUp();
 		output.finishUp();
+		// File (or directory) with new name
+
+		// File (or directory) with old name
+		File file = new File("Log.txt");
+
+		File file2 = new File("CityNameList.csv");
+
+		if (file2.exists()) {
+			throw new java.io.IOException("file exists");
+		}
+
+		// Rename file (or directory)
+		boolean success = file.renameTo(file2);
+
+		if (!success) {
+			System.out.println("BROKE ");
+		}
+
 	}
 
-	public static void readCityName(String theLine, UIoutput output) throws IOException {
+	public static void readCityName(String theLine, Log output) throws IOException {
 		StringBuffer buf = new StringBuffer();
 		java.util.Formatter formatter = new java.util.Formatter(buf);
 
