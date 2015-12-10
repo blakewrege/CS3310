@@ -6,3 +6,25 @@
 1449710506551	Delete element
 1449711771057	Delete element
 1449713448790	Rename type 'UIoutput'
+1449738310379	Delete element
+1449738327004	Delete element
+1449738341590	Delete element
+1449738346165	Delete element
+1449738470626	Delete element
+1449738475307	Delete element
+1449738479927	Delete element
+1449738701828	Delete element
+1449738763313	Delete element
+1449738983287	Rename local variable 'log'
+1449739380875	Rename local variable 'log'
+1449739458643	Rename local variable 'log'
+1449741187087	Rename field 'code'
+1449741236465	Rename method 'getCode'
+1449741559647	Delete element
+1449741682524	Rename method 'input1Country'
+1449746231275	Delete element
+1449747593322	Rename field 'currentNodesTrace'
+1449747771635	Rename method 'searchForPath'
+1449748005087	Rename method 'findMinCostPath'
+1449748494570	Rename method 'reportAnswer'
+1449749215011	Rename local variable 'destinationNum'

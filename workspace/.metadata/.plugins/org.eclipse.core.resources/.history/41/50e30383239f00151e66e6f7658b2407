@@ -1,0 +1,61 @@
+//CLASS: RawData - Used by Setup program
+//AUTHOR: Blake
+//************************************  Assignment 3  **********************************
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class RawData {
+
+	String inFileName = "RawDataTest.csv";
+	private FileReader input;
+	private BufferedReader inFile;
+	public int n = 0;
+	private String code;
+	private short id;
+// Allows you to select a different input
+	public RawData(String inFileName) throws FileNotFoundException, IOException {
+		input = new FileReader(inFileName);
+		inFile = new BufferedReader(input);
+	}
+
+	// A single record read in.
+	public boolean input1Country() throws IOException {
+		String theLine = inFile.readLine();
+		if (theLine != null) {
+			cleanup(theLine);
+			n++;
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	// split record into individual fields
+	private void cleanup(String theLine) { // This is the line that parses out
+											// the fields from each line
+		code = theLine;
+
+	}
+
+	public int getN() {
+
+		return n;
+	}
+
+	public short getId() {
+		return id;
+	}
+
+	public void finishUp() throws IOException {
+		inFile.close();
+		input.close();
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+}

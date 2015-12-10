@@ -2,7 +2,7 @@
 //AUTHOR: Blake Wrege 
 //DESCRIPTION: I pretty much just stole the Setup, RawData and UIoutput from A2 and reused them 
 
-//************************************  Assignment 3  **********************************
+//************************************  Assignment 6  **********************************
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,6 @@ import java.io.RandomAccessFile;
 public class Setup {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		// Tells the RawData Class to use RawDataTest.csv
 
 		String[][] cityNames = new String[0][];
 		short[][] adjMatrix = new short[0][];
@@ -24,13 +23,13 @@ public class Setup {
 
 		int count = 0;
 
-		while (input.input1Country()) // loop through the end of the file
+		while (input.input1Line()) // loop through the end of the file
 		{
-			if (input.getCode().contains("%") == false) {
-				if (input.getCode().matches(".*\\d+.*") == false) {
-					readCityName(input.getCode(), output);
+			if (input.getLine().contains("%") == false) {
+				if (input.getLine().matches(".*\\d+.*") == false) {
+					readCityName(input.getLine(), output);
 				} else {
-					String[] tokens = input.getCode().split(",");
+					String[] tokens = input.getLine().split(",");
 					if (tokens.length == 2) {
 						N = Integer.parseInt(tokens[1]);
 						adjMatrix = new short[N][N];
@@ -39,8 +38,6 @@ public class Setup {
 								adjMatrix[r][c] = Short.MAX_VALUE;
 							}
 						}
-
-						// System.out.println(input.getCode());
 
 					} else {
 
@@ -72,34 +69,17 @@ public class Setup {
 		}
 		long x = 0;
 		mapGraphFile.seek(0);
-		System.out.println("length: " + mapGraphFile.length());
-		while (x < mapGraphFile.length() - 2) {
-			x = mapGraphFile.getFilePointer();
-			System.out.println("pointer: " + mapGraphFile.getFilePointer() + " short: " + mapGraphFile.readShort());
-
-		}
 
 		mapGraphFile.close();
 
 		input.finishUp();
 		output.finishUp();
-		// File (or directory) with new name
 
-		// File (or directory) with old name
+		// Used Log class to create CityNameList.csv cause I'm lazy
 		File file = new File("Log.txt");
-
 		File file2 = new File("CityNameList.csv");
-
-		if (file2.exists()) {
-			throw new java.io.IOException("file exists");
-		}
-
-		// Rename file (or directory)
-		boolean success = file.renameTo(file2);
-
-		if (!success) {
-			System.out.println("BROKE ");
-		}
+		// Renames Log.txt to CityNameList.csv
+		file.renameTo(file2);
 
 	}
 
@@ -110,7 +90,7 @@ public class Setup {
 		String[] tokens = theLine.split(",");
 		String name = tokens[0];
 		String code = tokens[1];
-		formatter.format("%-10s,%-3s ", name, code);
+		formatter.format("%-10s,%-3s \n", name, code);
 		output.displayThis(buf.toString());
 		formatter.close();
 	}

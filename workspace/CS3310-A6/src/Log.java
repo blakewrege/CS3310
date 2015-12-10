@@ -1,7 +1,8 @@
-//CLASS: UIoutput
-//AUTHOR: Blake Wrege (based off Jia Guo)
-//DESCRIPTION: output report to Log.txt
-//************************************  Assignment 5  **********************************
+
+//CLASS: Log
+//AUTHOR: Blake Wrege 
+//DESCRIPTION: Reused from UIoutput, outputs lines to Log.txt
+//************************************  Assignment 6  **********************************
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -16,19 +17,17 @@ public class Log {
 		output = new Formatter(new BufferedWriter(new FileWriter("Log.txt", false)));
 	}
 
-	public Log(String message) throws IOException // Constructor for
-														// UserApp, "String
-														// messasge" is only
-														// used to distinguish
-														// from
-														// another constructor
-	{
+	public Log(String message) throws IOException {
 		output = new Formatter(new BufferedWriter(new FileWriter("Log.txt", true)));
 	}
 
 	// Receive status messages.
 	public void displayThis(String status) throws IOException {
-		output.format(status + "\n", null);
+		output.format(status, null);
+	}
+
+	public void displayBrk() throws IOException {
+		output.format("#   #   #   #   #   #   #   #   #   #   #   #" + "\n", null);
 	}
 
 	public void finishUp() throws IOException {
