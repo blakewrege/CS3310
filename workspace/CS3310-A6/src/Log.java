@@ -2,7 +2,7 @@
 //CLASS: Log
 //AUTHOR: Blake Wrege 
 //DESCRIPTION: Reused from UIoutput, outputs lines to Log.txt
-//************************************  Assignment 6  **********************************
+//******************************  Assignment 6  ****************************
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -14,11 +14,13 @@ public class Log {
 
 	public Log() throws IOException // Constructor for Setup
 	{
-		output = new Formatter(new BufferedWriter(new FileWriter("Log.txt", false)));
+		output = new Formatter(
+				new BufferedWriter(new FileWriter("Log.txt", false)));
 	}
 
 	public Log(String message) throws IOException {
-		output = new Formatter(new BufferedWriter(new FileWriter("Log.txt", true)));
+		output = new Formatter(
+				new BufferedWriter(new FileWriter("Log.txt", true)));
 	}
 
 	// Receive status messages.
@@ -27,7 +29,8 @@ public class Log {
 	}
 
 	public void displayBrk() throws IOException {
-		output.format("#   #   #   #   #   #   #   #   #   #   #   #" + "\n", null);
+		output.format("#   #   #   #   #   #   #   #   #   #   #   #" + "\n",
+				null);
 	}
 
 	public void finishUp() throws IOException {

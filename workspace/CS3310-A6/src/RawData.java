@@ -1,7 +1,7 @@
 
-//CLASS: RawData - Used by Setup program
+//CLASS: RawData - Used by Setup and DriverApp 
 //AUTHOR: Blake
-//************************************  Assignment 3  **********************************
+//******************************  Assignment 6  ****************************
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -17,7 +17,8 @@ public class RawData {
 	private String oneLine;
 
 	// Allows you to select a different input file
-	public RawData(String inFileName) throws FileNotFoundException, IOException {
+	public RawData(String inFileName)
+			throws FileNotFoundException, IOException {
 		input = new FileReader(inFileName);
 		inFile = new BufferedReader(input);
 	}

@@ -1,7 +1,7 @@
 
 //CLASS: Map
 //AUTHOR: Blake Wrege 
-//************************************  Assignment 6  **********************************
+//******************************  Assignment 6  ****************************
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -38,7 +38,8 @@ public class Map {
 	}
 
 	// Calculates road distance between 2 cities
-	public short getRoadDistance(short cityNumber1, short cityNumber2) throws IOException {
+	public short getRoadDistance(short cityNumber1, short cityNumber2)
+			throws IOException {
 		if (cityNumber1 == cityNumber2) {
 			return 0;
 		} else {

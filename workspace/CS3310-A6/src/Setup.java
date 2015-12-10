@@ -2,8 +2,7 @@
 //AUTHOR: Blake Wrege 
 //DESCRIPTION: I pretty much just stole the Setup, RawData and UIoutput from A2 and reused them. 
 
-//************************************  Assignment 6  **********************************
-
+//******************************  Assignment 6  ****************************
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -11,7 +10,8 @@ import java.io.RandomAccessFile;
 
 public class Setup {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args)
+			throws FileNotFoundException, IOException {
 
 		short[][] adjArr = new short[0][];
 		int N = 0;
@@ -47,7 +47,8 @@ public class Setup {
 						if (city1 == city2) {
 							adjArr[city1][city2] = 0;
 						} else {
-							adjArr[Math.max(city1, city2)][Math.min(city1, city2)] = distance;
+							adjArr[Math.max(city1, city2)][Math.min(city1,
+									city2)] = distance;
 						}
 					}
 
@@ -75,11 +76,11 @@ public class Setup {
 		File file2 = new File("CityNameList.csv");
 		// Renames Log.txt to CityNameList.csv
 		file.renameTo(file2);
-
 	}
 
 	// Writes city name to CityNameList.csv
-	public static void writeCityName(String theLine, Log output) throws IOException {
+	public static void writeCityName(String theLine, Log output)
+			throws IOException {
 		StringBuffer buf = new StringBuffer();
 		java.util.Formatter formatter = new java.util.Formatter(buf);
 
