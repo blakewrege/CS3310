@@ -2,12 +2,10 @@
 //AUTHOR: Blake
 //************************************  Assignment 3  **********************************
 
-
 import java.io.*;
 
-public class RawData 
-{
-	
+public class RawData {
+
 	String inFileName = "RawDataTest.csv";
 	private FileReader input;
 	private BufferedReader inFile;
@@ -15,75 +13,66 @@ public class RawData
 	private String code;
 	private short id;
 
-
-	
-	public RawData(String inFileName) throws FileNotFoundException, IOException
-	{
+	public RawData(String inFileName)
+			throws FileNotFoundException, IOException {
 		input = new FileReader(inFileName);
 		inFile = new BufferedReader(input);
-	}	
-	
-	//A single record read in.
-	public boolean input1Country() throws IOException
-	{
+	}
+
+	// A single record read in.
+	public boolean input1Country() throws IOException {
 		String theLine = inFile.readLine();
-		if(theLine != null)
-		{
+		if (theLine != null) {
 			cleanup(theLine);
 			n++;
 			return true;
-		}	
-		else
+		} else {
 			return false;
+		}
 	}
-	
-	//split record into individual fields
-	private void cleanup(String theLine)
-	{			// This is the line that parses out the fields from each line
-		String field[] = theLine.split(" ",2);
-		code = field[1];
 
-		
-		
-		
-//		if (theLine.length() > 2 && theLine.substring(0,6).equals("INSERT")){
-//			theLine = theLine.substring(30, theLine.length()-2).replace("'","");		
-//		
-//		
-//		String field[] = theLine.split(",");
-//		id = Short.parseShort(field[1]);
-//		if(field[8].equals("NULL"))
-//			field[8] = "0.0";
-//		code = field[0];
-//		}	
-		
+	// split record into individual fields
+	private void cleanup(String theLine) { // This is the line that parses out
+											// the fields from each line
+		if (theLine != null) {
+			if (theLine.contains("/") == true) {
+				String field[] = theLine.split("/", 2);
+				code = field[0];
+			} else {
+				code = theLine;
+			}
+		} else {
+			code = "";
+		}
+		// if (theLine.length() > 2 && theLine.substring(0,6).equals("INSERT")){
+		// theLine = theLine.substring(30, theLine.length()-2).replace("'","");
+		//
+		//
+		// String field[] = theLine.split(",");
+		// id = Short.parseShort(field[1]);
+		// if(field[8].equals("NULL"))
+		// field[8] = "0.0";
+		// code = field[0];
+		// }
+
 	}
-	
-	public int getN()
-	{
+
+	public int getN() {
 
 		return n;
 	}
-	
-	public short getId()
-	{
+
+	public short getId() {
 		return id;
 	}
-	
-		
-	public void finishUp() throws IOException
-	{
+
+	public void finishUp() throws IOException {
 		inFile.close();
 		input.close();
 	}
-	
-	
-	public String getCode(){
+
+	public String getCode() {
 		return code;
 	}
-	
-}
 
-	
-	
-	
+}

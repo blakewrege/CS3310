@@ -1,0 +1,164 @@
+/*
+ * {"vl":{"0":{"cx":140,"cy":80,"text":"0","state":"default"},"1":{"cx":140,"cy":200,"text":"1","state":"default"},"2":{"cx":280,"cy":140,"text":"2","state":"default"},"3":{"cx":280,"cy":40,"text":"3","state":"default"},"4":{"cx":420,"cy":220,"text":"4","state":"default"},"5":{"cx":440,"cy":80,"text":"5","state":"default"},"6":{"cx":600,"cy":60,"text":"6","state":"default"}},"el":{"0":{"vertexA":0,"vertexB":1,"type":0,"weight":2,"state":"default","displayWeight":true,"animateHighlighed":false},"1":{"vertexA":1,"vertexB":2,"type":0,"weight":"4","state":"default","displayWeight":true,"animateHighlighed":false},"2":{"vertexA":0,"vertexB":2,"type":0,"weight":"3","state":"default","displayWeight":true,"animateHighlighed":false},"3":{"vertexA":0,"vertexB":3,"type":0,"weight":"3","state":"default","displayWeight":true,"animateHighlighed":false},"4":{"vertexB":2,"vertexA":3,"type":0,"weight":"5","state":"default","displayWeight":true,"animateHighlighed":false},"5":{"vertexA":3,"vertexB":5,"type":0,"weight":"7","state":"default","displayWeight":true,"animateHighlighed":false},"6":{"vertexB":4,"vertexA":5,"type":0,"weight":"8","state":"default","displayWeight":true,"animateHighlighed":false},"7":{"vertexA":2,"vertexB":4,"type":0,"weight":"1","state":"default","displayWeight":true,"animateHighlighed":false},"8":{"vertexB":1,"vertexA":4,"type":0,"weight":3,"state":"default","displayWeight":true,"animateHighlighed":false},"9":{"vertexB":2,"vertexA":5,"type":0,"weight":"6","state":"default","displayWeight":true,"animateHighlighed":false},"10":{"vertexA":5,"vertexB":6,"type":0,"weight":"9","state":"default","displayWeight":true,"animateHighlighed":false}}}
+ * 
+ * 
+ * 
+ * 
+ */
+
+class Node(id: Int) {
+  var edges = List[Edge]()
+
+  def addEdge(other: Node, weight: Int) = {
+    val edge = new Edge(this, other, weight)
+    edges = edge :: edges
+    edge
+  }
+
+  override def toString() = id.toString
+}
+
+class Edge(val from: Node, val to: Node, val weight: Int) extends Ordered[Edge] {
+  // Inverse ordering; should really be external.
+  def compare(that: Edge) = that.weight compare weight
+
+  override def toString() = from + " <--> " + to + "    (" + weight + ")"
+}
+
+object Main {
+
+  def main(args: Array[String]) {
+var count = 0
+//    val fileLines = io.Source.fromFile("RawData.csv").getLines.toList
+//    var nodeArray = new Array[Int](fileLines.length)
+//    var count = 0
+//    while (count < fileLines.length) {
+//      val parseLine = fileLines(count).split(",")
+//      val parseNode = parseLine(0).toString().toInt
+//      nodeArray(count) = parseNode
+//      count = count + 1
+//    }
+//    println(nodeArray.reduceLeft(_ max _))
+
+    val rowArray = readCSV("RawData.csv")
+    
+   // println(getCol(1, pathArray).toString())
+   val colArray = rowArray.transpose
+   
+   val nodesList = (colArray(0).toList ++ colArray(1).toList).distinct
+   
+   var nodeStruct = new Array[Node](nodesList.length+1)
+   
+   println(nodesList.length)
+   
+   while (count < nodesList.length+1){
+   //  println(count+" "+ nodesList(count).toInt)  
+//     nodeStruct(count) = new Node(nodesList(count).toInt)
+   nodeStruct(count) = new Node(count)
+     count = count+1
+   }
+   //println(rowArray(8)(1)) 
+    count = 0
+    
+    
+    
+    while (count < colArray(0).length -1) {
+          println(count +" "+ rowArray(count)(0)+" "+ rowArray(count)(1)+" "+ rowArray(count)(2))
+     nodeStruct(rowArray(count)(0).toInt).addEdge(nodeStruct(rowArray(count)(1).toInt), rowArray(count)(2).toInt)
+     nodeStruct(rowArray(count)(1).toInt).addEdge(nodeStruct(rowArray(count)(0).toInt), rowArray(count)(2).toInt)
+     count=count+1
+    }
+    println(nodeStruct.toList)
+    println(rowArray(count)(0).toInt+  " " +rowArray(count)(1).toInt) 
+    nodeStruct(5).addEdge(nodeStruct(6), 9)
+    nodeStruct(6).addEdge(nodeStruct(5), 9)
+//     nodeStruct(rowArray(count)(1).toInt).addEdge(nodeStruct(rowArray(count)(0).toInt), rowArray(count+1)(2).toInt) 
+//     nodeStruct(rowArray(count)(0).toInt).addEdge(nodeStruct(rowArray(count)(1).toInt), rowArray(count+1)(2).toInt)
+
+    count = 0
+     
+  
+
+//    n1.addEdge(n2, 6)
+//    n1.addEdge(n3, 1)
+//    n1.addEdge(n4, 5)
+//    n2.addEdge(n1, 6)
+//    n2.addEdge(n3, 5)
+//    n2.addEdge(n5, 3)
+//
+//    n3.addEdge(n1, 1)
+//    n3.addEdge(n2, 5)
+//    n3.addEdge(n4, 5)
+//    n3.addEdge(n5, 6)
+//    n3.addEdge(n6, 4)
+//
+//    n4.addEdge(n1, 5)
+//    n4.addEdge(n3, 5)
+//    n4.addEdge(n6, 2)
+//
+//    n5.addEdge(n2, 3)
+//    n5.addEdge(n3, 6)
+//    n5.addEdge(n6, 6)
+//
+//    n6.addEdge(n3, 4)
+//    n6.addEdge(n4, 2)
+//    n6.addEdge(n5, 6)
+//    val graph = List(n1, n2, n3, n4, n5, n6)
+     
+     val graph = nodeStruct.toList
+
+    generateMST(graph).sortWith(_ < _).foreach(println)
+  }
+  
+  
+  def readCSV(fileName: String) : Array[Array[Double]] = {
+    val bufferedSource = io.Source.fromFile(fileName)
+    var matrix :Array[Array[Double]] = Array.empty
+    for (line <- bufferedSource.getLines) {
+        val cols = line.split(",").map(_.trim.toDouble)
+        matrix = matrix :+ cols
+    }
+    bufferedSource.close
+    return matrix
+}
+ 
+  
+  
+
+  // Prim's algorithm:
+  //   * Choose a random node.
+  //   * Place edges from that node in priority queue.
+  //   * While queue not empty:
+  //   *   pop highest weighted edge
+  //   *   if end-point in already-included set, continue
+  //   *   else:
+  //   *     add edge to edge-set
+  //   *     add node to node-set
+  //   *     add edges from new node to queue
+
+  def generateMST(graph: List[Node]): List[Edge] = {
+    import scala.util.Random
+
+    val startNode = graph(Random.nextInt(graph.length))
+
+    var mst_nodes = List(startNode)
+    var mst_edges = List[Edge]()
+
+    val pq = new scala.collection.mutable.PriorityQueue[Edge]
+
+    startNode.edges.foreach(e => pq.enqueue(e))
+
+    while (!pq.isEmpty) {
+      val edge = pq.dequeue
+
+      if (!(mst_nodes contains edge.to)) {
+        mst_nodes = edge.to :: mst_nodes
+        mst_edges = edge :: mst_edges
+
+        edge.to.edges.foreach(e => pq.enqueue(e))
+      }
+    }
+
+    mst_edges
+  }
+}
