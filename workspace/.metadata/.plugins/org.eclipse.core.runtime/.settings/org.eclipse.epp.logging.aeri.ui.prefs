@@ -1,7 +1,7 @@
-action=IGNORE
+action=ASK
 configured=true
 eclipse.preferences.version=1
 email=gigglesbw4@hotmail.com
 name=Blake
 problemsZipEtag="c775b-5246884841280"
-rememberSendAction=RESTART
+rememberSendAction=NONE

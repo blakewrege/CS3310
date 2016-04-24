@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pprimsalgo/src/SparkPi.scala&apos; to &apos;SparkPiNew.scala&apos;" description="Rename resource &apos;SparkPi.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SparkPi.scala" name="SparkPiNew.scala" stamp="1461457619496" updateReferences="true"/>
+</session>

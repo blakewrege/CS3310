@@ -12,6 +12,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="import scala.math.random"/>
 			<item value="Ordered"/>
 			<item value="toString"/>
 			<item value="finishUp"/>
@@ -19,7 +20,6 @@
 			<item value="finalTraversal"/>
 			<item value="citynames"/>
 			<item value="//CLASS: RawData - Used by Setup program"/>
-			<item value="getNodeCount() "/>
 		</list>
 		<list key="replacehistory">
 			<item value="N"/>
