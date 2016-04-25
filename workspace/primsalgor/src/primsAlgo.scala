@@ -26,7 +26,7 @@ object primsAlgo {
 
   def main(args: Array[String]) {
     var count = 0
-    val rowArray = readCSV("RawData.csv")
+    val rowArray = readCSV("NodeData.txt")
     val colArray = rowArray.transpose
     val nodesList = (colArray(0).toList ++ colArray(1).toList).distinct
     var nodeStruct = new Array[Node](nodesList.length + 1)
@@ -64,10 +64,13 @@ object primsAlgo {
 
   def readCSV(fileName: String): Array[Array[Double]] = {
     val bufferedSource = io.Source.fromFile(fileName)
+    
     var matrix: Array[Array[Double]] = Array.empty
     for (line <- bufferedSource.getLines) {
       val cols = line.split(",").map(_.trim.toDouble)
+      if(cols.length==3){
       matrix = matrix :+ cols
+      }
     }
     bufferedSource.close
     return matrix
