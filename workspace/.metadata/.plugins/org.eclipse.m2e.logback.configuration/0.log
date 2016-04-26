@@ -2371,3 +2371,266 @@ java.lang.NullPointerException: null
 2016-04-24 22:55:51,295 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
 2016-04-24 22:55:51,304 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-04-24 22:55:51,305 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 00:45:52,024 [Worker-180] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 00:45:52,047 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 00:45:52,049 [Worker-180] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 00:45:52,049 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 10:28:15,760 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/pprimsalgo/pom.xml.
+2016-04-25 10:28:27,020 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:28:27,032 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 10:28:27,231 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:28:27,232 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 10:28:27,242 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/pprimsalgo/pom.xml.
+2016-04-25 10:28:32,286 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:28:32,287 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 10:28:32,290 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:28:32,291 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 10:29:16,059 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:29:16,059 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 10:29:16,061 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:29:16,061 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 10:30:35,113 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/blake/github/CS3310/workspace/pprimsalgo
+2016-04-25 10:30:35,114 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-04-25 10:30:38,672 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:30:38,672 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 10:30:38,674 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:30:38,674 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 10:31:53,392 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/Copy of pprimsalgo/pom.xml.
+2016-04-25 10:31:54,665 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:31:54,666 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 10:31:54,667 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:31:54,668 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 10:33:34,931 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:33:34,932 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 10:33:34,933 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:33:34,934 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 10:33:48,300 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:33:48,300 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 10:33:48,311 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:33:48,312 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 10:34:41,996 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:34:41,997 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 10:34:42,001 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 10:34:42,001 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:39:29,119 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/sparktest/pom.xml.
+2016-04-25 11:39:31,379 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:39:31,399 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sparktest/src/main/resources
+2016-04-25 11:39:31,402 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:39:31,402 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sparktest/src/test/resources
+2016-04-25 11:39:51,775 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/pprimsalgo/pom.xml.
+2016-04-25 11:39:52,461 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:39:52,471 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 11:39:52,477 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:39:52,478 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 11:39:52,697 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/pprimsalgo/pom.xml.
+2016-04-25 11:39:57,304 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:39:57,305 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 11:39:57,306 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:39:57,307 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 11:40:41,256 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/Copy of pprimsalgo/pom.xml.
+2016-04-25 11:40:41,914 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:40:41,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:40:41,916 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:40:41,916 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:40:42,879 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:40:42,879 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-25 11:40:42,881 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:40:42,881 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-25 11:40:50,521 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:40:50,521 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:40:50,523 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:40:50,524 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:43:02,359 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:43:02,360 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:43:02,362 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:43:02,362 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:43:36,239 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:43:36,240 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:43:36,245 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:43:36,246 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:45:33,704 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:45:33,704 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:45:33,705 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:45:33,706 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:47:51,903 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:47:51,904 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:47:51,919 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:47:51,920 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:47:56,604 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:47:56,605 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/main/resources
+2016-04-25 11:47:56,606 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:47:56,607 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of pprimsalgo/src/test/resources
+2016-04-25 11:50:49,596 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/sssp_Pregrel/pom.xml.
+2016-04-25 11:50:51,574 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:50:51,575 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 11:50:51,578 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:50:51,578 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 11:51:01,569 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:51:01,570 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 11:51:01,571 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:51:01,571 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 11:51:09,497 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/sssp_Pregrel/pom.xml.
+2016-04-25 11:51:12,260 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:51:12,261 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 11:51:12,263 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:51:12,264 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 11:52:26,510 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/Copy of sssp_Pregrel/pom.xml.
+2016-04-25 11:52:27,042 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:52:27,043 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of sssp_Pregrel/src/main/resources
+2016-04-25 11:52:27,044 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:52:27,044 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of sssp_Pregrel/src/test/resources
+2016-04-25 11:52:27,528 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:52:27,529 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 11:52:27,532 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:52:27,533 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 11:52:35,212 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:52:35,212 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of sssp_Pregrel/src/main/resources
+2016-04-25 11:52:35,216 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 11:52:35,217 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/Copy of sssp_Pregrel/src/test/resources
+2016-04-25 12:15:11,696 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:11,697 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:15:11,698 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:11,698 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:15:13,663 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:13,663 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:15:13,664 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:13,664 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:15:19,827 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:19,828 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:15:19,833 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:19,833 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:15:23,501 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:23,501 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:15:23,502 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:15:23,503 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:16:22,176 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:16:22,177 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:16:22,178 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:16:22,178 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:16:33,793 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:16:33,794 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:16:33,795 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:16:33,795 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:17:05,742 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:17:05,743 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:17:05,744 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:17:05,744 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:17:12,124 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:17:12,124 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:17:12,127 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:17:12,128 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:17:40,580 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:17:40,581 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:17:40,582 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:17:40,582 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:18:11,563 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:18:11,563 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:18:11,564 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:18:11,564 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:18:18,002 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:18:18,003 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:18:18,004 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:18:18,004 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:20:06,004 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:20:06,004 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:20:06,005 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:20:06,006 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:20:18,936 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:20:18,936 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:20:18,937 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:20:18,938 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:21:20,336 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:21:20,336 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:21:20,337 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:21:20,338 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:22:44,723 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:22:44,723 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:22:44,724 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:22:44,725 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:22:56,264 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:22:56,265 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:22:56,268 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:22:56,269 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:23:29,644 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:23:29,644 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:23:29,645 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:23:29,646 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:23:34,704 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:23:34,704 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:23:34,705 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:23:34,706 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:24:35,530 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:24:35,531 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:24:35,532 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:24:35,532 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:24:55,706 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:24:55,706 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:24:55,707 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:24:55,708 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:25:22,110 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:25:22,110 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:25:22,111 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:25:22,112 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 12:25:30,837 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:25:30,837 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/main/resources
+2016-04-25 12:25:30,838 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-25 12:25:30,839 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/sssp_Pregrel/src/test/resources
+2016-04-25 20:41:35,085 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/blake/github/CS3310/workspace/pprimsalgo
+2016-04-25 20:41:35,086 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2016-04-25 20:41:43,312 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/blake/github/CS3310/workspace/pprimsalgo
+2016-04-25 20:41:43,312 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2016-04-25 20:41:55,722 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/blake/github/CS3310/workspace/pprimsalgo
+2016-04-25 20:41:55,722 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2016-04-26 00:52:53,400 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spark-test:spark-test:0.0.1-SNAPSHOT @ /home/blake/github/CS3310/workspace/pprimsalgo/pom.xml.
+2016-04-26 00:53:04,854 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:53:04,855 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 00:53:04,858 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:53:04,859 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 00:54:02,589 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:54:02,602 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 00:54:02,604 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:54:02,604 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 00:54:39,059 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:54:39,059 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 00:54:39,061 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:54:39,061 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 00:55:09,582 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:55:09,583 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 00:55:09,584 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 00:55:09,584 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:01:21,687 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:01:21,688 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:01:21,689 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:01:21,689 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:01:44,157 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:01:44,157 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:01:44,158 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:01:44,158 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:11:02,137 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:11:02,137 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:11:02,138 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:11:02,138 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:14:17,095 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:14:17,095 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:14:17,097 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:14:17,098 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:23:09,709 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:23:09,709 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:23:09,710 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:23:09,711 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:32:09,020 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:32:09,021 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:32:09,027 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:32:09,027 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:34:28,633 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:34:28,634 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:34:28,635 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:34:28,635 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:34:45,695 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:34:45,696 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:34:45,697 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:34:45,698 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources
+2016-04-26 01:36:18,451 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:36:18,452 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/main/resources
+2016-04-26 01:36:18,453 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-04-26 01:36:18,453 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/blake/github/CS3310/workspace/pprimsalgo/src/test/resources

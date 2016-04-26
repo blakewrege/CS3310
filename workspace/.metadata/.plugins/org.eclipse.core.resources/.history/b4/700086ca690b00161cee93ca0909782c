@@ -1,0 +1,12 @@
+
+class Node(id: Int) {
+  var edges = List[Edge]()
+
+  def addEdge(other: Node, weight: Int) = {
+    val edge = new Edge(this, other, weight)
+    edges = edge :: edges
+    edge
+  }
+
+  override def toString() = id.toString
+}

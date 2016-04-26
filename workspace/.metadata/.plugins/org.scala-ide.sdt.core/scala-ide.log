@@ -23731,3 +23731,993 @@ Java Model Exception: Java Model Status [spark-scala-maven-project does not exis
 2016-04-24 23:02:27,867  WARN [Worker-180] - ScalaProject - Project primsalgor runs on platform default installation.
 2016-04-24 23:02:36,883  WARN [Worker-180] - ScalaProject - Project primsalgor has platform default sourceLevel.
 2016-04-24 23:02:36,883  WARN [Worker-180] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 00:45:34,946  WARN [Worker-180] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 00:45:34,984  WARN [Worker-180] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 00:45:35,252  WARN [Worker-180] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 00:45:35,252  WARN [Worker-180] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 00:45:35,312  WARN [Java indexing] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 00:45:35,312  WARN [Java indexing] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 00:45:40,050  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 00:45:40,251  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 00:45:40,452  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 00:45:52,052  WARN [Worker-180] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 00:45:52,052  WARN [Worker-180] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 00:45:52,125  WARN [Worker-180] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 00:45:52,125  WARN [Worker-180] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 00:45:54,890  WARN [Worker-180] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 00:45:54,890  WARN [Worker-180] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:27:37,763  WARN [Worker-1] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:27:37,819  WARN [Worker-1] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:27:52,645  WARN [Worker-1] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:27:52,645  WARN [Worker-1] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:27:53,229  WARN [Worker-1] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:27:53,265  WARN [Worker-1] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:27:55,127  WARN [Worker-1] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:27:55,128  WARN [Worker-1] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:27:57,085  WARN [main] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 10:27:57,088  WARN [main] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:27:57,090  WARN [main] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 10:27:57,090  WARN [main] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:28:24,074  WARN [main] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:28:24,075  WARN [main] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:28:28,666  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:28:28,666  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:28:29,026  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:28:29,026  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:28:32,302  WARN [Worker-3] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 10:28:32,303  WARN [Worker-3] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:28:32,309  WARN [Worker-3] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 10:28:32,310  WARN [Worker-3] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:28:32,532  WARN [Worker-3] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 10:28:32,532  WARN [Worker-3] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:28:32,723  WARN [Worker-3] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 10:28:32,723  WARN [Worker-3] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 10:28:36,187 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:28:36,188 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:28:36,189 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:29:00,164 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:29:00,165 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:29:00,165 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:29:14,190  WARN [main] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:29:14,191  WARN [main] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:29:14,888  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 10:29:15,089  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 10:29:15,331  WARN [Worker-8] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:29:15,331  WARN [Worker-8] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:29:15,515  WARN [Worker-8] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:29:15,515  WARN [Worker-8] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:29:16,632 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:29:16,632 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:29:16,632 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:30:37,961  WARN [Worker-13] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:30:37,961  WARN [Worker-13] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:30:38,087  WARN [Worker-13] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:30:38,088  WARN [Worker-13] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:30:39,706  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:30:39,707  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:30:39,818  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:30:39,818  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:31:52,534  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:52,535  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:52,578  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:52,578  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:52,810  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:52,811  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:52,919  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:52,921  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:54,078  WARN [Java indexing] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:54,079  WARN [Java indexing] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:54,652  WARN [Worker-10] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:54,653  WARN [Worker-10] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:55,747  WARN [Worker-18] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:55,747  WARN [Worker-18] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:31:55,846  WARN [Worker-18] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:31:55,846  WARN [Worker-18] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:32:03,540  WARN [main] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:32:03,540  WARN [main] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:32:23,823 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:32:23,824 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:32:23,824 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 10:32:36,141  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:32:36,142  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:32:36,289  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:32:36,289  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:32:42,856  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 10:32:42,858  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 10:33:31,139  WARN [Worker-5] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:33:31,146  WARN [Worker-5] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:33:31,605  WARN [Worker-5] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:33:31,605  WARN [Worker-5] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:33:34,229  WARN [Worker-5] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:33:34,230  WARN [Worker-5] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:33:47,819  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:33:47,819  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:33:47,909  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:33:47,909  WARN [Worker-15] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:34:41,453  WARN [Worker-10] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:34:41,453  WARN [Worker-10] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:34:41,532  WARN [Worker-10] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 10:34:41,532  WARN [Worker-10] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 10:34:50,181  WARN [Worker-10] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2016-04-25 10:34:50,182  WARN [Worker-10] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2016-04-25 10:34:50,182  WARN [Worker-10] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2016-04-25 10:34:50,182  WARN [Worker-10] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2016-04-25 10:34:50,225  WARN [Worker-10] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2016-04-25 10:34:50,225  WARN [Worker-10] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2016-04-25 10:34:54,224  WARN [Java indexing] - ScalaProject - Project CS3310-scala has platform default sourceLevel.
+2016-04-25 10:34:54,224  WARN [Java indexing] - ScalaProject - Project CS3310-scala runs on platform default installation.
+2016-04-25 11:39:28,011  WARN [Worker-6] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:28,011  WARN [Worker-6] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:30,530  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:30,530  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:30,536  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:30,536  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:30,632  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:30,632  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:30,782  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:30,782  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:32,419  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:32,419  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:32,490  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:32,490  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:32,593  WARN [Worker-22] - ScalaProject - Project sparktest has platform default sourceLevel.
+2016-04-25 11:39:32,593  WARN [Worker-22] - ScalaProject - Project sparktest runs on platform default installation.
+2016-04-25 11:39:37,011  WARN [Worker-6] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 11:39:37,011  WARN [Worker-6] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 11:39:37,101  WARN [Worker-6] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 11:39:37,101  WARN [Worker-6] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 11:39:38,516  WARN [Java indexing] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 11:39:38,516  WARN [Java indexing] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 11:39:51,592  WARN [Worker-19] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:39:51,592  WARN [Worker-19] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:39:53,814  WARN [Worker-6] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:39:53,814  WARN [Worker-6] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:39:53,818  WARN [Worker-6] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:39:53,819  WARN [Worker-6] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:39:53,881  WARN [Worker-6] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:39:53,882  WARN [Worker-6] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:39:55,623  WARN [Java indexing] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:39:55,623  WARN [Java indexing] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:39:56,663  WARN [Worker-6] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:39:56,663  WARN [Worker-6] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:40:30,411  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:30,411  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:30,414  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:30,414  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:30,417  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:30,417  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:30,418  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:30,419  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:30,420  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:30,420  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:30,687 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2307)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-04-25 11:40:30,689 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2307)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.currentProblems(InteractiveCompilationUnit.scala:184)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:73)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:152)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-04-25 11:40:30,704 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2307)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:100)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:100)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:469)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:469)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:469)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:369)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-04-25 11:40:30,705 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2307)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:100)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:100)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:469)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:469)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:469)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:369)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-04-25 11:40:30,706 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2307)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:100)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:100)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:469)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:469)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:469)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:369)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-04-25 11:40:36,658  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:36,659  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:36,777  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:36,777  WARN [ModalContext] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:36,939  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:36,939  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:37,043  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:37,043  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:38,171  WARN [Java indexing] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:38,171  WARN [Java indexing] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:42,251  WARN [Worker-2] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:42,251  WARN [Worker-2] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:40:42,531  WARN [Worker-2] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:42,531  WARN [Worker-2] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:40:42,652  WARN [Worker-2] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:42,653  WARN [Worker-2] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-25 11:40:42,850  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:42,850  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:43,950  WARN [Worker-6] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:43,950  WARN [Worker-6] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:44,067  WARN [Worker-6] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:44,067  WARN [Worker-6] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:49,763  WARN [Worker-6] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:49,763  WARN [Worker-6] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:40:52,085  WARN [main] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:40:52,085  WARN [main] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:42:19,036 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:42:19,036 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:42:19,036 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:42:56,962  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:42:56,962  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:42:57,045  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:42:57,045  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:43:31,742 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:43:31,742 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:43:31,742 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:43:34,709  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:43:34,710  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:43:34,777  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:43:34,777  WARN [Worker-2] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:45:29,001 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:45:29,001 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:45:29,001 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:45:32,262  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:45:32,262  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:45:32,344  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:45:32,345  WARN [Worker-19] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:47:47,553  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:47:47,553  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:47:47,642  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:47:47,642  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:47:51,761  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:47:51,761  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:47:52,430 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:47:52,430 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:47:52,430 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 11:47:53,164  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:47:53,164  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:47:53,272  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:47:53,272  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:47:56,475  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo has platform default sourceLevel.
+2016-04-25 11:47:56,475  WARN [Worker-21] - ScalaProject - Project Copy of pprimsalgo runs on platform default installation.
+2016-04-25 11:50:40,503  WARN [ModalContext] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:40,503  WARN [ModalContext] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:40,526  WARN [ModalContext] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:40,527  WARN [ModalContext] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:43,024  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:43,024  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:43,028  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:43,028  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:43,108  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:43,109  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:52,668  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:52,668  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:53,901  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:53,902  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:53,997  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:53,997  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:50:55,331  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:50:55,331  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:00,980  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:00,980  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:08,258  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:08,258  WARN [Worker-21] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:11,029  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:11,029  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:11,034  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:11,035  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:11,636  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:11,637  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:11,703  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:11,703  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:13,022  WARN [main] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:13,022  WARN [main] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:13,848  WARN [Worker-24] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:13,849  WARN [Worker-24] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:13,973  WARN [Worker-24] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:13,973  WARN [Worker-24] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:51:14,074  WARN [Worker-24] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:51:14,074  WARN [Worker-24] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:23,251  WARN [ModalContext] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:23,251  WARN [ModalContext] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:23,329  WARN [ModalContext] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:23,329  WARN [ModalContext] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:23,438  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:23,438  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:23,510  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:23,510  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:24,756  WARN [Java indexing] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:24,756  WARN [Java indexing] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:27,061  WARN [Worker-22] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:27,062  WARN [Worker-22] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:27,259  WARN [Worker-22] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:27,259  WARN [Worker-22] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:27,323  WARN [Worker-22] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:27,323  WARN [Worker-22] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:27,520  WARN [Worker-6] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:27,520  WARN [Worker-6] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:28,611  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:28,612  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:28,784  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:28,784  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:52:34,693  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:52:34,693  WARN [Worker-22] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 11:58:54,753  WARN [Text Viewer Hover Presenter] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 11:58:54,753  WARN [Text Viewer Hover Presenter] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 12:00:05,250 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:00:05,250 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:00:05,250 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:03:37,552  WARN [Worker-6] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:03:37,552  WARN [Worker-6] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 12:14:01,989  WARN [Text Viewer Hover Presenter] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:14:01,989  WARN [Text Viewer Hover Presenter] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:08,293  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:08,294  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:08,435  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:08,435  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:12,952  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:12,953  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:13,031  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:13,031  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:19,109  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:19,109  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:19,204  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:19,204  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:22,875  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:22,875  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:15:22,988  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:15:22,988  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:16:21,550  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:16:21,550  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:16:21,642  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:16:21,643  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:16:33,273  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:16:33,273  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:16:33,345  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:16:33,345  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:17:05,289  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:17:05,289  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:17:05,352  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:17:05,352  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:17:11,581  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:17:11,581  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:17:11,710  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:17:11,710  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:17:40,074  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:17:40,074  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:17:40,180  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:17:40,180  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:18:11,071  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:18:11,071  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:18:11,148  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:18:11,148  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:18:17,573  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:18:17,573  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:18:17,636  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:18:17,636  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:18:28,172 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:18:28,172 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:18:28,172 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:18:28,589  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 12:19:35,712 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:19:35,712 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:19:35,712 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:20:05,622  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:20:05,622  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:20:05,701  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:20:05,701  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:20:18,520  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:20:18,521  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:20:18,586  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:20:18,587  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:21:00,632  WARN [Worker-26] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:21:00,633  WARN [Worker-26] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 12:21:17,371  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:21:17,371  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:21:17,435  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:21:17,435  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:22:18,258  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 12:22:43,202  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:22:43,202  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:22:43,297  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:22:43,297  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:22:55,072  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:22:55,072  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:22:55,145  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:22:55,146  WARN [Worker-27] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:23:13,163 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:23:13,163 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:23:13,163 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:23:28,683  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:23:28,683  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:23:28,746  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:23:28,747  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:23:33,693  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:23:33,693  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:23:33,759  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:23:33,759  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:24:34,540  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:24:34,540  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:24:34,606  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:24:34,606  WARN [Worker-26] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:24:38,117 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:24:38,117 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:24:38,117 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:24:51,219 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:24:51,219 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:24:51,219 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:24:51,816  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:24:51,816  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:24:51,881  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:24:51,881  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:24:55,610  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:24:55,610  WARN [Worker-28] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:25:01,198  WARN [Worker-27] - ScalaProject - Project Copy of sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:25:01,199  WARN [Worker-27] - ScalaProject - Project Copy of sssp_Pregrel runs on platform default installation.
+2016-04-25 12:25:21,689  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:25:21,689  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:25:21,753  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:25:21,753  WARN [Worker-6] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:25:23,224 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:25:23,224 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:25:23,224 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 12:25:28,216  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:25:28,216  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:25:28,352  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:25:28,352  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 12:25:30,738  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel has platform default sourceLevel.
+2016-04-25 12:25:30,738  WARN [Worker-19] - ScalaProject - Project sssp_Pregrel runs on platform default installation.
+2016-04-25 20:50:27,575  WARN [Worker-19] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 20:50:27,576  WARN [Worker-19] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 20:50:27,632  WARN [Worker-19] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 20:50:27,632  WARN [Worker-19] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 20:50:29,082  WARN [Java indexing] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 20:50:29,082  WARN [Java indexing] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:27:00,184  WARN [Worker-26] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:27:00,184  WARN [Worker-26] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:27:00,274  WARN [Worker-26] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:27:00,274  WARN [Worker-26] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:27:01,689  WARN [Java indexing] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:27:01,689  WARN [Java indexing] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:30:29,805  WARN [Worker-29] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:30:29,805  WARN [Worker-29] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:30:29,960  WARN [Worker-29] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:30:29,960  WARN [Worker-29] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:30:30,023  WARN [Java indexing] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:30:30,023  WARN [Java indexing] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:30:42,712  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:30:42,712  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:30:42,864  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:30:42,864  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:31:02,529  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:31:02,529  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:31:02,610  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:31:02,610  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:31:12,435  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:31:12,435  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:31:12,502  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:31:12,502  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:33:01,752  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:33:01,752  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:33:01,814  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:33:01,814  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:33:04,519  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 21:33:04,520  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 21:57:48,500  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 22:02:11,722  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 22:02:11,722  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 22:02:11,797  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 22:02:11,797  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 22:02:20,001  WARN [Worker-31] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 22:02:20,001  WARN [Worker-31] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:01:50,355 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:01:50,388 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:01:50,388 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:03:42,160  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:03:42,160  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:03:42,376  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:03:42,376  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:03:51,343 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:03:51,343 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:03:51,343 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:03:51,343 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:03:51,344 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:03:57,558  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:03:57,558  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:03:57,630  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:03:57,630  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:04:01,945 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:04:01,945 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:04:01,945 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:04:02,403  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:04:02,403  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:28,971  WARN [Worker-36] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:29,005  WARN [Worker-36] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:29,266  WARN [Worker-36] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:29,266  WARN [Worker-36] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:46,114  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:46,114  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:46,220  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:46,220  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:49,951  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:49,951  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:50,802 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:17:50,802 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:17:50,802 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:17:52,807  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:52,807  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:52,895  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:52,895  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:17:52,963  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:17:52,963  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:18:27,997 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:18:27,998 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:18:27,998 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:19:55,411 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:19:55,411 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:19:55,411 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:28:55,365 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:28:55,365 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:28:55,366 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:32:07,101 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:32:07,101 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:32:07,101 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:43:25,806 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:43:25,806 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:43:25,806 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:43:53,182  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:43:53,182  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:43:53,313  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:43:53,314  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:44:01,442  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:44:01,442  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:46:57,996  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:46:57,997  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:47:00,591  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1782
+2016-04-25 23:47:08,596  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:47:08,596  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:22,794  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:22,794  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:28,593  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:28,593  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:30,901 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:48:30,901 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:48:30,901 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:48:31,156  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:31,156  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1777
+2016-04-25 23:48:35,356  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1783
+2016-04-25 23:48:36,518  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1795
+2016-04-25 23:48:37,604  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1795
+2016-04-25 23:48:41,704  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1793
+2016-04-25 23:49:16,896  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1794
+2016-04-25 23:49:18,555  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1795
+2016-04-25 23:49:19,641  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1808
+2016-04-25 23:49:25,217  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1773
+2016-04-25 23:49:26,866  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1808
+2016-04-25 23:49:34,551  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1821
+2016-04-25 23:49:35,751  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1822
+2016-04-25 23:49:38,431  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:49:38,431  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:49:38,508  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:49:38,508  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:49:39,723 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:49:39,723 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:49:39,723 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:49:48,216  WARN [Worker-34] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:49:48,216  WARN [Worker-34] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:50:16,805 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:50:16,805 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:50:16,805 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-25 23:50:23,516  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-25 23:50:36,219  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:50:36,219  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:50:36,307  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:50:36,308  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:50:45,701  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:50:45,701  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:50:50,724  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:50:50,724  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:50:50,787  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:50:50,787  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-25 23:50:53,700  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-25 23:50:53,700  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:35:10,527 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:35:10,640 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:35:10,640 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:42:51,405  WARN [Java indexing] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:42:51,405  WARN [Java indexing] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:42:51,697  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:42:51,697  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:42:52,278  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:42:52,278  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:42:55,767  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:42:55,826  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:42:56,027  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:42:56,027  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:42:56,385  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:42:56,385  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:43:00,270  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:44:00,865  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:00,866  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:01,001  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:01,001  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:01,729  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:01,729  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:23,204  WARN [main] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:23,204  WARN [main] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:23,698  WARN [Worker-36] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:23,698  WARN [Worker-36] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:23,836  WARN [Worker-36] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:23,836  WARN [Worker-36] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:24,982 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - java.lang.AssertionError: assertion failed: private[this] var edges: List[Edge] = List[Edge]()
+2016-04-26 00:44:24,982 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$BaseGetter.validate(MethodSynthesis.scala:380)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$DerivedFromValDef$class.derive(MethodSynthesis.scala:330)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$BaseGetter.derive(MethodSynthesis.scala:373)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$$anonfun$2.apply(MethodSynthesis.scala:185)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$$anonfun$2.apply(MethodSynthesis.scala:185)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.immutable.List.map(List.scala:277)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth$class.addDerivedTrees(MethodSynthesis.scala:185)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Namers$Namer.addDerivedTrees(Namers.scala:54)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$25.apply(Typers.scala:1908)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$25.apply(Typers.scala:1908)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$rewrappingWrapperTrees$1.apply(Typers.scala:1845)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$rewrappingWrapperTrees$1.apply(Typers.scala:1842)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.immutable.List.flatMap(List.scala:327)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1908)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1762)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5308)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5358)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5395)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5422)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5369)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5373)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedByValueExpr(Typers.scala:5451)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:3047)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$65.apply(Typers.scala:3151)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.immutable.List.loop$1(List.scala:173)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.immutable.List.mapConserve(List.scala:189)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3151)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5014)
+2016-04-26 00:44:24,983 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typedMemberDef$1(Typers.scala:5311)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5358)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.runTyper$1(Typers.scala:5395)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedInternal(Typers.scala:5422)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.body$2(Typers.scala:5369)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5373)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5447)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:102)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1225)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1225)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1225)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1218)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$typeCheck(Global.scala:668)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5$$anonfun$apply$8.apply(Global.scala:583)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:579)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:579)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:778)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.immutable.List.foreach(List.scala:381)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:777)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:579)
+2016-04-26 00:44:24,984 ERROR [Scala Presentation Compiler [primsalgor]] - System.err - at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2016-04-26 00:44:25,151 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - java.lang.AssertionError: assertion failed: private[this] var edges: List[Edge] = List[Edge]()
+2016-04-26 00:44:25,152 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - java.lang.AssertionError: assertion failed: private[this] var edges: List[Edge] = List[Edge]()
+2016-04-26 00:44:31,251  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:31,252  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:31,318  WARN [Worker-32] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:31,318  WARN [Worker-32] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:50,527  WARN [Worker-42] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:50,527  WARN [Worker-42] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:44:50,590  WARN [Worker-42] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:44:50,590  WARN [Worker-42] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:10,458  WARN [main] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:10,458  WARN [main] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:10,608  WARN [Worker-42] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:10,608  WARN [Worker-42] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:10,767  WARN [Worker-42] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:10,767  WARN [Worker-42] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:24,146  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:24,146  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:24,210  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:24,210  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:37,934  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:37,934  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:37,997  WARN [Worker-30] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:37,997  WARN [Worker-30] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:44,032  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:44,032  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:45:44,104  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:45:44,104  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:08,367  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:08,367  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:08,441  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:08,441  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:21,061  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:21,061  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:21,143  WARN [Worker-38] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:21,143  WARN [Worker-38] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:28,491 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:46:28,491 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:46:28,491 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:46:41,234  WARN [Worker-44] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:41,234  WARN [Worker-44] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:41,299  WARN [Worker-44] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:41,299  WARN [Worker-44] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:46:48,438  WARN [Worker-44] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:46:48,438  WARN [Worker-44] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:52:30,013  WARN [Worker-43] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:52:30,013  WARN [Worker-43] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:52:30,117  WARN [Worker-43] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:52:30,117  WARN [Worker-43] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:52:40,051  WARN [Worker-43] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:52:40,051  WARN [Worker-43] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:52:40,505  WARN [Worker-38] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:52:40,505  WARN [Worker-38] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:52:47,896  WARN [Java indexing] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:52:47,896  WARN [Java indexing] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:52:56,891  WARN [Java indexing] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:52:56,891  WARN [Java indexing] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:52:57,620  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:52:57,620  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:52:57,625  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:52:57,625  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:52:57,744  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:52:57,744  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:53:01,665  WARN [Worker-43] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:53:01,665  WARN [Worker-43] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:53:01,843  WARN [Worker-43] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:53:01,843  WARN [Worker-43] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:53:06,371  WARN [Worker-38] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:53:06,371  WARN [Worker-38] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:53:06,528  WARN [Worker-38] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:53:06,528  WARN [Worker-38] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:53:46,218  WARN [Worker-41] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:53:46,218  WARN [Worker-41] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:53:46,241  WARN [Worker-41] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:53:46,241  WARN [Worker-41] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:53:47,723  WARN [Java indexing] - ScalaProject - Project primsalgor has platform default sourceLevel.
+2016-04-26 00:53:47,724  WARN [Java indexing] - ScalaProject - Project primsalgor runs on platform default installation.
+2016-04-26 00:53:57,897  WARN [Worker-41] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:53:57,897  WARN [Worker-41] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:53:58,021  WARN [Worker-41] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:53:58,022  WARN [Worker-41] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:54:00,871  WARN [Worker-41] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:54:00,871  WARN [Worker-41] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:54:01,253  WARN [Worker-43] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:54:01,253  WARN [Worker-43] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:54:01,341  WARN [Worker-43] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:54:01,341  WARN [Worker-43] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:54:01,659  WARN [Java indexing] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:54:01,659  WARN [Java indexing] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:54:02,485  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:54:02,703  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-26 00:54:37,760  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:54:37,760  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:54:37,925  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:54:37,925  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:55:08,520  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:55:08,520  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:55:08,590  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 00:55:08,590  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 00:59:35,562 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:59:35,562 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 00:59:35,562 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:14,715 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:14,715 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:14,715 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:20,278  WARN [Worker-44] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:01:20,278  WARN [Worker-44] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:01:20,388  WARN [Worker-44] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:01:20,389  WARN [Worker-44] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:01:22,075 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:22,075 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:22,075 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:43,110  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:01:43,110  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:01:43,198  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:01:43,198  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:01:45,620 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:45,620 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:45,620 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:54,954 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:54,954 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:01:54,954 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:03:32,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:03:32,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:03:32,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:10:59,519  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:10:59,519  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:10:59,594  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:10:59,594  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:11:02,057  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:11:02,057  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:14:05,544  WARN [Worker-41] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:14:05,544  WARN [Worker-41] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:14:05,623  WARN [Worker-41] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:14:05,624  WARN [Worker-41] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:14:16,998  WARN [Worker-41] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:14:16,998  WARN [Worker-41] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:23:02,901  WARN [Worker-43] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:23:02,902  WARN [Worker-43] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:23:03,004  WARN [Worker-43] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:23:03,004  WARN [Worker-43] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:23:12,314 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:23:12,315 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:23:12,315 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-26 01:32:08,342  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:32:08,342  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:32:08,409  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:32:08,410  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:34:28,063  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:34:28,063  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:34:28,162  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:34:28,163  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:34:45,078  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:34:45,078  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:34:45,144  WARN [Worker-36] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:34:45,144  WARN [Worker-36] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:36:16,256  WARN [Worker-44] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:36:16,256  WARN [Worker-44] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-26 01:36:16,321  WARN [Worker-44] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-26 01:36:16,321  WARN [Worker-44] - ScalaProject - Project pprimsalgo runs on platform default installation.

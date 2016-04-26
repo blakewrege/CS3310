@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;myclass.Graphs.edge.java&apos; to &apos;Edge.java&apos;&#x0A;- Original project: &apos;primsjava&apos;&#x0A;- Original element: &apos;myclass.Graphs.edge.java&apos;&#x0A;- Renamed element: &apos;myclass.Graphs.Edge.java&apos;" description="Rename compilation unit &apos;edge.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;myclass.Graphs{edge.java" name="Edge.java" references="false" stamp="1461631160159" version="1.0"/>
+</session>
