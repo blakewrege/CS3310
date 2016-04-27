@@ -24947,3 +24947,211 @@ Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
 2016-04-27 07:01:07,504  WARN [Worker-129] - ScalaProject - Project pprimsalgo runs on platform default installation.
 2016-04-27 07:01:21,791  WARN [Worker-129] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
 2016-04-27 07:01:21,791  WARN [Worker-129] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:43:33,602  WARN [Worker-17] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:43:33,615  WARN [Worker-17] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:43:45,425  WARN [main] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:43:45,426  WARN [main] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:01,149  WARN [Worker-5] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:01,149  WARN [Worker-5] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:01,374  WARN [Worker-5] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:01,374  WARN [Worker-5] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:02,335  WARN [Worker-5] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:02,336  WARN [Worker-5] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:02,850  WARN [Worker-5] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:02,850  WARN [Worker-5] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:09,929  WARN [Worker-9] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:09,929  WARN [Worker-9] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:10,228  WARN [Worker-9] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:10,229  WARN [Worker-9] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:10,381  WARN [Worker-9] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:44:10,381  WARN [Worker-9] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:44:50,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:44:51,020 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:44:51,021 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:44:51,022 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:47:02,306  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:47:02,306  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:47:02,427  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:47:02,428  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:48:10,548 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:10,549 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:10,549 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,286 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,286 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,286 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,286 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,287 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:24,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:48:51,113  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 10:48:55,024  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:48:55,024  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:48:55,106  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:48:55,107  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:49:53,057  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:49:53,057  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:49:53,181  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:49:53,181  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:50:07,112 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:50:07,112 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:50:07,112 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:52:18,950  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:52:18,950  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:52:19,081  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:52:19,081  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:52:35,161  WARN [Worker-15] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:52:35,161  WARN [Worker-15] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:52:35,262  WARN [Worker-15] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:52:35,262  WARN [Worker-15] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:52:38,819 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:52:38,820 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:52:38,820 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:52:53,137  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:52:53,137  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:52:53,230  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:52:53,230  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:53:05,596  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:53:05,596  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:53:05,762  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:53:05,762  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:53:47,833  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:53:47,833  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:53:47,902  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:53:47,902  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:53:48,453 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:53:48,453 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:53:48,453 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 10:54:15,801  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:54:15,802  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:54:15,923  WARN [Worker-7] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:54:15,924  WARN [Worker-7] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:55:18,059  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:55:18,059  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:55:18,168  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:55:18,168  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:55:23,360  WARN [Worker-16] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:55:23,360  WARN [Worker-16] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:57:33,557  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 10:57:39,173  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:57:39,173  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:57:39,286  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:57:39,286  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:57:45,798  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:57:45,798  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:57:45,892  WARN [Worker-4] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 10:57:45,892  WARN [Worker-4] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 10:58:34,069  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 10:59:31,758  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 10:59:56,122  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 11:04:11,804  WARN [Worker-23] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:04:11,804  WARN [Worker-23] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:04:11,879  WARN [Worker-23] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:04:11,879  WARN [Worker-23] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:04:17,075  WARN [Worker-23] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:04:17,075  WARN [Worker-23] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:15:38,346  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:15:38,347  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:15:38,473  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:15:38,473  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:21:54,964 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:21:54,965 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:21:54,965 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:22:00,150 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:22:00,150 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:22:00,150 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:22:04,684  WARN [Worker-27] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:22:04,684  WARN [Worker-27] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:22:04,784  WARN [Worker-27] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:22:04,784  WARN [Worker-27] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:23:56,875  WARN [Worker-27] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:23:56,876  WARN [Worker-27] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:23:56,961  WARN [Worker-27] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:23:56,962  WARN [Worker-27] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:06,743  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:24:06,743  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:06,806  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:24:06,806  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:12,245  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:24:12,245  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:22,508  WARN [Worker-28] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:24:22,508  WARN [Worker-28] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:22,945  WARN [Worker-28] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:24:22,945  WARN [Worker-28] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:23,109  WARN [Worker-28] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:24:23,109  WARN [Worker-28] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:24:35,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:24:35,236 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:24:35,236 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:29:41,676  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 11:31:52,436 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:31:52,436 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:31:52,436 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 11:36:00,852  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 11:36:59,518  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 11:37:03,889  WARN [Worker-26] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:03,889  WARN [Worker-26] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:03,996  WARN [Worker-26] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:03,996  WARN [Worker-26] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:14,354  WARN [Worker-26] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:14,354  WARN [Worker-26] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:19,812  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:19,812  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:19,940  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:19,940  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:25,119  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:25,119  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:25,189  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:25,189  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:28,762  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:28,762  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:47,830  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:47,830  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:47,899  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:47,899  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:37:51,056  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:37:51,057  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:38:30,341  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:38:30,341  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:38:30,422  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:38:30,422  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:38:32,972  WARN [Worker-32] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:38:32,972  WARN [Worker-32] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:39:03,922  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 11:40:40,740  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-27 11:41:02,239  WARN [Worker-34] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:41:02,240  WARN [Worker-34] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:41:02,321  WARN [Worker-34] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:41:02,321  WARN [Worker-34] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:41:04,777  WARN [Worker-34] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:41:04,777  WARN [Worker-34] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:43:29,910  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:43:29,910  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:43:30,023  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:43:30,023  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:43:40,909  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:43:40,909  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:44:23,960  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:44:23,960  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:44:24,054  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:44:24,054  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:44:35,136  WARN [Worker-18] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:44:35,136  WARN [Worker-18] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:45:11,134  WARN [Worker-26] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:45:11,134  WARN [Worker-26] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:45:11,214  WARN [Worker-26] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:45:11,214  WARN [Worker-26] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:45:23,739  WARN [Worker-26] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:45:23,739  WARN [Worker-26] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:51:06,743  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:51:06,743  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:51:06,855  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:51:06,855  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 11:51:17,698  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 11:51:17,698  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
