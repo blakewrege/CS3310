@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Ordered" key="selection"/>
+		<item value="numNodes" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="nodesList.length "/>
 			<item value="import scala.math.random"/>
 			<item value="Ordered"/>
 			<item value="toString"/>
@@ -19,9 +20,9 @@
 			<item value="finshup"/>
 			<item value="finalTraversal"/>
 			<item value="citynames"/>
-			<item value="//CLASS: RawData - Used by Setup program"/>
 		</list>
 		<list key="replacehistory">
+			<item value="numNodes"/>
 			<item value="N"/>
 			<item value="theLine"/>
 			<item value="+&quot;,&quot;+"/>

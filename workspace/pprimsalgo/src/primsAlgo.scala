@@ -31,17 +31,30 @@ class Edge(val from: Node, val to: Node, val weight: Int) extends Ordered[Edge] 
 object primsAlgo {
   Logger.getLogger("org").setLevel(Level.OFF)
   Logger.getLogger("akka").setLevel(Level.OFF)
+  
+  var numNodes = 0
+  var numEdges = 0
+  
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("Parallel Prims").setMaster("local")
     val sc = new SparkContext(conf)
     val logFile = "NodeData.txt"
     var count = 0
-    val rowArray = readCSV("NodeData.txt",sc)
+    //val rowArray = readCSV("NodeData.txt",sc)
+    //rowArray = .map(line => line.split(","))
+    val logData = sc.textFile(logFile, 6).cache()
+    val headerAndRows = logData.map(line => line.split(",").map(_.trim))
+    val header = headerAndRows.first
+    val rowArray = headerAndRows.filter(_(0) != header(0)).collect()
+    numNodes = header(0).toInt
+    numEdges = header(1).toInt
+    println(rowArray(0).toList)
+    
     val colArray = rowArray.transpose
-    val nodesList = (colArray(0).toList ++ colArray(1).toList).distinct
-    var nodeStruct = new Array[Node](nodesList.length + 1)
 
-    while (count < nodesList.length + 1) {
+    var nodeStruct = new Array[Node](numNodes+ 1)
+
+    while (count < numNodes+ 1) {
 
       nodeStruct(count) = new Node(count)
       count = count + 1
@@ -60,39 +73,28 @@ object primsAlgo {
     
 
     // generateMST(graph).sortWith(_ < _).foreach(println)
-   // val readLines = generateMST(graph).sortWith(_ < _).toList
+    //   val accum = sc.accumulator(0, "My Accumulator")
+    //val distData = sc.parallelize(graph).foreach { x => println(x) }
     
-        val accum = sc.accumulator(0, "My Accumulator")
-    val distData = sc.parallelize(graph).foreach { x => println(x) }
-    var totalLength = 0
-
-    while (count < readLines.length) {
-      val myLine = readLines(count).toString().split(",")
-      totalLength = totalLength + myLine.last.toInt
-      println(myLine(0) + " <--> " + myLine(1) + "    (" + myLine(2) + ")")
-      count = count + 1
-    }
-    println(totalLength)
+//    val readLines = generateMST(graph).sortWith(_ < _).toList
+//    
+//
+//    var totalLength = 0
+//
+//    while (count < readLines.length) {
+//      val myLine = readLines(count).toString().split(",")
+//      totalLength = totalLength + myLine.last.toInt
+//      println(myLine(0) + " <--> " + myLine(1) + "    (" + myLine(2) + ")")
+//      count = count + 1
+//    }
+//    println(totalLength)
     var a = 0
-    for (a <- 1 to (nodesList.length - 1)) {
+    for (a <- 1 to (numNodes- 1)) {
       println(nodeStruct(a).edges.toList)
     }
 
   }
 
-  def readCSV(fileName: String, sc: SparkContext): Array[Array[Double]] = {
-    val logData = sc.textFile(fileName, 6).cache()
-    var matrix: Array[Array[Double]] = Array.empty
-
-    val rrdarr = logData.take(logData.count.toInt)
-    rrdarr.foreach { line =>
-      val cols = line.split(",").map(_.trim.toDouble)
-      if (cols.length ==3){
-      matrix = matrix :+ cols
-      }
-      }
-    return matrix
-  }
 
   def generateMST(graph: List[Node]): List[Edge] = {
     import scala.util.Random
