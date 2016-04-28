@@ -40,6 +40,8 @@ object primsAlgo {
     val sc = new SparkContext(conf)
     val logFile = "NodeData.txt"
     var count = 0
+    //val rowArray = readCSV("NodeData.txt",sc)
+    //rowArray = .map(line => line.split(","))
     val logData = sc.textFile(logFile, 6).cache()
     val headerAndRows = logData.map(line => line.split(",").map(_.trim))
     val header = headerAndRows.first

@@ -40,6 +40,8 @@ object primsAlgo {
     val sc = new SparkContext(conf)
     val logFile = "NodeData.txt"
     var count = 0
+    //val rowArray = readCSV("NodeData.txt",sc)
+    //rowArray = .map(line => line.split(","))
     val logData = sc.textFile(logFile, 6).cache()
     val headerAndRows = logData.map(line => line.split(",").map(_.trim))
     val header = headerAndRows.first
@@ -74,22 +76,22 @@ object primsAlgo {
     //   val accum = sc.accumulator(0, "My Accumulator")
     //val distData = sc.parallelize(graph).foreach { x => println(x) }
     
-    val readLines = generateMST(graph).sortWith(_ < _).toList
-    
-
-    var totalLength = 0
-
-    while (count < readLines.length) {
-      val myLine = readLines(count).toString().split(",")
-      totalLength = totalLength + myLine.last.toInt
-      println(myLine(0) + " <--> " + myLine(1) + "    (" + myLine(2) + ")")
-      count = count + 1
-    }
-    println(totalLength)
-    var a = 0
-//    for (a <- 1 to (numNodes- 1)) {
-//      println(nodeStruct(a).edges.toList)
+//    val readLines = generateMST(graph).sortWith(_ < _).toList
+//    
+//
+//    var totalLength = 0
+//
+//    while (count < readLines.length) {
+//      val myLine = readLines(count).toString().split(",")
+//      totalLength = totalLength + myLine.last.toInt
+//      println(myLine(0) + " <--> " + myLine(1) + "    (" + myLine(2) + ")")
+//      count = count + 1
 //    }
+//    println(totalLength)
+    var a = 0
+    for (a <- 1 to (numNodes- 1)) {
+      println(nodeStruct(a).edges.toList)
+    }
 
   }
 

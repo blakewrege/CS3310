@@ -25155,3 +25155,60 @@ Java Model Exception: Java Model Status [Copy of pprimsalgo does not exist]
 2016-04-27 11:51:06,855  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
 2016-04-27 11:51:17,698  WARN [Worker-31] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
 2016-04-27 11:51:17,698  WARN [Worker-31] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:17:22,541  WARN [main] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:17:22,567  WARN [main] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:17:22,594  WARN [main] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:17:22,594  WARN [main] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:20,904  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:20,907  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:20,964  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:20,964  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:21,478  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:21,478  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:32,846  WARN [Worker-3] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:32,847  WARN [Worker-3] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:40,729  WARN [Worker-19] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:40,729  WARN [Worker-19] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:40,924  WARN [Worker-19] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:40,924  WARN [Worker-19] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:41,052  WARN [Worker-19] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:41,053  WARN [Worker-19] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:41,781  WARN [Worker-24] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:41,781  WARN [Worker-24] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:42,009  WARN [Worker-24] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:42,009  WARN [Worker-24] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:24:43,442  WARN [Worker-24] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:24:43,442  WARN [Worker-24] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:25:12,917  WARN [Worker-20] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:25:12,917  WARN [Worker-20] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:25:13,170  WARN [Worker-20] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:25:13,171  WARN [Worker-20] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:25:23,030  WARN [Worker-20] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:25:23,030  WARN [Worker-20] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:26:27,232  WARN [Worker-23] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:26:27,232  WARN [Worker-23] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:26:27,343  WARN [Worker-23] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:26:27,343  WARN [Worker-23] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:26:27,460  WARN [Worker-23] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:26:27,460  WARN [Worker-23] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:48:47,145  WARN [Worker-24] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:48:47,145  WARN [Worker-24] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:48:47,281  WARN [Worker-24] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:48:47,281  WARN [Worker-24] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 19:48:47,525 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 19:48:47,525 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 19:48:47,525 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-27 19:48:56,427  WARN [Worker-24] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 19:48:56,427  WARN [Worker-24] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 22:17:33,513  WARN [Worker-50] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 22:17:33,513  WARN [Worker-50] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 22:17:33,642  WARN [Worker-50] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 22:17:33,642  WARN [Worker-50] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 22:17:33,796  WARN [Worker-50] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 22:17:33,796  WARN [Worker-50] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 22:19:03,398  WARN [Worker-51] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 22:19:03,398  WARN [Worker-51] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 22:19:03,503  WARN [Worker-51] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 22:19:03,503  WARN [Worker-51] - ScalaProject - Project pprimsalgo runs on platform default installation.
+2016-04-27 22:19:12,751  WARN [Worker-51] - ScalaProject - Project pprimsalgo has platform default sourceLevel.
+2016-04-27 22:19:12,751  WARN [Worker-51] - ScalaProject - Project pprimsalgo runs on platform default installation.
